@@ -1,6 +1,9 @@
-# Chapter 1
 
-# Chapter 11
+# ISC2 CISSP Study Guide, Seventh Edition
+
+## Chapter 1
+
+## Chapter 11
 
 ### Baseband and Broadband Cables
 
@@ -19,5 +22,3 @@
 | 100Base-T/100Base-TX | 100 Mbps  | 100 meters    | Low                        | High                  | Low       |
 | 1000Base-T           | 1 Gbps    | 100 meters    | Low                        | High                  | Medium    |
 | Fiber-optic          | 2+ Gbps   | 2+ kilometers | Very High                  | None                  | Very High |
-
-
