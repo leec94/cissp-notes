@@ -13,6 +13,7 @@
       - [Bus](#bus)
       - [Star](#star)
       - [Mesh](#mesh)
+    - [Wireless Communications and Security](#wireless-communications-and-security)
 
 ## Chapter 1
 
@@ -93,29 +94,43 @@ _UTP categories_
 
 ### Network Topologies
 
-- _logical topology_: grouping of networked systems into trusted collectives. 
+- _logical topology_: grouping of networked systems into trusted collectives.
 
 #### Ring
 
-- _ring topology_: connects each system as points on a circle. only one system can transmit data at a time. if one segment of the loop is broken, all communication around the loop ceases. 
-  - *token*: digital hall pass that travels around the ring until a system grabs it. traffic management is performed by a token. 
+- _ring topology_: connects each system as points on a circle. only one system can transmit data at a time. if one segment of the loop is broken, all communication around the loop ceases.
+  - _token_: digital hall pass that travels around the ring until a system grabs it. traffic management is performed by a token.
 
 ![ring topology](chap-11/ring.gif)
 
 #### Bus
 
-- _bus topology_: connects each system to a trunk cable. all systems on the bus can transmit data simultaneously, which can result in collisions. when data is transmitted, all systems on the network can hear the data. if a single segment fails, communications on all other segments continue uninterrupted. the central trunk line remains a single point of failure. 
+- _bus topology_: connects each system to a trunk cable. all systems on the bus can transmit data simultaneously, which can result in collisions. when data is transmitted, all systems on the network can hear the data. if a single segment fails, communications on all other segments continue uninterrupted. the central trunk line remains a single point of failure.
+- rarely used today, because it must be terminated at both ends and any disconnection can take down the entire network.
+
+- Types
+  - linear bus: single trunk line with all systems directly connected to it
+  - tree bus: single trunk line with branches that can support multiple systems
 
 ![bus topology](chap-11/bustopol.gif)
 
 #### Star
 
-- _star topology_:
+- _star topology_: centralized connection device, hub or switch. each system is connected to the central hub by a dedicated segment. if one segment fails, the other segments can continue to function. the central hub is a single point of failure.
+- uses less cabling than other topologies, and makes identifying damaged cables easier
+- logical bus and logical ring can be implemented as a physical star
+  - Ethernet: bus-based but can be deployed as a physical star
+  - Token Ring: ring-based but can be deployed as a physical star using MAU
+    - MAU: multistation access unit, allows for cable segments to be deployed as a star while internally the device makes logical ring connections
 
 ![star topology](chap-11/star.gif)
 
 #### Mesh
 
-- _mesh topology_:
+- _mesh topology_: connects systems to other systems using numerous paths. provides redundant connections to systems, allowing multiple segment failures without seriously affecting connectivity
+  - full mesh topology: connects each system to all other systems on the network
+  - partial mesh topology: connects many systems to many other systems.
 
 ![mesh topology](chap-11/mesh.gif)
+
+### Wireless Communications and Security
