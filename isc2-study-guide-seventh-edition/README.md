@@ -93,13 +93,29 @@ _UTP categories_
 
 ### Network Topologies
 
-- _logical topology_: grouping of networked systems into trusted collectives
-- _physical topology_: ...
+- _logical topology_: grouping of networked systems into trusted collectives. 
 
 #### Ring
 
+- _ring topology_: connects each system as points on a circle. only one system can transmit data at a time. if one segment of the loop is broken, all communication around the loop ceases. 
+  - *token*: digital hall pass that travels around the ring until a system grabs it. traffic management is performed by a token. 
+
+![ring topology](chap-11/ring.gif)
+
 #### Bus
+
+- _bus topology_: connects each system to a trunk cable. all systems on the bus can transmit data simultaneously, which can result in collisions. when data is transmitted, all systems on the network can hear the data. if a single segment fails, communications on all other segments continue uninterrupted. the central trunk line remains a single point of failure. 
+
+![bus topology](chap-11/bustopol.gif)
 
 #### Star
 
+- _star topology_:
+
+![star topology](chap-11/star.gif)
+
 #### Mesh
+
+- _mesh topology_:
+
+![mesh topology](chap-11/mesh.gif)
