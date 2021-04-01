@@ -14,6 +14,8 @@
       - [Star](#star)
       - [Mesh](#mesh)
     - [Wireless Communications and Security](#wireless-communications-and-security)
+      - [Cell Phones](#cell-phones)
+      - [Bluetooth](#bluetooth)
 
 ## Chapter 1
 
@@ -134,3 +136,48 @@ _UTP categories_
 ![mesh topology](chap-11/mesh.gif)
 
 ### Wireless Communications and Security
+
+- _frequency_: a measurement of the number of wave oscillations within a specific time and identified using the unit Hertz (Hz), or oscillations per second
+  - radio waves have a frequency between 3 Hz and 300 GHz
+- _spread spectrum_: communication occurs over multiple frequencies at the same time. a message is broken into pieces and each piece is sent at the same time but at a different frequency, effectively parallel communication.
+- _FHSS_: Frequency Hopping Spread Spectrum, early implementation of the spread spectrum concept, but transmits data in a series while constantly changing the frequency in use
+- _DSSS_: Direct Sequency Spread Spectrum, employs all the available frequencies simultaneously in parallel to provide a higher rate of data throughput than FHSS. also uses chipping code to allow a receiver to reconstruct data even if parts of the signal were distorted because of the interference.
+- _OFDM_: Orthogonal Frequency-Division Multiplexing, employs a digital multicarrier modulation scheme that allows for a more tightly compacted transmission. The modulated signals are perpendicular (orthogonal) thus do not cause interference with each other
+
+#### Cell Phones
+
+Cell Phone Technology Categories
+
+- May be missing 5G technologies, this chart is from 2015
+
+| Technology                     | Generation |
+| ------------------------------ | ---------- |
+| NMT                            | 1G         |
+| AMPS                           | 1G         |
+| TACS                           | 1G         |
+| GSM                            | 2G         |
+| iDEN                           | 2G         |
+| TDMA                           | 2G         |
+| CDMA                           | 2G         |
+| PDC                            | 2G         |
+| HSCSD                          | 2.5G       |
+| GPRS                           | 2.5G       |
+| W-CDMA                         | 3G         |
+| TD-CDMA                        | 3G         |
+| UWC                            | 3G         |
+| EDGE                           | 3G         |
+| DECT                           | 3G         |
+| UMTS                           | 3G         |
+| HSPDA                          | 3.5G       |
+| WiMax - IEEE 802.16            | 4G         |
+| XOHM (Brand name of WiMax)     | 4G         |
+| Mobile Broadband - IEEE 802.20 | 4G         |
+| LTE (Long Term Evolution)      | 4G         |
+
+- _WAP_: Wireless Application Protocol, a functioning protocol stack. Suite of protocols working together to connect from cell phone to the Internet.
+  - Example of protocol is WTLS, Wireless Transport Layer Security, similar to SSL or TLS
+  - NOT the same as WAP, wireless access point, when used in relation to 802.11
+  - end-to-end encryption is not possible because of CALEA wiretapping mandate
+  - _CALEA_: Communications Assistance for Law Enforcement Act
+
+#### Bluetooth
