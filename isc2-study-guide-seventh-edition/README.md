@@ -18,6 +18,10 @@
       - [Bluetooth](#bluetooth)
       - [Cordless Phones](#cordless-phones)
       - [Mobile Devices](#mobile-devices)
+    - [LAN Technologies](#lan-technologies)
+      - [Ethernet](#ethernet)
+      - [Token Ring](#token-ring)
+      - [FDDI](#fddi)
 
 ## Chapter 1
 
@@ -200,3 +204,19 @@ Cell Phone Technology Categories
 - can use any unlicensed frequencies: 900MHz, 2.4GHz, or 5 GHz. Signal is rarely encrypted so eavesdropping is easy with a frequency scanner.
 
 #### Mobile Devices
+
+- suggestions
+  - keep nonessential information off portable devices
+  - run a firewall and antivirus product if available 
+  - keep the system locked and/or encrypted if possible
+  - check that all desired security features are operating as expected on any device allowed to connect o the organization's network 
+
+### LAN Technologies 
+
+#### Ethernet 
+
+- _ethernet_: 
+
+#### Token Ring
+
+#### FDDI 
