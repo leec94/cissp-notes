@@ -16,6 +16,8 @@
     - [Wireless Communications and Security](#wireless-communications-and-security)
       - [Cell Phones](#cell-phones)
       - [Bluetooth](#bluetooth)
+      - [Cordless Phones](#cordless-phones)
+      - [Mobile Devices](#mobile-devices)
 
 ## Chapter 1
 
@@ -181,3 +183,20 @@ Cell Phone Technology Categories
   - _CALEA_: Communications Assistance for Law Enforcement Act
 
 #### Bluetooth
+
+- _Bluetooth_: also IEEE 802.15, personal area networks (PANs), is where primary device scans 2.4 GHz radio frequencies for available devices, then 4 digit PIN "authorizes" the pairing. Range is 30 to 100 ft.
+  - attacks
+    - _bluejacking_: allows an attacker to transmit SMS-like messages to your device
+    - _bluesnarfing_: allows hackers to connect to your Bluetooth device and extract information from them
+    - _bluebugging_: grants hackers remote control over the feature and functions of a Bluetooth device
+  - suggestions:
+    - use Bluetooth for activities that are not sensitive or confidential
+    - when possible change the default PIN on your devices
+    - do not leave your device in discovery mode
+    - always turn of Bluetooth when it's not in active use
+
+#### Cordless Phones
+
+- can use any unlicensed frequencies: 900MHz, 2.4GHz, or 5 GHz. Signal is rarely encrypted so eavesdropping is easy with a frequency scanner.
+
+#### Mobile Devices
