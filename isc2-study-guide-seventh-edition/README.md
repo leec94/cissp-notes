@@ -207,16 +207,30 @@ Cell Phone Technology Categories
 
 - suggestions
   - keep nonessential information off portable devices
-  - run a firewall and antivirus product if available 
+  - run a firewall and antivirus product if available
   - keep the system locked and/or encrypted if possible
-  - check that all desired security features are operating as expected on any device allowed to connect o the organization's network 
+  - check that all desired security features are operating as expected on any device allowed to connect o the organization's network
 
-### LAN Technologies 
+### LAN Technologies
 
-#### Ethernet 
+#### Ethernet
 
-- _ethernet_: 
+- _ethernet_: shared media LAN technology. Uses broadcast and collision domains
+  - can support full-duplex communications and usually employs twisted-pair cabling
+  - most often deployed on star or bus topologies
+  - based on IEEE 802.3 standard
+  - Terms
+    - _broadcast domain_: physical grouping of systems where all the systems in the group receive a broadcast sent by a single system in the group.
+    - _collision domain_: groupings of systems within which a data collision occurs if two systems transmit simultaneously.
+    - _data collision_: takes place when two transmitted messages attempt to use the network medium at the same time. it causes one or both messages to be corrupted
+    - _frames_: individual units of Ethernet data
 
 #### Token Ring
 
-#### FDDI 
+- _token ring_: employs a token-passing mechanism to control which systems can transmit data over the network medium
+  - the token travels in a logical loop among all members of the LAN 
+  - can be deployed on ring or star network topologies 
+  - rarely used today because of performance limitations, higher cost, and increased difficulty in deployment and management 
+  - ring-based but can be deployed as a physical star using MAU
+
+#### FDDI
