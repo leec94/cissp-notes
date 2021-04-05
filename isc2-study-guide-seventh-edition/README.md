@@ -22,6 +22,8 @@
       - [Ethernet](#ethernet)
       - [Token Ring](#token-ring)
       - [FDDI](#fddi)
+      - [Subtechnologies](#subtechnologies)
+      - [LAN Media Access](#lan-media-access)
 
 ## Chapter 1
 
@@ -234,3 +236,28 @@ Cell Phone Technology Categories
   - ring-based but can be deployed as a physical star using MAU
 
 #### FDDI
+
+- _FDDI_: Fiber Distributed Data Interface, high speed token-passing technology that employs two rings with traffic flowing in opposite directions 
+  - often used as a backbone for large enterprise networks 
+  - _CDDI_: Copper Distributed Data Interface, uses twisted pair cables, uses less-expensive, distance limited, and slower
+    - more vulnerable to interference and eavesdropping
+
+#### Subtechnologies
+
+- _analog_: 
+- _digital_: 
+- _synchronous_: 
+- _asynchronous_: 
+- _baseband_: 
+- _broadband_: 
+- _broadcast_: 
+- _multicast_: 
+- _unicast_: 
+
+#### LAN Media Access
+
+- _CSMA_: 
+- _CSMA/CA_: 
+- _CSMA/CD_: 
+- _token passing_:
+- _polling_: 
