@@ -244,20 +244,26 @@ Cell Phone Technology Categories
 
 #### Subtechnologies
 
-- _analog_: 
-- _digital_: 
-- _synchronous_: 
-- _asynchronous_: 
-- _baseband_: 
-- _broadband_: 
-- _broadcast_: 
-- _multicast_: 
-- _unicast_: 
+- _analog_: continuous signal that varies in frequency, amplitude, phase, voltage, etc.
+- _digital_: on/off pulses of discontinuous electrical signals
+- _synchronous_: relies on a timing mechanism 
+- _asynchronous_: relies on stop and start delimiter bit to manage the transmission of data
+- _baseband_: support only a single communication channel
+- _broadband_: can support multiple simultaneous signals
+- _broadcast_: communication to all possible recipients
+- _multicast_: communication to multiple specific recipients
+- _unicast_: only to a single recipient
 
 #### LAN Media Access
 
 - _CSMA_: 
+  - does not directly address collisions
 - _CSMA/CA_: 
+  - examples: appletalk and 802.11
+  - attempts to avoid collusions by granting only a single permission to communicate at any given time
+  - needs a primary system, to respond to requests and grants permission to send data transmissions
 - _CSMA/CD_: 
+  - example: ethernet
+  - responds to collisions by having each member of the collision domain wait a random period of time before starting the process over 
 - _token passing_:
 - _polling_: 
