@@ -24,6 +24,7 @@
       - [FDDI](#fddi)
       - [Subtechnologies](#subtechnologies)
       - [LAN Media Access](#lan-media-access)
+  - [Chapter 12](#chapter-12)
 
 ## Chapter 1
 
@@ -267,3 +268,6 @@ Cell Phone Technology Categories
   - responds to collisions by having each member of the collision domain wait a random period of time before starting the process over 
 - _token passing_:
 - _polling_: 
+
+## Chapter 12
+
