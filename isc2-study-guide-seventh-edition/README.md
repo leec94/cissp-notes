@@ -25,6 +25,8 @@
       - [Subtechnologies](#subtechnologies)
       - [LAN Media Access](#lan-media-access)
   - [Chapter 12](#chapter-12)
+    - [Secure communications protocols](#secure-communications-protocols)
+    - [authentication protocols](#authentication-protocols)
 
 ## Chapter 1
 
@@ -257,18 +259,32 @@ Cell Phone Technology Categories
 
 #### LAN Media Access
 
-- _CSMA_: 
+- _CSMA_: Carrier-Sense Multiple Access
   - does not directly address collisions
-- _CSMA/CA_: 
+- _CSMA/CA_: Carrier-Sense Multiple Access with Collision Avoidance
   - examples: appletalk and 802.11
   - attempts to avoid collusions by granting only a single permission to communicate at any given time
   - needs a primary system, to respond to requests and grants permission to send data transmissions
-- _CSMA/CD_: 
+- _CSMA/CD_: Carrier-Sense Multiple Access with Collision Detection
   - example: ethernet
   - responds to collisions by having each member of the collision domain wait a random period of time before starting the process over 
 - _token passing_: LAN media access technology that communicates using a digital token. 
 - _polling_: LAN media access technology that performs communications using a primary / secondary configuration. 
   - SDLC, Synchronous Data Link Control, uses polling
+  - inverse of the CSMA/CA method
 
 ## Chapter 12
+
+### Secure communications protocols
+- SKIP: 
+- swIPe: 
+- S-RPC: 
+- SSL: 
+- TLS: 
+- SET: 
+
+### authentication protocols
+- CHAP: 
+- PAP: 
+- EAP: 
 
