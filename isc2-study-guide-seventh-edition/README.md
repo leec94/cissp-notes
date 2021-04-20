@@ -266,8 +266,9 @@ Cell Phone Technology Categories
 - _CSMA/CD_: 
   - example: ethernet
   - responds to collisions by having each member of the collision domain wait a random period of time before starting the process over 
-- _token passing_:
-- _polling_: 
+- _token passing_: LAN media access technology that communicates using a digital token. 
+- _polling_: LAN media access technology that performs communications using a primary / secondary configuration. 
+  - SDLC, Synchronous Data Link Control, uses polling
 
 ## Chapter 12
 
