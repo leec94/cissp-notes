@@ -25,8 +25,15 @@
       - [Subtechnologies](#subtechnologies)
       - [LAN Media Access](#lan-media-access)
   - [Chapter 12](#chapter-12)
-    - [Secure communications protocols](#secure-communications-protocols)
-    - [authentication protocols](#authentication-protocols)
+    - [Secure Communications Protocols](#secure-communications-protocols)
+    - [Authentication Protocols](#authentication-protocols)
+    - [Secure Voice Communications](#secure-voice-communications)
+    - [Email Security](#email-security)
+      - [Email Security Issues](#email-security-issues)
+      - [Email Security Solutions](#email-security-solutions)
+    - [Dial-Up Protocols](#dial-up-protocols)
+    - [Centralized Remote Authentication Services](#centralized-remote-authentication-services)
+    - [VPN](#vpn)
 
 ## Chapter 1
 
@@ -275,7 +282,7 @@ Cell Phone Technology Categories
 
 ## Chapter 12
 
-### Secure communications protocols
+### Secure Communications Protocols
 - SKIP: 
 - swIPe: 
 - S-RPC: 
@@ -283,8 +290,57 @@ Cell Phone Technology Categories
 - TLS: 
 - SET: 
 
-### authentication protocols
-- CHAP: 
-- PAP: 
-- EAP: 
+### Authentication Protocols
+- _CHAP_: Challenge Handshake Authentication Protocol
+- _PAP_: Password Authentication Protocol
+  - offers no form of encryption, transmits usernames and passwords in the clear
+- _EAP_: Extensible Authentication Protocol
 
+### Secure Voice Communications
+- VoIP: Voice over Internet Protocol
+- PBX: private branch exchange
+- Social Engineering
+- Fraud and Abuse
+  - _phreakers_: malicious actors that abuse phone systems
+    - Tools
+      - _Black boxes_: manipulates line voltages to steal long-distance services
+      - _Red boxes_: simulates tones of coins being deposited into a pay phone
+      - _Blue boxes_: simulated 2600 Hx tones to interact directly with telephone network trunk systems 
+      - _White boxes_: used to control the phone system
+  - DISA: Direct Inward System Access 
+    - designed to help manage external access and external control of a PBX by assigning access codes to users
+
+### Email Security
+- SMTP: Simple Mail Transfer Protocol
+  - Sendmail: most common SMTP server for Unix systems
+  - Exchange: most common SMTP server for Microsoft systems
+- POP3: Post Office Protocol version 3
+- IMAP: Internet Message Access Protocol '
+
+#### Email Security Issues
+- Spoofing
+- DoS
+- Mail-bombing
+
+#### Email Security Solutions
+- S/MIME: 
+- MOSS: 
+- PEM: 
+- DKIM: 
+- PGP: Pretty Good Privacy 
+
+### Dial-Up Protocols
+- _PPP_: Point-to-Point Protocol
+- _SLIP_: Serial Line Internet Protocol
+
+### Centralized Remote Authentication Services 
+- _RADIUS_: Remote Authentication Dial-In User Service
+- _TACACS+_: Terminal Access Controller Access-Control System
+
+### VPN
+- tunneling: network communications process that protects the contents of protocol packets by encapsulating them in packets of another protocol
+- PPTP:
+- L2F: 
+- L2TP: 
+- IPSec: 
+- 
