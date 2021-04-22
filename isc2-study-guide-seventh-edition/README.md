@@ -34,6 +34,7 @@
     - [Dial-Up Protocols](#dial-up-protocols)
     - [Centralized Remote Authentication Services](#centralized-remote-authentication-services)
     - [VPN](#vpn)
+    - [VLAN, Virtual LAN](#vlan-virtual-lan)
 
 ## Chapter 1
 
@@ -339,8 +340,24 @@ Cell Phone Technology Categories
 
 ### VPN
 - tunneling: network communications process that protects the contents of protocol packets by encapsulating them in packets of another protocol
-- PPTP:
-- L2F: 
-- L2TP: 
-- IPSec: 
-- 
+- PPTP: Point-to-Point Tunneling Protocol
+- L2F: Layer 2 Forwarding Protocol
+- L2TP: Layer 2 Tunneling Protocol
+- IPSec: IP Security Protocol
+  - AH: Authentication Header, provides authentication, integrity, and nonrepudiation
+  - ESP: Encapsulating Security Payload, provides encryption to protect the confidentiality of transmitted data
+
+
+| VPN Protocol | Native Authentication Protection | Native Data Encryption | Protocols Supported | Dial-Up Links Supported | Number of Simultaneous Connections |
+| ------------ | -------------------------------- | ---------------------- | ------------------- | ----------------------- | ---------------------------------- |
+| PPTP         | Yes                              | No                     | PPP                 | Yes                     | Single point-to-point              |
+| L2F          | Yes                              | No                     | PPP/SLIP            | Yes                     | Single point-to-point              |
+| L2TP         | Yes                              | No (can use IPSec)     | PPP                 | Yes                     | Single point-to-point              |
+| IPSec        | Yes                              | Yes                    | IP only             | No                      | Multiple                           |
+
+### VLAN, Virtual LAN
+
+- _VLAN_: used to logically segment a network without altering its physical topology
+- VLAN vs subnet
+  - VLANs are created by switches, subnets are created by IP address and subnet mask assignments 
+
