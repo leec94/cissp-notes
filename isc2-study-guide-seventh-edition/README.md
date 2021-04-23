@@ -35,6 +35,8 @@
     - [Centralized Remote Authentication Services](#centralized-remote-authentication-services)
     - [VPN](#vpn)
     - [VLAN, Virtual LAN](#vlan-virtual-lan)
+    - [Virtualization](#virtualization)
+    - [Network Address Translation](#network-address-translation)
 
 ## Chapter 1
 
@@ -360,4 +362,21 @@ Cell Phone Technology Categories
 - _VLAN_: used to logically segment a network without altering its physical topology
 - VLAN vs subnet
   - VLANs are created by switches, subnets are created by IP address and subnet mask assignments 
+
+### Virtualization 
+
+-_software-defined networking_: separates the infrastructure layer from the control layer, and removes the traditional networking concepts of IP addressing, subnets, routing, etc. from needing to be programmed into hosted applications. directly programmable, network virtualization 
+
+-SAN: storage area network, combines multiple individual storage devices into a single consolidated network-accessible storage container. 
+
+### Network Address Translation 
+
+- NAT: converts internal IP addresses into public IP addresses for transmission over the Internet
+- PAT: port address translation 
+- private IP addresses
+- stateful NAT
+- static NAT: 
+- dynamic NAT: 
+
+
 
