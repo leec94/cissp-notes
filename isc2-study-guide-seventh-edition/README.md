@@ -37,6 +37,7 @@
     - [VLAN, Virtual LAN](#vlan-virtual-lan)
     - [Virtualization](#virtualization)
     - [Network Address Translation](#network-address-translation)
+    - [Switching Technologies](#switching-technologies)
 
 ## Chapter 1
 
@@ -377,6 +378,43 @@ Cell Phone Technology Categories
 - stateful NAT
 - static NAT: 
 - dynamic NAT: 
+- APIPA: automatic private IP addressing, assigns an IP address to a system in the event of a DHCP assignment failure 
+  - primarily a feature of Windows 
+  - APIPA assigns each failed DHCP client with an IP address from range 169.254.0.1 to 169.254.255.254
+
+### Switching Technologies
+- circuit switching: dedicated physical pathway is created between the two communicating parties
+- packet switching: the message is broken up into small segments and sent across the intermediary networks to the destination
+
+
+| Circuit Switching            | Packet Switching             |
+| ---------------------------- | ---------------------------- |
+| Constant traffic             | Bursty traffic               |
+| Fixed known delays           | Variable delays              |
+| Connection oriented          | Connectionless               |
+| Sensitive to connection loss | Sensitive to data loss       |
+| Used primarily for voice     | Used for by any type of data |
+
+- virtual circuit: 
+  - PVCs: permanent virtual circuits
+  - SVCs: switched virtual circuits
+- WAN: wide area network
+  - dedicated line: one that is indefinitely and continually reserved for use by a specific customer
+  - nondedicated line: requires a connection to be established before data transmission can occur 
+  - DSL: digital subscriber line, exploits the upgraded telephone network to grant consumers speeds from 144 Kbps to 6 Mbps (or more) 
+
+| Technology                             | Connection Type | Speed                    |
+| -------------------------------------- | --------------- | ------------------------ |
+| Digital Signal Level 0 (DS-0)          | Partial T1      | 64 Kbps up to 1.544 Mbps |
+| Digital Signal Level 1 (DS-3)          | T1              | 1.544 Mbps               |
+| Digital Signal Level 3 (DS-3)          | T3              | 44.736 Mbps              |
+| European digital transmission format 1 | E1              | 2.108 Mbps               |
+| European digital transmission format 3 | E3              | 34.368 Mbps              |
+| Cable modem or cable routers           |                 | 10+ Mbps                 |
+
+
+
+
 
 
 
