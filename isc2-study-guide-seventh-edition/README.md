@@ -38,6 +38,8 @@
     - [Virtualization](#virtualization)
     - [Network Address Translation](#network-address-translation)
     - [Switching Technologies](#switching-technologies)
+    - [Prevent or Mitigate Network Attacks](#prevent-or-mitigate-network-attacks)
+- [Chapter 13: Managing Identity and Authentication](#chapter-13-managing-identity-and-authentication)
 
 ## Chapter 1
 
@@ -402,6 +404,10 @@ Cell Phone Technology Categories
   - dedicated line: one that is indefinitely and continually reserved for use by a specific customer
   - nondedicated line: requires a connection to be established before data transmission can occur 
   - DSL: digital subscriber line, exploits the upgraded telephone network to grant consumers speeds from 144 Kbps to 6 Mbps (or more) 
+  - ISDN: Integrated Services Digital Network, fully digital telephone network that supports both voice and high-speed data communications
+    - formats of ISDN service:
+      - BRI: Basic Rate Interface, offers a connection with two B channels and one D channel 
+      - PRI: Primary Rate Interface, offers consumers a connection with multiple 64 Kbps B channels and a single 64 Kbps D channel 
 
 | Technology                             | Connection Type | Speed                    |
 | -------------------------------------- | --------------- | ------------------------ |
@@ -411,6 +417,44 @@ Cell Phone Technology Categories
 | European digital transmission format 1 | E1              | 2.108 Mbps               |
 | European digital transmission format 3 | E3              | 34.368 Mbps              |
 | Cable modem or cable routers           |                 | 10+ Mbps                 |
+
+  - WAN connection technologies
+    - WAN switch: 
+    - CSU/DSU: channel service unit/data service unit 
+    - DTE/DCE: data terminal equipment/data circuit-terminating equipment 
+  - X.25: older packet switching technology that was widely used in Europe
+    - predecessor to Frame Relay
+  - Frame Relay: 
+  - ATM: asynchronous transfer mode
+  - SMDS: switched multimegabit data service 
+  - SDLC: synchronous data link control
+  - HDLC: high-level data link control
+  - HSSI: high speed serial interface 
+  - PPP: Point-to-point protocol 
+
+### Prevent or Mitigate Network Attacks
+- DoS: denial-of-service
+  - exploiting a vulnerability in the hardware or software
+  - attacks that flood the victim's communication pipeline with garbage network traffic 
+  - safeguards 
+    - add firewalls, routers, and intrusion detection systems (IDSs)
+    - maintain good contact with your service provider
+    - disable echo replies on external systems 
+    - disable broadcast features on border systems 
+    - block spoofed packets from entering or leaving your network
+    - keep all systems patched with the most current security updates from vendors 
+    - consider commercial DoS protection like CloudFlare's DDoS mitigation or Prolexic
+- eavesdropping: listening to communication traffic for the purpose of duplicating it 
+- impersonation: or masquerading
+- replay attacks
+- modification attacks
+- ARP spoofing: provides false MAC addresses for requested IP addressed systems to redirect traffic to alternate destinations
+- DNS poisioning
+  - solution: upgrade DNS to DNSSEC
+    - DNSSEC: Domain Name Secrity System Security Extensions 
+- Hyperlink spoofing
+
+# Chapter 13: Managing Identity and Authentication 
 
 
 
