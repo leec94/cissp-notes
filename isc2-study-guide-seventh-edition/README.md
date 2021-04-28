@@ -40,6 +40,8 @@
     - [Switching Technologies](#switching-technologies)
     - [Prevent or Mitigate Network Attacks](#prevent-or-mitigate-network-attacks)
 - [Chapter 13: Managing Identity and Authentication](#chapter-13-managing-identity-and-authentication)
+  - [Access Control](#access-control)
+    - [access control types](#access-control-types)
 
 ## Chapter 1
 
@@ -455,6 +457,47 @@ Cell Phone Technology Categories
 - Hyperlink spoofing
 
 # Chapter 13: Managing Identity and Authentication 
+
+- subject: active entity that accesses an object to receive information about or modify objects.  
+  - "user"
+- object: passive entity that provides information to active objects. 
+  - examples: files, databases, computers, programs, processes, printers, and storage media
+
+## Access Control
+
+overall access control steps
+1. identify and authenticate users or other objects attempting to access resources
+2. determine whether the access is authorized
+3. grant or restrict access based on the subject's identity
+4. monitor and record access attempts
+
+### access control types 
+
+- preventive: attempts to stop unauthorized activity from occurring
+  - examples: fences, locks, biometrics, mantraps, lighting, alarm systems, separation of duties policies, job rotation policis, data classification, penetration testing, etc. 
+- detective: attempts to discover or detect unwanted or unauthorized activity.
+  - operates after the fact and can discover the activity only after it has occurred
+  - examples: security guards, motion detectors, recording and reviewing of events captured by security camera or CCTV, job rotation policies, etc. 
+- corrective: modifies the environment to return systems to normal after an unwanted or unauthorized activity has occurred 
+  - attempts to correct any problems that occurred as a result of a security incident 
+  - examples: terminating malicious activity or rebooting a system, antivirus solutions that can remove or quarantine a virus, backup and restore plans, etc. 
+- deterrent:
+  - 
+- recovery: attempts to repair or restore resources, functions, and capabilities after a security policy violation 
+  - an extension of corrective controls but have more advanced or complex abilities 
+  - examples: backup and restores, fault-tolerant drive systems, system imaging, server clustering, antivirus software, database or virtual machine shadowing
+- directive: attempts to direct, confine, or control the actions of subjects to force or encourage compliance with security policies 
+  - examples: security policy requirements, posted notifications, escape route exit signs, monitoring, supervision, and procedures 
+- compensation: provides an alternative when it isn't possible to use a primary control, or to increase the effectiveness of a primary control 
+  - example: security policy dictating use of smartcards, and the company issuing hardware tokens to employees as a compensating control, stringer than just a username and password 
+
+categories by how they are implemented
+- administrative: 
+- logical/technical controls: 
+- physical controls: 
+
+
+
 
 
 
