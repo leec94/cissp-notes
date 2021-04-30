@@ -489,13 +489,33 @@ overall access control steps
 - directive: attempts to direct, confine, or control the actions of subjects to force or encourage compliance with security policies 
   - examples: security policy requirements, posted notifications, escape route exit signs, monitoring, supervision, and procedures 
 - compensation: provides an alternative when it isn't possible to use a primary control, or to increase the effectiveness of a primary control 
-  - example: security policy dictating use of smartcards, and the company issuing hardware tokens to employees as a compensating control, stringer than just a username and password 
+  - examples: security policy dictating use of smartcards, and the company issuing hardware tokens to employees as a compensating control, stringer than just a username and password 
 
 categories by how they are implemented
-- administrative: 
-- logical/technical controls: 
-- physical controls: 
+- administrative: policies and procedures defined by an organization's security policy and other regulations or requirements
+  - examples: policies, procedures, hiring practices, background checks, classifying and labeling data, etc. 
+- logical/technical controls: hardware or software mechanisms used to manage access and to provide protection for resources and systems
+  - examples: authentication methods, encryption, constrained interfaces, access control lists, protocols, firewalls, routers, intrusion detection systems, and clipping levels 
+- physical controls: physical mechanisms deployed to prevent, monitor, or detect direct contact with systems or areas within a facility
+  - examples: guards, fences, motion detectors, locked doors, sealed windows, lights, etc. 
 
+CIA Triad
+- confidentiality
+- integrity
+- availability
+
+Identification terms
+- identification: process of a subject claiming an identity. all subjects must have unique identities
+- authentication: verifies the identity of the subject by comparing one or more factors against a database of valid identities 
+- authorization: subjects are granted access to objects based on proven identities 
+  - indicates who is trusted to perform specific operations 
+- accountability: users and other subjects can be held accountable for their actions when auditing is implemented
+  - auditing: the process of tracking and recording subject activities within logs 
+  - does not require effective authorization 
+
+authentication factors 
+- Type 1
+- Type 2
 
 
 
