@@ -48,9 +48,9 @@
     - [Network Address Translation](#network-address-translation)
     - [Switching Technologies](#switching-technologies)
     - [Prevent or Mitigate Network Attacks](#prevent-or-mitigate-network-attacks)
-- [Chapter 13: Managing Identity and Authentication](#chapter-13-managing-identity-and-authentication)
-  - [Access Control](#access-control)
-    - [access control types](#access-control-types)
+  - [Chapter 13: Managing Identity and Authentication](#chapter-13-managing-identity-and-authentication)
+    - [Access Control](#access-control)
+      - [access control types](#access-control-types)
   - [Chapter 14: Controlling and Monitoring Access](#chapter-14-controlling-and-monitoring-access)
   - [Chapter 15: Security Assessment and Testing](#chapter-15-security-assessment-and-testing)
   - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
@@ -491,14 +491,14 @@ Cell Phone Technology Categories
     - DNSSEC: Domain Name Secrity System Security Extensions 
 - Hyperlink spoofing
 
-# Chapter 13: Managing Identity and Authentication 
+## Chapter 13: Managing Identity and Authentication 
 
 - subject: active entity that accesses an object to receive information about or modify objects.  
   - "user"
 - object: passive entity that provides information to active objects. 
   - examples: files, databases, computers, programs, processes, printers, and storage media
 
-## Access Control
+### Access Control
 
 overall access control steps
 1. identify and authenticate users or other objects attempting to access resources
@@ -506,7 +506,7 @@ overall access control steps
 3. grant or restrict access based on the subject's identity
 4. monitor and record access attempts
 
-### access control types 
+#### access control types 
 
 - preventive: attempts to stop unauthorized activity from occurring
   - examples: fences, locks, biometrics, mantraps, lighting, alarm systems, separation of duties policies, job rotation policis, data classification, penetration testing, etc. 
