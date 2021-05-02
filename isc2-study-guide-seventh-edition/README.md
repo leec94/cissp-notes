@@ -1,8 +1,17 @@
 # ISC2 CISSP Study Guide, Seventh Edition
 
 - [ISC2 CISSP Study Guide, Seventh Edition](#isc2-cissp-study-guide-seventh-edition)
-  - [Chapter 1](#chapter-1)
-  - [Chapter 11](#chapter-11)
+  - [Chapter 1: Security Governance](#chapter-1-security-governance)
+  - [Chapter 2: Personnel Security and Risk Management](#chapter-2-personnel-security-and-risk-management)
+  - [Chapter 3: Business Continuity Planning](#chapter-3-business-continuity-planning)
+  - [Chapter 4: Laws, Regulations, and Compliance](#chapter-4-laws-regulations-and-compliance)
+  - [Chapter 5: Protecting Security of Assets](#chapter-5-protecting-security-of-assets)
+  - [Chapter 6: Cryptography and Symmetric Key Algorithms](#chapter-6-cryptography-and-symmetric-key-algorithms)
+  - [Chapter 7: PKI and Cryptographic Applications](#chapter-7-pki-and-cryptographic-applications)
+  - [Chapter 8: Principles of Security Models, Design, and Capabilities](#chapter-8-principles-of-security-models-design-and-capabilities)
+  - [Chapter 9: Security Vulnerabilities, Threats, and Countermeasures](#chapter-9-security-vulnerabilities-threats-and-countermeasures)
+  - [Chapter 10: Physical Security Requirements](#chapter-10-physical-security-requirements)
+  - [Chapter 11: Secure Network Architecture and Securing Network Components](#chapter-11-secure-network-architecture-and-securing-network-components)
     - [Cabling](#cabling)
       - [Coaxial Cable](#coaxial-cable)
       - [Baseband and Broadband Cables](#baseband-and-broadband-cables)
@@ -42,10 +51,36 @@
 - [Chapter 13: Managing Identity and Authentication](#chapter-13-managing-identity-and-authentication)
   - [Access Control](#access-control)
     - [access control types](#access-control-types)
+  - [Chapter 14: Controlling and Monitoring Access](#chapter-14-controlling-and-monitoring-access)
+  - [Chapter 15: Security Assessment and Testing](#chapter-15-security-assessment-and-testing)
+  - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
+  - [Chapter 17: Preventing and Responding to Incidents](#chapter-17-preventing-and-responding-to-incidents)
+  - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
+  - [Chapter 19: Incidents and Ethics](#chapter-19-incidents-and-ethics)
+  - [Chapter 20: Software Development Security](#chapter-20-software-development-security)
+  - [Chapter 21: Malicious Code and Application Attacks](#chapter-21-malicious-code-and-application-attacks)
 
-## Chapter 1
+## Chapter 1: Security Governance
 
-## Chapter 11
+## Chapter 2: Personnel Security and Risk Management
+
+## Chapter 3: Business Continuity Planning
+
+## Chapter 4: Laws, Regulations, and Compliance
+
+## Chapter 5: Protecting Security of Assets
+
+## Chapter 6: Cryptography and Symmetric Key Algorithms
+
+## Chapter 7: PKI and Cryptographic Applications
+
+## Chapter 8: Principles of Security Models, Design, and Capabilities
+
+## Chapter 9: Security Vulnerabilities, Threats, and Countermeasures
+
+## Chapter 10: Physical Security Requirements
+
+## Chapter 11: Secure Network Architecture and Securing Network Components
 
 ### Cabling
 
@@ -514,14 +549,25 @@ Identification terms
   - does not require effective authorization 
 
 authentication factors 
-- Type 1
-- Type 2
+- Type 1: something you know
+  - examples: password, PIN, passphrase
+- Type 2: something you have 
+  - examples: smartcard, hardware token, memory card, USB drive
+- Type 3: something you are or something you do
+  - examples: fingerprints, voice prints, retina patterns, iris patterns, face shapes, palm topology, hand geometry 
 
+## Chapter 14: Controlling and Monitoring Access
 
+## Chapter 15: Security Assessment and Testing
 
+## Chapter 16: Managing Security Operations
 
+## Chapter 17: Preventing and Responding to Incidents
 
+## Chapter 18: Disaster Recovery Planning
 
+## Chapter 19: Incidents and Ethics
 
+## Chapter 20: Software Development Security
 
-
+## Chapter 21: Malicious Code and Application Attacks
