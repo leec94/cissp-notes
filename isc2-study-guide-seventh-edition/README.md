@@ -556,6 +556,25 @@ authentication factors
 - Type 3: something you are or something you do
   - examples: fingerprints, voice prints, retina patterns, iris patterns, face shapes, palm topology, hand geometry 
 
+passwords 
+- type 1 authentication 
+- PBKDF2: password-based key derivation function 2, hashing algorithm 
+- strong password factors
+  - maximum age
+  - password complexity
+  - password length
+  - password history 
+- other password type things
+  - password phrases
+  - cognitive passwords 
+
+smartcard and tokens
+- smartcard 
+  - PIV: personal identity verificatino cards
+  - CAC: common access cards 
+- tokens 
+
+
 ## Chapter 14: Controlling and Monitoring Access
 
 ## Chapter 15: Security Assessment and Testing
