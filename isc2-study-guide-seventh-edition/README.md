@@ -49,8 +49,27 @@
     - [Switching Technologies](#switching-technologies)
     - [Prevent or Mitigate Network Attacks](#prevent-or-mitigate-network-attacks)
   - [Chapter 13: Managing Identity and Authentication](#chapter-13-managing-identity-and-authentication)
+    - [subject vs object](#subject-vs-object)
     - [Access Control](#access-control)
       - [access control types](#access-control-types)
+    - [CIA Triad](#cia-triad)
+    - [Identification terms](#identification-terms)
+    - [authentication factors](#authentication-factors)
+    - [passwords](#passwords)
+    - [smartcard and tokens](#smartcard-and-tokens)
+    - [Multifactor authentication](#multifactor-authentication)
+    - [implementing identity management](#implementing-identity-management)
+    - [Centralized Access Control](#centralized-access-control)
+    - [LDAP: lightweight directory access protocol](#ldap-lightweight-directory-access-protocol)
+      - [Kerberos](#kerberos)
+        - [Ticket logon process](#ticket-logon-process)
+        - [Steps to access an object](#steps-to-access-an-object)
+    - [SSO](#sso)
+      - [Federated Identity Management](#federated-identity-management)
+        - [Markup Languages](#markup-languages)
+      - [Other SSO Examples](#other-sso-examples)
+      - [Credential management systems](#credential-management-systems)
+      - [Integrating Identity services](#integrating-identity-services)
   - [Chapter 14: Controlling and Monitoring Access](#chapter-14-controlling-and-monitoring-access)
   - [Chapter 15: Security Assessment and Testing](#chapter-15-security-assessment-and-testing)
   - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
@@ -493,6 +512,7 @@ Cell Phone Technology Categories
 
 ## Chapter 13: Managing Identity and Authentication 
 
+### subject vs object
 - subject: active entity that accesses an object to receive information about or modify objects.  
   - "user"
 - object: passive entity that provides information to active objects. 
@@ -516,8 +536,7 @@ overall access control steps
 - corrective: modifies the environment to return systems to normal after an unwanted or unauthorized activity has occurred 
   - attempts to correct any problems that occurred as a result of a security incident 
   - examples: terminating malicious activity or rebooting a system, antivirus solutions that can remove or quarantine a virus, backup and restore plans, etc. 
-- deterrent:
-  - 
+- deterrent
 - recovery: attempts to repair or restore resources, functions, and capabilities after a security policy violation 
   - an extension of corrective controls but have more advanced or complex abilities 
   - examples: backup and restores, fault-tolerant drive systems, system imaging, server clustering, antivirus software, database or virtual machine shadowing
@@ -534,12 +553,12 @@ categories by how they are implemented
 - physical controls: physical mechanisms deployed to prevent, monitor, or detect direct contact with systems or areas within a facility
   - examples: guards, fences, motion detectors, locked doors, sealed windows, lights, etc. 
 
-CIA Triad
+### CIA Triad
 - confidentiality
 - integrity
 - availability
 
-Identification terms
+### Identification terms
 - identification: process of a subject claiming an identity. all subjects must have unique identities
 - authentication: verifies the identity of the subject by comparing one or more factors against a database of valid identities 
 - authorization: subjects are granted access to objects based on proven identities 
@@ -548,7 +567,7 @@ Identification terms
   - auditing: the process of tracking and recording subject activities within logs 
   - does not require effective authorization 
 
-authentication factors 
+### authentication factors 
 - Type 1: something you know
   - examples: password, PIN, passphrase
 - Type 2: something you have 
@@ -556,7 +575,7 @@ authentication factors
 - Type 3: something you are or something you do
   - examples: fingerprints, voice prints, retina patterns, iris patterns, face shapes, palm topology, hand geometry 
 
-passwords 
+### passwords 
 - type 1 authentication 
 - PBKDF2: password-based key derivation function 2, hashing algorithm 
 - strong password factors
@@ -566,15 +585,117 @@ passwords
   - password history 
 - other password type things
   - password phrases
-  - cognitive passwords 
+  - cognitive passwords: series of questions about facts or predefined responses that only the subject should know 
 
-smartcard and tokens
+### smartcard and tokens
 - smartcard 
   - PIV: personal identity verificatino cards
   - CAC: common access cards 
-- tokens 
+- token: password generating device that users can carry with them 
+  - synchornous dynamic password tokens
+  - asynchronous dynamic password tokens
+- biometrics 
+  - in type 3: something you are
+  - types
+    - fingerprints
+    - face scans
+    - retina scans
+    - iris scans 
+    - palm scans 
+    - hand geogetry 
+    - heart/pulse patterns 
+    - voice pattern recognition
+    - signature dynamics 
+    - keystroke patterns 
+  - error rates
+    - type 1 error: when a valid subject is not authenticated
+      - FRR: false rejection rate
+    - type 2 error: when an invalid subject is authenticated
+      - FAR: false acceptance rate
+    - CER: crossover error rate 
+      - ERR: equal error rate, same as CER
+      - used as a standard assessment value to compare the accuracy of different biometric devices 
+      - ![CER point](chap-13/cer.jpg)
+  - biometric registration
+    - enrollment: subject's biometric factor is sampled and stored in the device's database
+      - reference profile: or reference template, it is the stored sample
+    - throughput rate: the amount of time the system requires the scan a subject and aprove or deny access 
+  
+### Multifactor authentication
+- two-factor authentication: requires two different factors to provide authentication
+- SSO: single sign on
+  - reduces the number of accounts required for a subject 
+device authentication 
+- BYOD policy
+- device fingerprinting
+- tools
+  - IdP: SecureAuth Identity Provider
 
+### implementing identity management
+- centralized access control: all authorization verification is performed by a single entity within a system
+  - can be managed by a small team, administrative overhead is lower
+- decentralized access control: various entities located throughout a system performs authorixation verification 
+  - often requires several teams or multiple individuals 
+  - administrative overhead is higher because changes must be implemented across numerous locations 
+  - maintaining consistency across a system is more difficut as the number of access control points increases 
+  - changes made to any individual access control point need to be repeated at every access point 
+  
+### Centralized Access Control
 
+### LDAP: lightweight directory access protocol
+
+#### Kerberos
+- KDC: key distribution center
+- TGS: ticket granting service
+- TGT: ticket-granting ticket
+- Ticket: 
+
+##### Ticket logon process
+1. The user types a username and password into the client
+2. the client encrypts the username with AES for transmission to the KDC
+3. the KDC verifies the username against a database of known credentials
+4. the KDC generates a symmetric key that will be used by the client and the Kerberos server. It encrypts this with a hash of the user's password. The KDC also generates an encrypted time-stamped TGT
+5. The KDC then transmits the encrypted symmetric key and the encrypted time-stamped TGT to the client
+6. The client installs the TGT for use until it expires. The client also decrypts the symmetric key using a hash of the user's password. 
+
+##### Steps to access an object
+1. The client sends its TGT back to the KDC with a request for access to the resource
+2. The KDC verifies that the TGT is valid and checks its access control matrix to verify that the user has sufficient privileges to access the requested resorce
+3. The KDC generates a service ticket and sends it to the client
+4. The client sends the ticket to the server of service hosting the resource
+5. The server or service hosting the resource verifies the validity of the ticket with the KDC
+6. Once identity and authorization is verified, Kerberos activity is complete. The server or service host then opens a session with the client and begins communications or data transmission 
+
+### SSO 
+#### Federated Identity Management
+- Federated identity management is a form of SSO for users to access resources over the Internet 
+- federation: can be composed of multiple unrelated networks within a single university campus, multiple organizations sharing resources, or any other group that can agree on a common federated identity management system. Members of the federation match user identities within an organization to federated identities 
+- federated identity systems often use SAML, security assertion markup language, or SPML to have a common language. 
+
+##### Markup Languages
+- HTML: Hypertext Markup Language
+- XML: Extensible Markup Language
+- SAML: Security Assertion Markup Language
+- SPML: Service Provisioning Markup Language
+- XSCML: Extensible Access Control Markup Language
+
+#### Other SSO Examples
+- scripted access 
+- SESAME: secure european system for applications in a multivendor environment
+- Kryptoknight
+- OAuth
+- OpenID
+
+#### Credential management systems
+- Windows Credential Manager tool 
+- KeePass
+- 1Password
+- BitWarden
+- Lastpass
+
+#### Integrating Identity services
+- IDaaS
+- 
 ## Chapter 14: Controlling and Monitoring Access
 
 ## Chapter 15: Security Assessment and Testing
