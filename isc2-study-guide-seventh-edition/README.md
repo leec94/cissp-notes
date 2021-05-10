@@ -70,7 +70,15 @@
       - [Other SSO Examples](#other-sso-examples)
       - [Credential management systems](#credential-management-systems)
       - [Integrating Identity services](#integrating-identity-services)
+      - [AAA Protocols](#aaa-protocols)
+    - [Identity and Access Provisioning Lifecycle](#identity-and-access-provisioning-lifecycle)
   - [Chapter 14: Controlling and Monitoring Access](#chapter-14-controlling-and-monitoring-access)
+    - [Authorization Mechanisms](#authorization-mechanisms)
+      - [RBAC methods](#rbac-methods)
+      - [Rule-based access control methods](#rule-based-access-control-methods)
+      - [Mandatory Access Control](#mandatory-access-control)
+      - [Discretionary Access controls](#discretionary-access-controls)
+    - [prevent or mitigate access control attacks](#prevent-or-mitigate-access-control-attacks)
   - [Chapter 15: Security Assessment and Testing](#chapter-15-security-assessment-and-testing)
   - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
   - [Chapter 17: Preventing and Responding to Incidents](#chapter-17-preventing-and-responding-to-incidents)
@@ -695,8 +703,35 @@ device authentication
 
 #### Integrating Identity services
 - IDaaS
-- 
+  - examples: Google and Office 365
+
+#### AAA Protocols
+- protocols that use the access control elements of identification, authentication, authorization, and accountability to ensure that users have valid credentials to authenticate and verify that the user is authorized to connect 
+- Examples
+  - RADIUS: Remote Authentication Dial-In User Service
+    - used by many ISPs. users can access the ISP from anywhere and the ISP server forwards the user's connection request to the RADIUS server
+  - TACACS+: Terminal Access Controller Access-Control System
+    - TACACS, alternative to RADIUS
+    - Then XTACACS, created by Cisco
+    - finally TACACS+, open publically documented protocol, most commonly used of the three protocols
+      - encrypts all of the authentication information 
+      - TCP port 49
+  - Diameter
+    - enhanced version of RADIUS
+    - uses TCP 3868
+
+### Identity and Access Provisioning Lifecycle
+- provisioning 
+- account review
+- account revocation 
+
 ## Chapter 14: Controlling and Monitoring Access
+### Authorization Mechanisms 
+#### RBAC methods
+#### Rule-based access control methods
+#### Mandatory Access Control
+#### Discretionary Access controls
+### prevent or mitigate access control attacks 
 
 ## Chapter 15: Security Assessment and Testing
 
