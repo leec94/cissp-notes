@@ -74,6 +74,7 @@
     - [Identity and Access Provisioning Lifecycle](#identity-and-access-provisioning-lifecycle)
   - [Chapter 14: Controlling and Monitoring Access](#chapter-14-controlling-and-monitoring-access)
     - [Authorization Mechanisms](#authorization-mechanisms)
+      - [Defining requirements with a security policy](#defining-requirements-with-a-security-policy)
       - [RBAC methods](#rbac-methods)
       - [Rule-based access control methods](#rule-based-access-control-methods)
       - [Mandatory Access Control](#mandatory-access-control)
@@ -726,11 +727,34 @@ device authentication
 - account revocation 
 
 ## Chapter 14: Controlling and Monitoring Access
+- permissions
+- rights
+- privileges
 ### Authorization Mechanisms 
+- implicit deny
+- access control matrix
+- capability tables
+- constrained interface
+- content-dependent control
+- context-dependent control
+- need to know
+- least privilege
+- separation of duties and responsibilities 
+
+#### Defining requirements with a security policy 
+- security policy: document that defines the security requirements for an organization
+  - physical access controls
+  - logical/technical access controls
+  - administrative access controls
+
 #### RBAC methods
 #### Rule-based access control methods
 #### Mandatory Access Control
 #### Discretionary Access controls
+- discretionary access control: DACs, allows the owner, creator, or data custodian of an object to control and define access to that object. access control is based oon the discretion or decision of the owner 
+  - implemented using access control lists (ACLs) on objects 
+
+- nondiscretionary access controls: centrally administered 
 ### prevent or mitigate access control attacks 
 
 ## Chapter 15: Security Assessment and Testing
