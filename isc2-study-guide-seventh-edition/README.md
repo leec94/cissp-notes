@@ -747,14 +747,49 @@ device authentication
   - logical/technical access controls
   - administrative access controls
 
-#### RBAC methods
-#### Rule-based access control methods
-#### Mandatory Access Control
-#### Discretionary Access controls
 - discretionary access control: DACs, allows the owner, creator, or data custodian of an object to control and define access to that object. access control is based oon the discretion or decision of the owner 
   - implemented using access control lists (ACLs) on objects 
+  - owners make their own changes 
 
 - nondiscretionary access controls: centrally administered 
+  - less flexible 
+  - examples: rule-based, role-based, lattice-based access controls 
+  - 
+#### RBAC methods
+- role based access control: controls based on a subject's role 
+  -  also task-based
+  -  prevents privilege creep 
+  - useful in dynamic environments with frequent personnel changes 
+
+- privilege creep: tendency for privileges to accrue to users over time as their roles and access needs to change
+
+- task-based access control: TBAC, each user is assigned to an array of tasks. focus is on controlling access by assigned tasks rather than by user identity 
+
+#### Rule-based access control methods
+- rule-based access control: rule-BAC, uses a set of rules to determine what can and can't occur on a system 
+  - these models have global rules that apply to all subjects 
+  - example: firewall 
+
+- attribute-based access control: ABAC, uses policies that include multiple attributes for rules
+  - type of rule-BAC, but more specific
+  - example: policies for software-defined wide area network (SD-WAN)
+
+#### Mandatory Access Control
+- mandatory access control (MAC): relies on classification labels, representing a security domain 
+  - lattice based MAC model 
+  - prohibitive rather than permissive, and uses implicit deny philosophy, so if users are not specifically granted access to data, then the system denies them access to associated data 
+  - more secure than DAC but not as flexible or scalable 
+  - example: US military and lables of Confidential, Secret, Top Secret 
+  - classifications within a MAC model
+    - hierarchical environment
+    - compartmentalized environment 
+    - hybrid environment
+
+
+#### Discretionary Access controls
+
+
+
 ### prevent or mitigate access control attacks 
 
 ## Chapter 15: Security Assessment and Testing
