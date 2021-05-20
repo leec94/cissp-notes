@@ -78,9 +78,14 @@
       - [RBAC methods](#rbac-methods)
       - [Rule-based access control methods](#rule-based-access-control-methods)
       - [Mandatory Access Control](#mandatory-access-control)
-      - [Discretionary Access controls](#discretionary-access-controls)
+      - [Access control attacks](#access-control-attacks)
     - [prevent or mitigate access control attacks](#prevent-or-mitigate-access-control-attacks)
   - [Chapter 15: Security Assessment and Testing](#chapter-15-security-assessment-and-testing)
+    - [design and validate assessment and test strategies](#design-and-validate-assessment-and-test-strategies)
+    - [conduct security control testing](#conduct-security-control-testing)
+    - [collect security process data](#collect-security-process-data)
+    - [analyze and report test outputs](#analyze-and-report-test-outputs)
+    - [conduct or facilitate internal third party audits](#conduct-or-facilitate-internal-third-party-audits)
   - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
   - [Chapter 17: Preventing and Responding to Incidents](#chapter-17-preventing-and-responding-to-incidents)
   - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
@@ -781,18 +786,54 @@ device authentication
   - more secure than DAC but not as flexible or scalable 
   - example: US military and lables of Confidential, Secret, Top Secret 
   - classifications within a MAC model
-    - hierarchical environment
-    - compartmentalized environment 
-    - hybrid environment
+    - hierarchical environment: levels of classification
+    - compartmentalized environment: no relationship between one security domain and another
+    - hybrid environment: combines both hierarchical and compartmentalized concepts so each hierarchical level can contain subdivisions that are isolated from the rest of the security domain 
 
 
-#### Discretionary Access controls
+#### Access control attacks
+- key risk management steps: 
+  - identifying assets, asset value
+  - identifying threats, threat modeling (focused on assets, attackers, or software)
+  - identifying vulnerabilities (vulnerability analysis)
 
-
+- common access control attacks
+  - access aggregation attacks
+  - password attacks 
+  - dictionary attacks
+  - brute-force attacks
+  - birthday attack
+  - rainbow table attacks
+  - sniffer attacks
+  - spoofing attacks
+    - email spoofing
+    - phone number spoofing
+  - social engineering attacks
+    - phishing
+    - spear phishing
+    - whaling 
+    - vishing 
+  - smartcard attacks
+  - Denial-of-Service attacks
 
 ### prevent or mitigate access control attacks 
+- controls to help protect attacks
+  - control physical access to systems
+  - control electronic access to files
+  - encrypt password files
+  - create strong password policy 
+  - use password masking
+  - deploy multifactor authentication
+  - use account lockout controls
+  - use last logon notification 
+  - educate users about security 
 
 ## Chapter 15: Security Assessment and Testing
+### design and validate assessment and test strategies
+### conduct security control testing
+### collect security process data 
+### analyze and report test outputs
+### conduct or facilitate internal third party audits
 
 ## Chapter 16: Managing Security Operations
 
