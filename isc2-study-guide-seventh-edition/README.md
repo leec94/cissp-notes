@@ -829,7 +829,77 @@ device authentication
   - educate users about security 
 
 ## Chapter 15: Security Assessment and Testing
+- three major components of security assessment program
+  - security tests
+    - verify that a control is functioning properly
+    - examples: automated scans, tool-assissted pen tests, and manual attempts to undermine security
+  - secuity assessments
+    - comprehensive reviews of the security of a system, application, or other tested environment
+    - risk assessment to identify vulnerabilities in the tested environment and make recommendations if needed
+    - examples: security testing tools, thoughtful review of threat environment, current and future risks, and value of the targeted environment 
+    - main work: assessment report addressed to management that contains the results of the assessment in nontechnical language and concludes with specific recommendations for improving the security of the tested environment
+    - for internal use only 
+  - security audits
+    - similar to assessments but must be performed by independent auditors 
+    - demonstrating effectiveness of controls to a third party. provides an impartial, unbiased view of the state of security controls 
+    - types of audits
+      - internal audits
+        - performed by an organization's internal audit staff and intended for internal audiences 
+      - external audits
+        - by an outside auditing firm 
+        - high degree of external validity because the auditors performing the assessment have no conflict of interest with the organization itself 
 ### design and validate assessment and test strategies
+- vulnerability assessments 
+  - vulnerability scans 
+    - types:
+      - network discovery scans 
+        - techniques:
+          - TCP SYN scanning
+          - TCP connect scanning
+          - TCP ACK scanning
+          - Xmas scanning
+      - network vulnerability scans
+        - probes targeted system or network for the precense of known vulnerabilities
+      - web application vulnerability scan
+        - look for known vulnerabilities in web applications
+        - when to scan:
+          - scan when beginning to perform web vulnerability scanning for the first time to detect issues with legacy applications
+          - scan new application before moving it into a production environment for the first time
+          - scan any modified application before code changes move into production
+          - scan all applications on a recurring basis 
+      - penetration testing
+        - attempts to exploit systems 
+        - example process
+          - perform basic reconnaissance
+          - network discovery scans 
+          - network vulnerability scans 
+          - web application vuln scans 
+          - use of exploit toools to attempt to defeat system security
+          - manual probing and attack attempts
+        - types
+          - white box penetration test
+          - gray box penetration test
+          - black box penetration test
+  
+
+| TCP Protocol         | Port Number |
+| -------------------- | ----------- |
+| FTP                  | 21          |
+| SSH                  | 22          |
+| Telnet               | 23          |
+| SMTP                 | 25          |
+| DNS                  | 53          |
+| HTTP                 | 80          |
+| POP3                 | 110         |
+| NTP                  | 123         |
+| HTTPS                | 443         |
+| Microsoft SQL Server | 1433        |
+| Oracle               | 1521        |
+| H.323                | 1720        |
+| PPTP                 | 1723        |
+| RDP                  | 3389        |
+
+
 ### conduct security control testing
 ### collect security process data 
 ### analyze and report test outputs
