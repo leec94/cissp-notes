@@ -83,9 +83,7 @@
   - [Chapter 15: Security Assessment and Testing](#chapter-15-security-assessment-and-testing)
     - [design and validate assessment and test strategies](#design-and-validate-assessment-and-test-strategies)
     - [conduct security control testing](#conduct-security-control-testing)
-    - [collect security process data](#collect-security-process-data)
-    - [analyze and report test outputs](#analyze-and-report-test-outputs)
-    - [conduct or facilitate internal third party audits](#conduct-or-facilitate-internal-third-party-audits)
+    - [key performance and risk indicators](#key-performance-and-risk-indicators)
   - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
   - [Chapter 17: Preventing and Responding to Incidents](#chapter-17-preventing-and-responding-to-incidents)
   - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
@@ -878,9 +876,11 @@ device authentication
           - manual probing and attack attempts
         - types
           - white box penetration test
+            - bypasses many reconnaissance steps, as attackers are provided detailed information about the systems they target 
           - gray box penetration test
+            - also partial knowledge tests, common when black box test results are desired byt costs or time constraints mean that some knowledge is needed to complete the testing
           - black box penetration test
-  
+            - does not provide attackers with any information prior to the attack 
 
 | TCP Protocol         | Port Number |
 | -------------------- | ----------- |
@@ -901,9 +901,33 @@ device authentication
 
 
 ### conduct security control testing
-### collect security process data 
-### analyze and report test outputs
-### conduct or facilitate internal third party audits
+
+- code review: foundation of software assessment programs 
+  - fagan inspections: most formal code review process
+      1. planning
+      2. overview
+      3. preparation
+      4. inspection
+      5. rework
+      6. follow-up
+- static testing: evaluates the security of software without running it by analyzing the source code or the compiled application 
+- dynamic testing: evaluates the security of software in a runtime environment and is often the only option for organizations deploying applications written by someone else 
+  - synthetic transactions: scripted transactions with known expected results 
+- fuzz testing: specialized dynamic testing technique that provides many different types of input to stress its limits and find previously undetected flaws 
+  - mutation (dumb) fuzzing: takes previous input values from actual operation of the software and manipulates it to create fuzzed input 
+  - generational (intelligent) fuzzing: develops data models and creates new fuzzed input based on an understanding of the types of data used by the program 
+- interface testing
+  - assess the performance of modules against the interface specifications to ensure that they will work together properly when all of the development efforts are complete
+   
+### key performance and risk indicators 
+
+- metrics to monitor 
+  - number of open vulnerabilities 
+  - time to resolve vulnerabilities 
+  - number of compromised accounts 
+  - number of software flaws detected in preproduction scanning
+  - repeat audit findings
+  - use attempts to visit known malicious sites 
 
 ## Chapter 16: Managing Security Operations
 
