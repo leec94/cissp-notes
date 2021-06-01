@@ -730,9 +730,9 @@ device authentication
 - account revocation 
 
 ## Chapter 14: Controlling and Monitoring Access
-- permissions
-- rights
-- privileges
+- permissions: allow access to objects such as files
+- rights: the ability to take actions
+- privileges: the combination of both rights and permissions
 ### Authorization Mechanisms 
 - implicit deny
 - access control matrix
@@ -930,7 +930,34 @@ device authentication
   - use attempts to visit known malicious sites 
 
 ## Chapter 16: Managing Security Operations
-
+- due care
+- due diligence
+- need to know: focuses on permissions and ability to access information
+  - granting users access only to data or resources they need to perform work tasks
+- least privilege: focuses on privileges
+  - subjects are granted only the privileges necessary to perform work tasks and no more
+  - entitlement: the amount of privileges granted to users, typically when first provisioning an account 
+  - aggregation: the amount of privileges that users collect over time 
+  - transitive trust: allows subjects in one domain to access objects in the other domain 
+- separation of duties: two or more users verify each other's actions and must work in concert to accomplish necessary work tasks 
+  - two or more people must conspire or collude against the organization, which increases the risk for these people 
+  - no single person has sufficient access to circumvent or disable security mechanisms 
+- segregation of duties: least privilege with separation of duties 
+  - ideally personnel will never be assigned to two roles with a conflict of interest 
+- two-person control
+- job rotation
+- mandatory vacations
+- monitor special privileges 
+  - privileged entities
+  - regular users 
+- data controls over life cycle
+  - marking data: labeling data
+  - handling data: transporting data
+  - storing data: requires protection against losses
+  - destroying data: needs to be destroyed in a way that is not readable
+- service level agreements (SLA): an agreement between an organization and an outside entity 
+  - MOU: memorandum of understanding
+  - ISA: interconnection security agreement 
 ## Chapter 17: Preventing and Responding to Incidents
 
 ## Chapter 18: Disaster Recovery Planning
