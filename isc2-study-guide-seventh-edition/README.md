@@ -958,6 +958,22 @@ device authentication
 - service level agreements (SLA): an agreement between an organization and an outside entity 
   - MOU: memorandum of understanding
   - ISA: interconnection security agreement 
+
+- managing resources thoughout lifecycle
+  - hardware: bar-code systems, RFID tags, sanitizing eqipment, 
+  - software licensing: license key protections, inspecting authorized software, ConfigMgr to identify unauthorized software running on systems
+  -  physical assets: fences, barricades, guards, for building contents physical protection
+     -  locate sensitive physical assets towards center of building 
+  -  virtual assets: 
+     -  examples: virtual machines, software-defined networks (SDNs), virtual storage area networks (CSANS)
+     -  components: hypervisor
+  -  cloud based assets: must ensure security controls are in place 
+     -  should finally define requirements to store and process data in the cloud
+     -  types: 
+        -  Software as a Service (Saas)
+        -  Platform as a Service (PaaS)
+        -  Infrastructure as a Service (IaaS)
+
 ## Chapter 17: Preventing and Responding to Incidents
 
 ## Chapter 18: Disaster Recovery Planning
