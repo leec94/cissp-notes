@@ -973,6 +973,10 @@ device authentication
         -  Software as a Service (Saas)
         -  Platform as a Service (PaaS)
         -  Infrastructure as a Service (IaaS)
+-  media management
+   -  tape media 
+   -  mobile devices 
+   -  media life cycle 
 
 ## Chapter 17: Preventing and Responding to Incidents
 
