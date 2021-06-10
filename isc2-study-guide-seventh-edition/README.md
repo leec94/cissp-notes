@@ -85,6 +85,7 @@
     - [conduct security control testing](#conduct-security-control-testing)
     - [key performance and risk indicators](#key-performance-and-risk-indicators)
   - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
+    - [managing configuration](#managing-configuration)
   - [Chapter 17: Preventing and Responding to Incidents](#chapter-17-preventing-and-responding-to-incidents)
   - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
   - [Chapter 19: Incidents and Ethics](#chapter-19-incidents-and-ethics)
@@ -975,9 +976,28 @@ device authentication
         -  Infrastructure as a Service (IaaS)
 -  media management
    -  tape media 
+      -  highly susceptible to loss due to corruption, so oftentimes two copies: one for onsite and one offsite secure location. 
+      -  should not be exposed to magnetic fields from elevator motors, printers, and older CRT monitors 
    -  mobile devices 
+      -  safeguards: encryption, remote wipe, screen lock, BYOB policies
+   -  USB flash drives
+      -  risks: malware infectons, data theft 
+      -  some brands exists that do hardware encryption, deny access, and self destruct 
    -  media life cycle 
+      -  MTTF: mean time to failure 
+         -  after, should be destroyed 
+      -  MTBF: mean time between failures
+         -  the time expected to lapse between failutes that a personnel will repair such as a computer server
 
+### managing configuration
+- baselining: starting point 
+  - checklists that require someone to make sure a system is deployed a certain way or with a specific configuration 
+  - automated methods reduce potential for errors than manual baselines
+  - often uses images 
+    1. admin installs operating system and all desired applications on a computer, and configures them with relevant security and other settings to meet the needs of the organization. next perform extensive testing to ensure the system operaties as expected before proceeding to the next step
+    2. next admin captures an image of the system and stores it on a server 
+    3. personnel then deploys the image to systems as needed
+    - example, government has USGCB, US gov't config baseline, and mantained and updated by NIST
 ## Chapter 17: Preventing and Responding to Incidents
 
 ## Chapter 18: Disaster Recovery Planning
