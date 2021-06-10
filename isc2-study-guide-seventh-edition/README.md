@@ -86,6 +86,8 @@
     - [key performance and risk indicators](#key-performance-and-risk-indicators)
   - [Chapter 16: Managing Security Operations](#chapter-16-managing-security-operations)
     - [managing configuration](#managing-configuration)
+    - [managing change](#managing-change)
+    - [managing patches and reducing vulnerabilities](#managing-patches-and-reducing-vulnerabilities)
   - [Chapter 17: Preventing and Responding to Incidents](#chapter-17-preventing-and-responding-to-incidents)
   - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
   - [Chapter 19: Incidents and Ethics](#chapter-19-incidents-and-ethics)
@@ -998,6 +1000,18 @@ device authentication
     2. next admin captures an image of the system and stores it on a server 
     3. personnel then deploys the image to systems as needed
     - example, government has USGCB, US gov't config baseline, and mantained and updated by NIST
+
+### managing change
+- security impact analysis
+- versioning
+- configuration documentation
+
+### managing patches and reducing vulnerabilities
+- patch management
+- vulnerability management
+- vulnerability scans
+- vulnerability assessments
+- common vulnerabilities and exposures 
 ## Chapter 17: Preventing and Responding to Incidents
 
 ## Chapter 18: Disaster Recovery Planning
