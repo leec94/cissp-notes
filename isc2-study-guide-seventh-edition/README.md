@@ -1002,16 +1002,37 @@ device authentication
     - example, government has USGCB, US gov't config baseline, and mantained and updated by NIST
 
 ### managing change
-- security impact analysis
+- security impact analysis: evaluating changes to identify any security impacts before personnel deploys changes in a production environment
+  - done by a change management process
+  - common change management processes
+    - request the change
+    - review the change 
+    - approve/reject the change
+    - schedule and implement the change 
+    - document the change
+  - emergency change: sometimes required, but still needs to document the changes 
+  - mandatory element for SARs, security assurance requirements in the ISO common criteria
 - versioning
+  - version control used in software configuration management, to manage changes that may break and allow for roll backs
 - configuration documentation
+  - identifies the current configuration of systems 
+    - who is responsible for the system
+    - the purpose of the system 
+    - lists all changes applied to the baseline
 
 ### managing patches and reducing vulnerabilities
-- patch management
-- vulnerability management
-- vulnerability scans
-- vulnerability assessments
-- common vulnerabilities and exposures 
+- patch management: ensures that systems are kept up-to-date with current patches 
+  - patch: term for any type of code written to correct a bug or vulnerability or improve the performance of existing software 
+    - other terms: updates, quick fixes, hot fixes 
+  - steps for patch management
+    - evaluate patches 
+    - test patches
+    - approve the patches 
+    - deploy the patches 
+    - verify the patches are deployed 
+- vulnerability management: regularly identifying vulnerabilities, evaluating them, and taking steps to mitigate risks associated with them 
+  - CVEs: common vulnerabilities and exposures
+    - database of vulnerabilities 
 ## Chapter 17: Preventing and Responding to Incidents
 
 ## Chapter 18: Disaster Recovery Planning
