@@ -89,6 +89,10 @@
     - [managing change](#managing-change)
     - [managing patches and reducing vulnerabilities](#managing-patches-and-reducing-vulnerabilities)
   - [Chapter 17: Preventing and Responding to Incidents](#chapter-17-preventing-and-responding-to-incidents)
+    - [managing incident respone](#managing-incident-respone)
+      - [incident response steps](#incident-response-steps)
+    - [implementing preventive measures](#implementing-preventive-measures)
+    - [logging, monitoring, and auditing](#logging-monitoring-and-auditing)
   - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
   - [Chapter 19: Incidents and Ethics](#chapter-19-incidents-and-ethics)
   - [Chapter 20: Software Development Security](#chapter-20-software-development-security)
@@ -1034,6 +1038,48 @@ device authentication
   - CVEs: common vulnerabilities and exposures
     - database of vulnerabilities 
 ## Chapter 17: Preventing and Responding to Incidents
+### managing incident respone
+- incident: any event that has a negative effect on the confidentiality, integrity, or availability of an organization's assets 
+  - types:
+    - direct attacks
+    - natural occurrences, earthquakes or hurricanes
+    - accidents, accidentally cutting cables 
+- computer security incident (or security incident): incident result of an attack, or the result of malicious or intential actions on the part of users 
+  - examples:
+    - any attempted network intrusion
+    - any attempted denial-of-service atack
+    - any detection of malicious software
+    - any unauthorized access of data
+    - any violation of security policies
+#### incident response steps
+1. detection
+2. response
+3. mitigation
+4. reporting
+5. recovery 
+6. remediation
+7. lessons learned
+
+- detection: it personnel investigates events and determines it is a security incident
+  - examples:
+    - intrusion detection and prevention systems
+    - anti-malware software 
+    - automated tools scanning audit logs looking for predefined events 
+    - irregular activity reported by end users
+- response: team assists in investigating the incident, assessing the damage, collecting evidence, reporting the invident, and recovery procedures 
+  - teams to respond
+    - CIRT: computer incident response team
+    - CSIRT: computer security incident response team 
+- mitigation: attempts to contain an incident
+- reporting: reporting an incident within the organization and to organizations and indeviduals outside the organization 
+  - organizations often have a legal requirement to report some incidents outside of the organization: country compliance laws, privacy laws, and possibly official agencies (FBI, INTERPOL, etc)
+- recovery: returning system to a fully functioning state. may include completely rebuilding a system
+- remediation
+- lessons learned
+
+
+### implementing preventive measures
+### logging, monitoring, and auditing
 
 ## Chapter 18: Disaster Recovery Planning
 
