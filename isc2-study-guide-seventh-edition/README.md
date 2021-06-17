@@ -92,7 +92,19 @@
     - [managing incident respone](#managing-incident-respone)
       - [incident response steps](#incident-response-steps)
     - [implementing preventive measures](#implementing-preventive-measures)
+      - [basic preventative measures](#basic-preventative-measures)
+      - [attacks](#attacks)
+      - [countermeasures](#countermeasures)
+      - [specific preventative measures](#specific-preventative-measures)
     - [logging, monitoring, and auditing](#logging-monitoring-and-auditing)
+      - [log types](#log-types)
+      - [protecting logs](#protecting-logs)
+      - [monitoring](#monitoring)
+      - [monitoring techniques](#monitoring-techniques)
+      - [other monitoring tools](#other-monitoring-tools)
+      - [egress monitoring](#egress-monitoring)
+      - [auditing monitoring](#auditing-monitoring)
+      - [reporting audit results](#reporting-audit-results)
   - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
   - [Chapter 19: Incidents and Ethics](#chapter-19-incidents-and-ethics)
   - [Chapter 20: Software Development Security](#chapter-20-software-development-security)
@@ -1074,13 +1086,106 @@ device authentication
 - reporting: reporting an incident within the organization and to organizations and indeviduals outside the organization 
   - organizations often have a legal requirement to report some incidents outside of the organization: country compliance laws, privacy laws, and possibly official agencies (FBI, INTERPOL, etc)
 - recovery: returning system to a fully functioning state. may include completely rebuilding a system
-- remediation
-- lessons learned
-
+- remediation: personnel look at the incident, attempt to identify what allowed it to occur, and then implement methods to prevent it from happening again. 
+  - includes root cause analysis: examining the incident to determine what allowed it to happen 
+- lessons learned: personnel examine the incident and the response to see if there are any lessons to be learned
+  - output of this stage can be fed back to the detection stage of incident management
+  - report is often created to recommend changes to procedures, addition of security controls, or even changes to policies 
 
 ### implementing preventive measures
-### logging, monitoring, and auditing
 
+#### basic preventative measures 
+- keep systems and applications up-to-date
+- remove or disable unneeded services and protocols
+- use intrusion detection and prevention systems 
+- use up-to-date anti-malware software 
+- use firewalls 
+
+#### attacks
+- denial-of-service attacks
+- SYN flood attack
+- smurf attack
+- fraggle attack
+- ping flood
+- botnets
+- ping of death
+- teardrop
+- land attacks
+- zero-day exploit
+- malicious code
+- man-in-the-middle attacks
+- war dialing
+- sabotage 
+- espionage
+
+#### countermeasures
+- intrusion detection and prevention systems
+- knowledge-based detection
+- behavior-based detection
+- IDS response
+  - passive response
+  - active response
+- Host-based IDS
+- Network-based IDS
+- IPS
+- Darknet
+
+#### specific preventative measures
+- honeypots/honeynets
+- understanding pseudo flaws
+- understanding padded cells
+- warning banners 
+- anti-malware 
+- whitelisting and blacklisting
+- firewalls
+- sandboxing
+- third-party security services 
+- penetration testing
+  
+### logging, monitoring, and auditing
+#### log types
+- security logs
+- system logs
+- application logs
+- firewall logs
+- proxy logs 
+- change logs 
+
+#### protecting logs
+
+#### monitoring
+- accountability
+- investigations
+- problem identification
+
+#### monitoring techniques 
+- SIEM 
+- audit trails
+- sampling
+- clipping levels 
+
+#### other monitoring tools
+- keystroke monitoring
+- traffic analysis and trend analysis
+
+#### egress monitoring 
+- data loss prevention
+- steganography
+- watermarking
+
+#### auditing monitoring
+- inspection audits 
+- access review audits 
+- user entitelment audits 
+- audits of privileged groups 
+- high-level administrator groups 
+- dual administrator accounts 
+- security audits and reviews 
+
+#### reporting audit results 
+- proteciting audit results
+- distributing audit results
+- using external auditors 
 ## Chapter 18: Disaster Recovery Planning
 
 ## Chapter 19: Incidents and Ethics
