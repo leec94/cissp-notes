@@ -1107,10 +1107,23 @@ device authentication
   - Distributed Denial of Service (DDoS) attack: variant of DoS, manipulating traffic or a network service so that the attacks are reflected back to the victim from other sources 
     - examples: DNS poisoning attacks and smurf attacks
 - SYN flood attack
+  - DoS attacks that disrupts the standard three-way handshake used by TCP to initiate communication sessions. the attacker sends multiple SYN packets but never completes the connection with an ACK, hundreds or thousands 
+  - prevention: 
+    - SYN cookies: small records that the system checks when receives an ACK to establish a session. 
+    - firewalls to check for SYN attacks 
+    - IDS/IPS 
+    - reduce the amount of time a server will wait for an ACK 
+- TCP reset attack: attacks spoof the source IP address in a RST packet and disconnect active sessions 
 - smurf attack
+  - DoS attack: another type of flood attack, but floods the victim with ICMP echo packets instad of with TCP SYN packets 
+    - a spoofed broadcast ping request using the IP address of the victim as the source IP address 
+    - rarely a problem today due to routers not defaulted to directing broadcast traffic, and its common to disable ICMP on firewalls, routers, and even many servers 
 - fraggle attack
-- ping flood
+  - similar to smurf attacks, but instead of ICMP, a fraggle attack uses UDP packets over UDP ports 7 and 19, and broadcasts a UDP packet using the spoofed IP address of the victim. 
+- ping flood  
+  - floods a victim with ping requests, example is when launched by zombies within a botnet as a DDoS attack, and system becomes overwhelmed responding to the ping requests
 - botnets
+  - 
 - ping of death
 - teardrop
 - land attacks
