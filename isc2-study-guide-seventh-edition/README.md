@@ -1102,7 +1102,10 @@ device authentication
 - use firewalls 
 
 #### attacks
-- denial-of-service attacks
+- denial-of-service (DoS) attacks: attacks that prevent a system from processing or responding to letitimate traffic or requests for resources and objects. 
+  - results in system crashes, system reboots, data corruption, blockage of services, and more. 
+  - Distributed Denial of Service (DDoS) attack: variant of DoS, manipulating traffic or a network service so that the attacks are reflected back to the victim from other sources 
+    - examples: DNS poisoning attacks and smurf attacks
 - SYN flood attack
 - smurf attack
 - fraggle attack
