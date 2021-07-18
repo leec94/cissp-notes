@@ -1102,7 +1102,7 @@ device authentication
 - use firewalls 
 
 #### attacks
-- denial-of-service (DoS) attacks: attacks that prevent a system from processing or responding to letitimate traffic or requests for resources and objects. 
+- denial-of-service (DoS) attacks: attacks that prevent a system from processing or responding to legitimate traffic or requests for resources and objects. 
   - results in system crashes, system reboots, data corruption, blockage of services, and more. 
   - Distributed Denial of Service (DDoS) attack: variant of DoS, manipulating traffic or a network service so that the attacks are reflected back to the victim from other sources 
     - examples: DNS poisoning attacks and smurf attacks
@@ -1122,10 +1122,12 @@ device authentication
   - similar to smurf attacks, but instead of ICMP, a fraggle attack uses UDP packets over UDP ports 7 and 19, and broadcasts a UDP packet using the spoofed IP address of the victim. 
 - ping flood  
   - floods a victim with ping requests, example is when launched by zombies within a botnet as a DDoS attack, and system becomes overwhelmed responding to the ping requests
-- botnets
-  - 
-- ping of death
-- teardrop
+- botnets: computers all controlled by a bot herder and perform attacks in coordination of sometimes over 40,000 computers 
+  - bot herder: criminal who controls all the computers in the botnet, to send spam, phishing emails, or rent the botnets out to other criminals 
+  - gameover zeus: botnet that collected credentials for financial systems and performed banking fraud, infected 1 million systems by June 2014 
+- ping of death: oversized ping packet, changed from normally 32 - 64 bytes to over 64KB, bigger than many systems can handle. can cause buffer overflow or system crash. not common today because patches and updates remove the vulnerability
+- teardrop: attacker fragments traffic in a way that a system is unable to put data packets back together by mangling packets that are split up in transit
+  - current systems are not susceptible to teardrop attacks
 - land attacks
 - zero-day exploit
 - malicious code
