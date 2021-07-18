@@ -1128,13 +1128,17 @@ device authentication
 - ping of death: oversized ping packet, changed from normally 32 - 64 bytes to over 64KB, bigger than many systems can handle. can cause buffer overflow or system crash. not common today because patches and updates remove the vulnerability
 - teardrop: attacker fragments traffic in a way that a system is unable to put data packets back together by mangling packets that are split up in transit
   - current systems are not susceptible to teardrop attacks
-- land attacks
-- zero-day exploit
-- malicious code
-- man-in-the-middle attacks
-- war dialing
-- sabotage 
-- espionage
+- land attacks: attacker sends a spoofed SYN packet to a victim using the victim's IP address as both the source and destination IP address. may cause system to reply to itself and cause it to freeze, crash, or reboot 
+- zero-day exploit: an attack on a system exploiting a vulnerability that is unknown to others. could be discovered by an attacker or vender first. once a patch is released, it is no longer a zero-day exploit, it is an attack on an unpatched system 
+- malicious code (malware): any script that performs an unwanted, unauthorized, or unknown activity on a computer system
+  - drive-by download: code downloaded and installed on a user's system without the user's knowledge 
+- man-in-the-middle attacks: a malicious user is able to gain a position logically between the two endpoints of an ongoing communications 
+  - two types: sniffer attack and proxy mechanism
+- war dialing: using a modem to search for a system that accepts inbound connection attempts 
+  - also occurs over VoIP, example WarVOX, a wardialing tool that uses VoIP 
+  - countermeasures: strong remote access security, callback security, ensuring no unauthorized modems are present within the organization, restricting what protocolscan be used, and using call logging
+- sabotage: criminal act of destruction or disruption committed against an organization by an employee
+- espionage: gathering proprietary, secret, sensitive, or confidential information about an organization, then selling the information to a competitor or other interested organization
 
 #### countermeasures
 - intrusion detection and prevention systems
