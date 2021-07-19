@@ -1141,12 +1141,29 @@ device authentication
 - espionage: gathering proprietary, secret, sensitive, or confidential information about an organization, then selling the information to a competitor or other interested organization
 
 #### countermeasures
-- intrusion detection and prevention systems
+- intrusion detection and prevention systems: 
+  - intrusion detection system (IDS): automates inspection of logs and real-time events to detect intrusion attempts and system failures 
+  - intrusion prevention system (IPS): all capabilities of IDS but also additionl steps to stop or prevent intrusion 
+    - an IDP placed in line with traffic. if not in line, then not a true IPS because it can only response to the attack after it has detected an attack in progress 
+  - resources:  
+    - NIST SP 800-94
 - knowledge-based detection
+  - IDS method of detection
+  - also signature-based detection or pattern-matching detection 
+  - matches on signatures, or known patterns to match against, like anti-malware applications
+  - effective only on known attack methods 
+  - must be regularly updated with new attack signatures 
 - behavior-based detection
+  - IDS method of detection
+  - also statistical intrusion detection, anomaly detection, and heuristics-based detection 
+  - first creates a baseline of normal activities and events on the system, then once it has baseline data then it can detect abnormal activity that may indicate a malicious intrusion or event 
+  - could detect newer attacks that have no signatures and are not detectable with the signature-based method 
+  - drawback: often raises a high number of false alarms, false alerts, false positives 
 - IDS response
-  - passive response
-  - active response
+  - passive response: logs the event and sends a notification
+    - network operations centers (NOCs): get the results of notifications 
+  - active response: changes the environment to block the activity in addition to logging and sending a notification 
+    - can modify ACLs to block traffic based on ports, protocols, and source addresses
 - Host-based IDS
 - Network-based IDS
 - IPS
