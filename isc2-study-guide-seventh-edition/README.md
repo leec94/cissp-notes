@@ -1164,17 +1164,29 @@ device authentication
     - network operations centers (NOCs): get the results of notifications 
   - active response: changes the environment to block the activity in addition to logging and sending a notification 
     - can modify ACLs to block traffic based on ports, protocols, and source addresses
-- Host-based IDS
-- Network-based IDS
-- IPS
-- Darknet
+- Host-based IDS (HIDS): monitors a single computer or host 
+  - can detect anomalies on the host system that NIDS cannot detect 
+  - many include anti-malware capabilities 
+  - disadvantages
+    - most costly to manage than NIDS 
+    - cannot detect network attacks on other systems 
+    - consumes a significant amount of system resources, degrading the host system performance
+    - logs are maintained on the system so HIDS are easier for an intuder to discover and disable
+- Network-based IDS (NIDS): monitors a network by observing network traffic patterns 
+  - application-based IDS: monitors traffic between web server and database server looking for suspicious activity 
+  - central console is often installed on a single-purpose computer that is hardened against attacks, to operate almost invisibly
+  - can discover the source of an attack by performing a Reverse Address Resolution Protocol (RARP) or reverse DNS lookips 
+- Intrusion Prevention System (IPS): special type of IDS that attempts to detect and block attacks before they reach target systems 
+  - placed in line with traffic so IPS chooses what traffic to forward and what traffic to block after analyzing it, to prevent an attack from reaching the target 
+- Darknet: a portion of allocated IP addresses within a network that are not used. legitimate traffic should not be in the darknet, so unless there is a misconfiguration on the network, traffic in the darknet is not legitimate 
 
 #### specific preventative measures
-- honeypots/honeynets
-- understanding pseudo flaws
-- understanding padded cells
-- warning banners 
-- anti-malware 
+- honeypots: individual computers created as a trap for intruders
+  - honeynet: two or more networked honeypots used together to simulate a network
+- understanding pseudo flaws: false vulnerabilities or apparent loopholes intentionally implanted in a system in attempt to tempt attackers
+- understanding padded cells: similar to honeypot but intrusion isolation is used by a padded cell. a padded cell is a simulated environment with fake data to retain an intruder's interest, but transfered by the IDS 
+- warning banners: informs users and intruders about basic security policy guidelines, similar to "no trespassing" sign
+- anti-malware: malware signature files that can detect new and modified malware  
 - whitelisting and blacklisting
 - firewalls
 - sandboxing
