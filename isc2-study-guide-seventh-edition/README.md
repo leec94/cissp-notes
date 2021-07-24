@@ -1187,11 +1187,25 @@ device authentication
 - understanding padded cells: similar to honeypot but intrusion isolation is used by a padded cell. a padded cell is a simulated environment with fake data to retain an intruder's interest, but transfered by the IDS 
 - warning banners: informs users and intruders about basic security policy guidelines, similar to "no trespassing" sign
 - anti-malware: malware signature files that can detect new and modified malware  
-- whitelisting and blacklisting
-- firewalls
-- sandboxing
-- third-party security services 
-- penetration testing
+- whitelisting: list of applications that are authorized to run on a system 
+- blacklisting: list of applications that are not authorized to run on a system 
+- firewalls: provides protection to a network by filtering traffic 
+  - implicit deny: blocks all traffic not allowed by a previous rule 
+  - second-generation firewall: adds additional filtering capabilities 
+  - circuit-level gateway firewalls: filter traffic based on the communications circuit 
+  - third generation firewall: filters traffic based on its state within a steam of traffic
+    - also stateful inspection firewall or dynamic packet filtering firewall 
+  - next-generation firewall: functions as a unified threat management (UTM) device and combines several filtering capabilities 
+- sandboxing: provides a security boundary for applications and prevents the application from interacting with other applications 
+- third-party security services: individual or organization outside the organization for services such as auditing or penetration testing
+  - Software as a Service (SaaS): provides security services via the cloud  
+- penetration testing: mimics an actual attack in an attempt to identify what techniques attackers can use to circumvent security in an application, system, network, or an organization
+  - testing methods: vulnerability scans, port scans, packet sniffinf, DoS attacks, and social-engineering techniques 
+  - techniques
+    - black box testing by zero knowledge team: zero knowledge team knows nothing about the target except for publicly available information
+    - white box testing by full knowledge team: full access to all aspects of the target environment 
+    - gray box testing by partial knowledge team: some knowledge of the target 
+  - ethical hacking: someone that understands network security and methods to breach security but does not use this information for personal gain 
   
 ### logging, monitoring, and auditing
 #### log types
