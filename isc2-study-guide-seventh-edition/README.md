@@ -1209,23 +1209,32 @@ device authentication
   
 ### logging, monitoring, and auditing
 #### log types
-- security logs
-- system logs
-- application logs
-- firewall logs
-- proxy logs 
-- change logs 
+- security logs: record access to resources such as files, folders, printers, and so on
+- system logs: record system events such as when a system starts or stops, or when services start or stop 
+- application logs: records information for specific applications
+- firewall logs: records events related to any traffic that reaches a firewall 
+- proxy logs: details such as what sites specific users visit and how much time they spend on these sites 
+- change logs: records change requests, approvals, and actual changes to a system as part of an overall change management process  
 
 #### protecting logs
-
+its important to protect logs against unauthorized access and unauthorized modification
+methods
+- store copies of logs on a central system to protect it 
+- backup log files
+- defined retention times
+- setting logs to read only, assigning permissions, and implementing physical security controls 
+- destroy logs when they're no longer needed
 #### monitoring
 - accountability
+  - monitoring ensures subjects can be held accountable for their actions and activities 
+  - users who are aware that logs are recording their IT activities are less likely to try to circumvent security controls 
 - investigations
+  - monitoring creates audit trails for the ability of investigators to reconstruct events long after they've occurred 
 - problem identification
-
+  - monitoring also offers details about recorded events that are useful for administrators; system failures, OS bugs, software errors, malicious attacks, to pinpoint the cause of the event and eliminate it as a possible attack
 #### monitoring techniques 
-- SIEM 
-- audit trails
+- Security Information Event Management (SIEM): provides real-time analysis of events occurring on systems throughout an organization 
+- audit trails: records created when information about events and occurrences is stored in one or more databases or log files. can reconstruct activity leading up to and during security events 
 - sampling
 - clipping levels 
 
