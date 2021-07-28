@@ -1235,22 +1235,34 @@ methods
 #### monitoring techniques 
 - Security Information Event Management (SIEM): provides real-time analysis of events occurring on systems throughout an organization 
 - audit trails: records created when information about events and occurrences is stored in one or more databases or log files. can reconstruct activity leading up to and during security events 
-- sampling
-- clipping levels 
+- sampling: or data extraction, the process of extracting specific elements from a large collection of data to construct a meaningful representation or summary of the whole
+  - more reliable than clipping 
+- clipping levels: nonstatistical sampling, selecting only events that exceed a clipping level, a predefined threshold for the event. the system ignores events until they reach this threshold
+  - less expensive than sampling
 
 #### other monitoring tools
-- keystroke monitoring
-- traffic analysis and trend analysis
+- keystroke monitoring: recording the keystrokes a user performs on a physical keyboard
+- traffic analysis and trend analysis: examines the flow of packets rather than the actual packet contents 
+  - can infer primary and backup communication routes, location of primary servers, sources of encrypted traffic and amount of traffic supported by the network, typical direction of traffic flow, frequency of communications, and much more
 
 #### egress monitoring 
-- data loss prevention
-- steganography
-- watermarking
+- egress monitoring: monitoring outgoing traffic to prevent data exfiltration
+  - prevention methods: data loss prevention techniques, looking for steganography attempts, and using watermarking to detect unauthorized data going out
+- data loss prevention: detects and blocks data exfiltration attempts
+  - network-based DLP: scans all outgoing data lookingfor specific data 
+  - endpoint-based DLP: scans files stored on a system as well as files sent to external devices such as printers 
+- steganography: embedding a message within a file
+- watermarking: embedding an image or pattern in paper that isnt readily perceivable 
+  - digital watermarking: secretly embedded marker in a digital file 
 
 #### auditing monitoring
+- auditing: examination of an environment to ensure compliance with regulations and to detect abnormalities, unauthorized occurrences, or crimes
+- auditors: responsible for testing and verifying that processes and procedures are in place to implement security policies or regulations, and that they are adequate to meet the organization's security requirements
 - inspection audits 
-- access review audits 
-- user entitelment audits 
+  - access review audits: ensures that object access and account management practices support the security policy. audits also verify that users do not have excessive privileges and that accounts are managed appropriately, secure processes and procedures are in place, personnel are following them, and these procedures are working as expected
+  - user entitlement audits: discovers when users have excessive privileges
+    - user entitlements: privileges granted to users
+    - principle of least privilege: ensures that users have only the privileges they need to perform their job and no more 
 - audits of privileged groups 
 - high-level administrator groups 
 - dual administrator accounts 
