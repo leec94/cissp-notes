@@ -106,6 +106,35 @@
       - [auditing monitoring](#auditing-monitoring)
       - [reporting audit results](#reporting-audit-results)
   - [Chapter 18: Disaster Recovery Planning](#chapter-18-disaster-recovery-planning)
+    - [disasters](#disasters)
+      - [natural disasters](#natural-disasters)
+      - [man-made disasters](#man-made-disasters)
+    - [system resilience and fault tolerance](#system-resilience-and-fault-tolerance)
+      - [protecting hard drives](#protecting-hard-drives)
+      - [protecting servers](#protecting-servers)
+      - [protecting power sources](#protecting-power-sources)
+      - [trusted recovery](#trusted-recovery)
+      - [quality of service](#quality-of-service)
+    - [recovery strategy](#recovery-strategy)
+      - [business unit and functional priorities](#business-unit-and-functional-priorities)
+      - [crisis management](#crisis-management)
+      - [emergency communications](#emergency-communications)
+      - [workgroup recovery](#workgroup-recovery)
+      - [alternate processing sites](#alternate-processing-sites)
+      - [mutual assistance agreements](#mutual-assistance-agreements)
+      - [database recovery](#database-recovery)
+    - [recovery plan development](#recovery-plan-development)
+      - [emergency response](#emergency-response)
+      - [personnel and communications](#personnel-and-communications)
+      - [backups and offsite storage](#backups-and-offsite-storage)
+        - [backup tape formats](#backup-tape-formats)
+        - [disk-to-disk backup](#disk-to-disk-backup)
+        - [backup best practices](#backup-best-practices)
+        - [tape rotation](#tape-rotation)
+      - [software escrow arrangements](#software-escrow-arrangements)
+      - [external communications](#external-communications)
+    - [training, awareness and documentation](#training-awareness-and-documentation)
+    - [testing and maintenance](#testing-and-maintenance)
   - [Chapter 19: Incidents and Ethics](#chapter-19-incidents-and-ethics)
   - [Chapter 20: Software Development Security](#chapter-20-software-development-security)
   - [Chapter 21: Malicious Code and Application Attacks](#chapter-21-malicious-code-and-application-attacks)
@@ -1264,16 +1293,126 @@ methods
     - user entitlements: privileges granted to users
     - principle of least privilege: ensures that users have only the privileges they need to perform their job and no more 
 - audits of privileged groups 
-- high-level administrator groups 
-- dual administrator accounts 
-- security audits and reviews 
+  - high-level administrator groups: typically granted full privileges on a system  
+  - dual administrator accounts: one account for day-to-day use, a second account with additional privileges for administrative work 
+- security audits and reviews: helps ensure that an organization has implemented security controls properly 
+  - patch management: ensures that patches are evaluated as soon as possible once they are available 
+  - vulnerability management: vulnerability scans and assessments are performed regularly in compliance with established guidelines
+  - configuration management: system audited to ensure that original configurations are not modified 
+  - change management: ensures that changes are implemented in accordance with the organization's change management policy 
 
 #### reporting audit results 
-- proteciting audit results
-- distributing audit results
-- using external auditors 
+- audit reports should have these concepts: purpose of audit, scope of audit, and results discovered or revealed by the audit 
+- protecting audit results: audit reports should be assigned a classification label and only people with sufficient privilege should have access to audit reports 
+  - sometimes separate audit report is made with limited data for other personnel 
+- distributing audit results: once report is completed, its submitted to assigned recipients. may be escalated to higher levels
+- using external auditors: provide level of objectivity, fresh outside perspective 
+  - interim report: written or verbal report given to the organization about any observed security weaknesses that demand immediate attention 
 ## Chapter 18: Disaster Recovery Planning
 
+### disasters
+#### natural disasters
+- earthquakes
+- floods 
+- storms
+- fires
+- other regional events
+
+#### man-made disasters
+- fires
+- acts of terrorism
+- bombings/explosions
+- power outages 
+- other utility and infrastructure failures
+- hardware/software failures 
+- strikes/picketing
+- theft/vandalism
+
+### system resilience and fault tolerance
+
+#### protecting hard drives 
+- RAID-0
+- RAID-1
+- RAID-5
+- RAID-10
+  
+#### protecting servers 
+
+#### protecting power sources
+
+#### trusted recovery
+- manual recovery
+- automated recovery
+- automated recovery without undue loss
+- function recovery 
+#### quality of service
+- bandwidth
+- latency
+- jitter
+- packet loss 
+- interference
+### recovery strategy 
+
+#### business unit and functional priorities
+#### crisis management
+
+#### emergency communications 
+
+#### workgroup recovery 
+
+#### alternate processing sites 
+- cold sites 
+- hot sites 
+- warm sites 
+- mobile sites 
+- service bureaus 
+- cloud computing
+
+#### mutual assistance agreements
+
+#### database recovery 
+- electronic vaulting 
+- remote journaling
+- remote mirroring
+
+### recovery plan development 
+
+#### emergency response
+
+#### personnel and communications
+- assessment
+
+#### backups and offsite storage
+- full backups 
+- incremental backups 
+- differential backups 
+
+##### backup tape formats
+- digital data storage (DDS)/digital audio tape (DAT)
+- digital linear tape (DLT) and suprt DLT
+- Linear Tape Open (LTO)
+
+##### disk-to-disk backup 
+
+##### backup best practices 
+
+##### tape rotation
+
+#### software escrow arrangements 
+
+#### external communications 
+- utilities
+- logistics and supplies
+- recovery vs. restoration 
+
+### training, awareness and documentation 
+### testing and maintenance 
+- read-through test
+- structured walk-through
+- simulation test
+- parallel test
+- full-interruption test
+- maintenance
 ## Chapter 19: Incidents and Ethics
 
 ## Chapter 20: Software Development Security
