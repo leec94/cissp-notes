@@ -1338,14 +1338,15 @@ methods
     - http://msc.fema.gov/portal 
 - storms: comes in many forms, hurrincanes, tornadoes, hailstorms, etc. 
   - important to regularly monitor weather forecasts. example, for hurricane season, National Weather Service's National Hurricane Center has www.nhc.noaa.gov during hurricane season
-- fires
-- other regional events
+- fires: can be natural or man made 
+- other regional events: your assessment team should gauge the impact of other events that may affect your business - including volcanic eruptions, monsoons, tsunamis, avalanches, mudslides and more. 
 
 #### man-made disasters
-- fires
-- acts of terrorism
-- bombings/explosions
-- power outages 
+- fires: fires may result from human action - carelessness, faulty electrical wiring, improper fire protection practices, or other reasons. 
+- acts of terrorism: 9/11 left many businesses unprepared, total damage from the attacks estimated at $40 billion 
+- bombings/explosions: from disaster planning perspective, similar to a large-scale fire, but also relies on physical security measures covered in chapter 10, physical security requirements 
+- power outages: consider provisioning alternative pwoer sources that can run business systems indefinitely 
+  - uninterruptible power supply (UPS): devices to keep systems running long enough to get emergency generators up and working 
 - other utility and infrastructure failures
 - hardware/software failures 
 - strikes/picketing
