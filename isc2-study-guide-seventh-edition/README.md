@@ -1311,10 +1311,33 @@ methods
 ## Chapter 18: Disaster Recovery Planning
 
 ### disasters
+- disaster recovery plan (DRP): if a business continuity plan fails to prevent interruption of business activities, DRP kicks in and guides the actions of emergecny-response personnel until business is restored to full operating capacity 
+- business continuity management (BCP): encompasses BCP, DRP, and incident management under a single umbrella 
 #### natural disasters
-- earthquakes
-- floods 
-- storms
+- earthquakes: far more likely to occur where fault lines exist 
+
+
+| Moderate seismic hazard | High seismic hazard | Very high seismic hazard |
+| ----------------------- | ------------------- | ------------------------ |
+| Alabama                 | American Samoa      | Alaska                   |
+| Colorado                | Arizona             | California               |
+| Connecticut             | Arkansas            | Guam                     |
+| Delaware                | Illinois            | Hawaii                   |
+| Georgia                 | Indiana             | Idaho                    |
+| Maine                   | Kentucky            | Montana                  |
+| Maryland                | Missouri            | Nevada                   |
+| Massachusetts           | New Mexico          | Oregon                   |
+| Mississippi             | South Carolina      | Puerto Rico              |
+| New Hampshire           | Tennessee           | Virgin Islands           |
+| New Jersey              | Utah                | Washington               |
+| New York                |                     | Wyoming                  |
+
+- floods: can occur almost anywhere in the world at any time of the year
+  - responsible for more that $1 billion in damage to businesses and homes each year in the US
+  - FEMA's national flood insurance program is responsible for completing a flood risk assessment for the entire US and providing this data to citizens
+    - http://msc.fema.gov/portal 
+- storms: comes in many forms, hurrincanes, tornadoes, hailstorms, etc. 
+  - important to regularly monitor weather forecasts. example, for hurricane season, National Weather Service's National Hurricane Center has www.nhc.noaa.gov during hurricane season
 - fires
 - other regional events
 
