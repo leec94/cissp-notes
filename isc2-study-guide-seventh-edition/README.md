@@ -1347,16 +1347,19 @@ methods
 - bombings/explosions: from disaster planning perspective, similar to a large-scale fire, but also relies on physical security measures covered in chapter 10, physical security requirements 
 - power outages: consider provisioning alternative pwoer sources that can run business systems indefinitely 
   - uninterruptible power supply (UPS): devices to keep systems running long enough to get emergency generators up and working 
-- other utility and infrastructure failures
-- hardware/software failures 
-- strikes/picketing
-- theft/vandalism
+- other utility and infrastructure failures: other utilities such as water, sewers, natural gas, or regional infrastructure such as highways, airports, and railroads may suffer failures that should be considered
+- hardware/software failures: DRP must provide adequate redundancy in their systems, or address how replacement parts can be quickly obtained and installed 
+- strikes/picketing: strikes, or a labor crisis, may impact the business should they occur 
+- theft/vandalism: far greater chance of theft or vandalism than a terrorist attack. insurance provides protection, but business continuity and disaster recovery plans should control the frequency as well as contingency plans to mitigate the effects theft and vandalism have on ongoing operations 
 
 ### system resilience and fault tolerance
-
+- single point of faulure 
+- fault tolerance: ability of a system to suffer a fault but continue to operate 
+- system resilience: ability of a system to maintain an acceptable level of service during an adverse event 
 #### protecting hard drives 
-- RAID-0
-- RAID-1
+- Redudant array of disks (RAID) array: two or more disks, which can continue to operate even after one of the disks fail 
+- RAID-0: striping, uses two or more disks and improves the disk sub-system performance, but does not provide fault tolerance 
+- RAID-1: mirroring, uses two disks which both hold the same data. if one disk fails, the other disk includes the data so a system can continue to operate after a single disk fails
 - RAID-5
 - RAID-10
   
