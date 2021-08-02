@@ -1358,15 +1358,26 @@ methods
 - system resilience: ability of a system to maintain an acceptable level of service during an adverse event 
 #### protecting hard drives 
 - Redudant array of disks (RAID) array: two or more disks, which can continue to operate even after one of the disks fail 
-- RAID-0: striping, uses two or more disks and improves the disk sub-system performance, but does not provide fault tolerance 
-- RAID-1: mirroring, uses two disks which both hold the same data. if one disk fails, the other disk includes the data so a system can continue to operate after a single disk fails
-- RAID-5
-- RAID-10
+  - both software and hardware-based RAID solutions are available. hardware is more efficient and reliable 
+- RAID-0: *striping*, uses two or more disks and improves the disk sub-system performance, but does not provide fault tolerance 
+- RAID-1: *mirroring*, uses two disks which both hold the same data. if one disk fails, the other disk includes the data so a system can continue to operate after a single disk fails
+- RAID-5: *striping with parity*, uses three or more disks with the equivalent of one disk holding parity information. if any single disk fails, the RAID array will continue to operate, though it will be slower 
+- RAID-10: RAID 1 + 0 or a *stripe of mirrors*, configured as two or more mirrors (RAID-1) configured in a striped (RAID-0) configuration. uses at least 4 disks but can support more as long as an even number of disks are added. will continue to operate even if multiple disks fail, as long as at least one drive in each mirror continues to function. 
   
 #### protecting servers 
+- failover cluster: two or more servers, and if one of the servers fails, another server in the cluster can take over its load in and automatic process called failover 
+- other failover mthods
+  - electronic vaulting 
+  - remote journaling
+  - remote mirroring 
 
 #### protecting power sources
-
+- uninterruptible power supply (UPS): used to add fault tolerance for power sources 
+- spike
+- surge
+- sag
+- brownout
+- transients
 #### trusted recovery
 - manual recovery
 - automated recovery
