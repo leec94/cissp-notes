@@ -1372,23 +1372,34 @@ methods
   - remote mirroring 
 
 #### protecting power sources
-- uninterruptible power supply (UPS): used to add fault tolerance for power sources 
-- spike
-- surge
-- sag
-- brownout
-- transients
+- uninterruptible power supply (UPS): used to add fault tolerance for power sources, providing battery-supplied power for a short period of time between 5 and 30 minutes
+  - basic UPS: plugged into commercial power, and critical systems are plugged into the UPS syste, 
+  - line interactive UPS: includes variable-voltage transformer that can adjust to the overvoltage and undervoltage events without draining the battery 
+- spike: quick instance of an increase in voltage 
+- surge: power stays high for a long period of time
+- sag: quick instance of a reduction of voltage 
+- brownout: power stays low for a long period of time
+- transients: power lines have noise on them 
 #### trusted recovery
-- manual recovery
-- automated recovery
-- automated recovery without undue loss
-- function recovery 
+- trusted recovery: assurance that after a failure or crash, the system is just as secure as it was before the failure or crash occurred
+  - fail-secure: defaults to a secure state in the event of a failure, blocking all access
+  - fail-open: fail in an open state, granting all access 
+    - in physical secure, *fail safe* is the term
+- two elements of recovery process
+  - failure preparation: system resilience and fault-tolerant methods, and reliable backup solution
+  - system recovery: system should be forced to reboot to a single-user, nonprivileged state. and restoration of all affected files and services actively in use on the system at the time of the failure or crash
+    - common criteria's 4 types of recovery
+      - manual recovery: at fail, does not fail in a secure state. 
+      - automated recovery: system is able to perform trusted recovery activities to restore itself against at least one type of failure
+      - automated recovery without undue loss: similar to automated recovery, but it includes mechanisms to ensure that specific objects are protected to prevent their loss
+      - function recovery: systems that support function recovery are able to automatically recover specific functions, so able to successfully complete the recovery for the functions or able to roll back the changes to return to a secure state 
 #### quality of service
-- bandwidth
-- latency
-- jitter
-- packet loss 
-- interference
+- quality of service (QoS) controls: protect the integrity of data networks under load 
+- bandwidth: the network capacity available to carry communicatins 
+- latency: the time it takes a packet to travel from source to destination
+- jitter: the variation in latency between different packets
+- packet loss: some packets may be lost between source and destination, requiring transmission
+- interference: electrical noise, faulty equipment, and other factors may corrupt the contents of packets
 ### recovery strategy 
 
 #### business unit and functional priorities
