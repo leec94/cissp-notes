@@ -1401,7 +1401,9 @@ methods
 - packet loss: some packets may be lost between source and destination, requiring transmission
 - interference: electrical noise, faulty equipment, and other factors may corrupt the contents of packets
 ### recovery strategy 
-
+- insurance can reduce the risk of financial losses 
+  - actual cash value clause: your damaged property will be compensated based on the fair market value of the items on the date of loss 
+  - paper insurance coverage: provides protection for inscribed, printed, and written documents and other printed business records. but not for paper money and printed security certificates
 #### business unit and functional priorities
 #### crisis management
 
