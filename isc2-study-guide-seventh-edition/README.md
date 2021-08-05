@@ -1405,18 +1405,29 @@ methods
   - actual cash value clause: your damaged property will be compensated based on the fair market value of the items on the date of loss 
   - paper insurance coverage: provides protection for inscribed, printed, and written documents and other printed business records. but not for paper money and printed security certificates
 #### business unit and functional priorities
+- business impact assessment (BIA) should be used to describe the potential risks that an organization faces and identifies critical business units and functions 
+- final result should be a checklist of items (or business units) in priority order, each with its own risk and cost assessment, and a corresponding set of mean time to recovery (MTR) and related recovery objectives and milestones 
 #### crisis management
-
+- train key personnel in disaster recovery procedures
+- invest in crisis training 
 #### emergency communications 
-
+- its important that the organization be able to communicate internally as well as with the outside world, to keep public updated of recovery status so people so not assume the worst
 #### workgroup recovery 
-
+- sometimes best to develop separate recovery facilities for different workgroups 
 #### alternate processing sites 
-- cold sites 
-- hot sites 
-- warm sites 
-- mobile sites 
-- service bureaus 
+- cold sites: large warehouses, empty office building, or other similar structure. with no computing facilities preinstalled and no active broadband communications links. low cost 
+  - least expensive and perhaps the most practical
+- hot sites: backup facility is maintained in a constant working order
+  - fully replicates your existing business infrastructure and is ready to take over for the primary site on short notice
+- warm sites: contains the equipment to rapidly start operations, but no copy of client's data
+  - contains the data links and preconfigured equipment necessary to begin restoring operations but no usable data or information 
+  - activation of a warm site takes at least 12 hours fromt he time a disaster is declared
+  - "no lockout policy": you are guaranteed use of an appropriate facility even during a period of high demand 
+- mobile sites: alternatives to traditional recovery sites
+  - self-contained trailors or other easily relocated units 
+  - usually configured as cold sites or warm sites, depending on the disaster recovery plan they are designed to support 
+- service bureaus: a company that leases computer time. service bureaus own large server farms and often fields of workstations. any organization can purchase a contract from a service bureau to consume some portion of their processing capacity. 
+  - access can be on-site or remote 
 - cloud computing
 
 #### mutual assistance agreements
