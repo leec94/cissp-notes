@@ -1428,20 +1428,29 @@ methods
   - usually configured as cold sites or warm sites, depending on the disaster recovery plan they are designed to support 
 - service bureaus: a company that leases computer time. service bureaus own large server farms and often fields of workstations. any organization can purchase a contract from a service bureau to consume some portion of their processing capacity. 
   - access can be on-site or remote 
-- cloud computing
+- cloud computing: becoming a popular disaster recovery option, using IaaS option as a backup service provider
 
 #### mutual assistance agreements
-
+- mututal assistance aggrements (MAAs): also reciprocal agreements, are popular in disaster recovery literature but rarely implemented in real-world practice. two organizations pledge to assist each other in the event of a disaster by sharing computing facilities or other technological resources 
+  - but difficult to enforce
+  - cooperation works best if close proximity but then may be vulnerable to same sites
+  - confidentiality and legal concerns 
 #### database recovery 
-- electronic vaulting 
-- remote journaling
-- remote mirroring
+- electronic vaulting: database backups are moved to a remote site using bulk transfers 
+  - entire database backp files are transferred
+- remote journaling: data transfers occur in a more frequent basis, once every hour or sometimes more frequently in a bulk transfer mode 
+  - transfers copies of the database transaction logs containing the transactions that occurred since the previous bulk transfer
+- remote mirroring: live database server is maintained at the backup site. the remote server receives copies copies of the database modifications at the same time they are pplied to the production server at the primary site 
+  - most advanced database backup solution 
+  - most popular for hot sites 
 
 ### recovery plan development 
-
+- following sections include items to include in your disaster recovery plan. multiple types of plans should be maintained for different audiences 
 #### emergency response
-
+- disaster recovery plan should contain simple yet comprehensive instructions for essential personnel to follow immediately upon recognizing that a disaster is in progress or imminenet 
+- emergency response plans: in the form of checklists for responders 
 #### personnel and communications
+- disaster recovery plan should also contain list of personnel to contact in the event of a disaster 
 - assessment
 
 #### backups and offsite storage
