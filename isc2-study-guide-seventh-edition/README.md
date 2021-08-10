@@ -1452,11 +1452,16 @@ methods
 #### personnel and communications
 - disaster recovery plan should also contain list of personnel to contact in the event of a disaster 
 - assessment
+  - first responders should perform an assessment to triage activity and get the disaster response underway 
 
 #### backups and offsite storage
-- full backups 
-- incremental backups 
-- differential backups 
+- full backups: stores a complete copy of the data contained on the protected device. once a full backup is complete, the archive bit on every file is reset, turned off, or set to 0
+- incremental backups: stores only those files that have been modified since the time of the most recent full or incremental backup.
+  - only files that have the archive bit turned on, enabled, or set to 1 are duplicated 
+  - once an incremendal backup is complete, the archive bit on all duplicated files is reset, turned off, or set to 0 
+- differential backups: stores all files that have been modified since the time of the most recent full backup 
+  - only files that have the archive bit turned on, enabled, or set to 1 are duplicated 
+  - however, the differential backup does not change the archive bit
 
 ##### backup tape formats
 - digital data storage (DDS)/digital audio tape (DAT)
@@ -1464,13 +1469,19 @@ methods
 - Linear Tape Open (LTO)
 
 ##### disk-to-disk backup 
-
+- tape cant keep up with data volumne requirements so disk-to-disk (D2D) backup solutions are also used now 
 ##### backup best practices 
-
+- backups should be scheduled during low peak periods 
+- you need to build sufficient capacity to handle a reasonable amount of growth over a reasonable amount of time into your backup solution 
+- you need to deploy some form of real-time continuous backup such as RAID, clustering, or server mirroring 
 ##### tape rotation
-
+- tape rotation strategies
+  - Grandfather-Father-Son (GFS) 
+  - Tower of Hanoi 
+  - Six Cartridge Weekly Backup 
+- hierarchical storage management (HSM) system: an automated robotic backup jukebox consisting of 32 or 64 optical or tape backup devices 
 #### software escrow arrangements 
-
+- software escrow arrangement: a unique tool used to protect a company against the failure of a software developer to provide adequate support for its products or against the possibility that the developer will go out of business and no technical support will be abailable for the product
 #### external communications 
 - utilities
 - logistics and supplies
