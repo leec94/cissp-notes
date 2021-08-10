@@ -133,9 +133,29 @@
         - [tape rotation](#tape-rotation)
       - [software escrow arrangements](#software-escrow-arrangements)
       - [external communications](#external-communications)
+      - [recovery vs. restoration](#recovery-vs-restoration)
     - [training, awareness and documentation](#training-awareness-and-documentation)
     - [testing and maintenance](#testing-and-maintenance)
+    - [maintenance](#maintenance)
   - [Chapter 19: Incidents and Ethics](#chapter-19-incidents-and-ethics)
+    - [investigations](#investigations)
+      - [investigation types](#investigation-types)
+      - [electronic discovery](#electronic-discovery)
+      - [evidence](#evidence)
+    - [investigation process](#investigation-process)
+      - [calling in law enforcement](#calling-in-law-enforcement)
+      - [conducting the investigation](#conducting-the-investigation)
+    - [major categories of computer crime](#major-categories-of-computer-crime)
+    - [incident handling](#incident-handling)
+      - [common types of incidents](#common-types-of-incidents)
+      - [response teams](#response-teams)
+        - [incident response process](#incident-response-process)
+        - [interviewing individuals](#interviewing-individuals)
+      - [incident data integrity and retention](#incident-data-integrity-and-retention)
+      - [reporting and documenting incidents](#reporting-and-documenting-incidents)
+    - [ethics](#ethics)
+      - [(ISC)2 Code of Ethics](#isc2-code-of-ethics)
+      - [ethics and the internet](#ethics-and-the-internet)
   - [Chapter 20: Software Development Security](#chapter-20-software-development-security)
   - [Chapter 21: Malicious Code and Application Attacks](#chapter-21-malicious-code-and-application-attacks)
 
@@ -1483,19 +1503,93 @@ methods
 #### software escrow arrangements 
 - software escrow arrangement: a unique tool used to protect a company against the failure of a software developer to provide adequate support for its products or against the possibility that the developer will go out of business and no technical support will be abailable for the product
 #### external communications 
-- utilities
-- logistics and supplies
-- recovery vs. restoration 
+- your disaster recovery plan should include appropriate channels of communication to the outside world to meet operational needs 
+- examples of entities to continue contact with 
+  - utilities
+  - logistics and supplies
 
+#### recovery vs. restoration 
+- disaster recovery: implements and maintains operations at the recovery site
+- disaster restoration: may restore the primary site to operational capacity 
 ### training, awareness and documentation 
+- its essential to provide training to all personnel who will be involved in the disaster recovery effort 
+- should also be fully documented 
 ### testing and maintenance 
-- read-through test
-- structured walk-through
-- simulation test
-- parallel test
-- full-interruption test
-- maintenance
+- every disaster recovery plan must be tested on a periodic basis to ensure that the plan's provisions are viable and meets an organization's changing needs 
+- types
+  - read-through test: you distribute copies of disaster recovery plans to the members of the disaster recovery team to review
+  - structured walk-through: also table-top exercise, members of the disaster recovery team gather in a large conference room and role-play a disaster scenario
+  - simulation test: disaster recovery team members are presented with a scenario and asked to develop an appropriate response 
+  - parallel test: involves relocating personnel to the alternate recovery site and implementing site activation procedures, and the employees relocated to the site perform their disaster recovery responsibilities just as they would for an actual disaster
+  - full-interruption test: involves actually shutting down operations at the primary site and shifting them to the recovery site 
+
+### maintenance
+- as your organization's needs change, you must adapt the disaster recovery plan to meet those changed needs to follow suit
+- can apply formal change management processes 
 ## Chapter 19: Incidents and Ethics
+### investigations
+#### investigation types
+- operational investigations
+- criminal investigations
+- civil investigations
+- regulatory investigations 
+
+#### electronic discovery 
+
+#### evidence
+- admissible evidence
+- types of evidence
+  - real evidence
+  - documentary evidence
+    - best evidence rule
+    - parol evidence rule
+  - testimonial evidence
+- evidence collection and forensic procedure
+  - media analysis
+  - network analysis
+  - software analysis
+  - hardware/embedded device analysis
+
+### investigation process 
+#### calling in law enforcement 
+#### conducting the investigation 
+
+### major categories of computer crime
+- military and intelligence attacks
+- business attacks
+- financial attacks
+- terrorist attacks 
+- grudge attacks
+- thrill attacks
+
+### incident handling 
+#### common types of incidents
+- scanning
+- compromises
+- malicious code
+- denial of service 
+
+#### response teams 
+##### incident response process 
+- step 1: detection and identification
+- step 2: response and reporting 
+  - isolation and containment
+  - gathering evidence
+  - analysis and reporting
+- step 3: recovery and remediation
+  - restoration
+  - lessons learned
+
+##### interviewing individuals 
+#### incident data integrity and retention
+#### reporting and documenting incidents 
+
+### ethics 
+#### (ISC)2 Code of Ethics 
+- Code of Ethics Preamble
+- Code of Ethics Canons
+
+#### ethics and the internet
 
 ## Chapter 20: Software Development Security
 
