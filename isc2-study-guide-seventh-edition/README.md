@@ -1529,12 +1529,19 @@ methods
 ## Chapter 19: Incidents and Ethics
 ### investigations
 #### investigation types
-- operational investigations
-- criminal investigations
-- civil investigations
-- regulatory investigations 
+- operational investigations: examines issues related to the organization's computing infrastructure and have the primary goal of resolving operational issues
+  - loosest standards for collection of information 
+  - root cause analysis: used to identify the reason that an operational issue occured, and highlights issues that require remediaion to prevent similar incidents in the future 
+- criminal investigations: investigate the alleged violation of criminal law 
+  - beyond a reasonable doubt: standard of evidence that must be met for criminal cases 
+- civil investigations: involving internal employees and outside consultants, to present a case in civil court resolving a dispute between two parties
+  - not as rigorous as those used in criminal investigations 
+  - preponderance of the evidence: standard of proof, requires that evidence demonstrate that the outcome of the case is more likely than not 
+    - less than "beyond a reasonable doubt"
+- regulatory investigations: used when a government agency believes that an individual or corporation has violated administrative law 
 
 #### electronic discovery 
+- discovery process: used to preserve evidence related to the case and share information with their adversary in the proceedings 
 
 #### evidence
 - admissible evidence
