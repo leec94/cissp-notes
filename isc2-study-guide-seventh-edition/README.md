@@ -141,7 +141,7 @@
     - [investigations](#investigations)
       - [investigation types](#investigation-types)
       - [electronic discovery](#electronic-discovery)
-      - [evidence](#evidence)
+    - [evidence](#evidence)
     - [investigation process](#investigation-process)
       - [calling in law enforcement](#calling-in-law-enforcement)
       - [conducting the investigation](#conducting-the-investigation)
@@ -1542,9 +1542,22 @@ methods
 
 #### electronic discovery 
 - discovery process: used to preserve evidence related to the case and share information with their adversary in the proceedings 
+- Electronic Discovery Reference Model process for conducting eDiscovery:
+  1. Information Governance: ensures that information is well organized for future eDiscovery efforts
+  2. Identification: locates the information that may be responsive to a discovery request when the organization believes that litigation is likely
+  3. Preservation: ensures that potentially discoverable information is protected against alteration or deletion
+  4. Collection: gathers the responsive information centrally for use in the eDiscovery process
+  5. Processing: screens the collected information to perform a "rough cut" of irrelevant information, reducing the amount of information requiring detailed screening  
+  6. Review: examines the remaining information to determine what information is reqponsive to the request and removing any information protected by attorney-client privilege
+  7. Anaysis: performs deeper inspection of the content and context of remaining information
+  8. Production: places the information in a format that may be shared with others
+  9. Presentation: displays the infromation to witnesses, the court and other parties
 
-#### evidence
-- admissible evidence
+### evidence
+- admissible evidence: the requirements for evidence to be introduced into a court of law, must meet all three prior to being discussed in open court
+  1. the evidence must be relevant to determining a fact
+  2. the fact that the evidence seeks to determine must be material (or related) to the case
+  3. the evidence must be competent, must have been obtained legally 
 - types of evidence
   - real evidence
   - documentary evidence
