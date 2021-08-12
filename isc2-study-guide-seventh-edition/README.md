@@ -1559,16 +1559,34 @@ methods
   2. the fact that the evidence seeks to determine must be material (or related) to the case
   3. the evidence must be competent, must have been obtained legally 
 - types of evidence
-  - real evidence
-  - documentary evidence
-    - best evidence rule
-    - parol evidence rule
-  - testimonial evidence
+  - real evidence: things that may actually be brought into a court of law 
+    - examples: murder weapon, clothing, or other physical objects 
+    - conclusive evidence: incontrovertible 
+  - documentary evidence: any written items brought into court to prove a fact at hand 
+    - best evidence rule: when a document is used as evidence in a court proceeding, the original document must be used 
+      - secondary evidence: copies or descriptions of original evidence, not accepted as best evidence
+    - parol evidence rule: when an agreement between parties is put into written form, the written document is assumed to contain all the terms of the agreement and no verbal agreement may modify the written agreement
+- chain of evidence: chain of custody: documents everyone who handles evidence, including the police that originally collected it, and the comprehensive logs and labeling noting who had access to the evidence at specific times and the reasons why they had access
+- testimonial evidence: evidence consisting of the testimony of a witness
+  - direct evidence: oral testimony that proves or disproves a claim based on their own direct observation 
+  - hearsay evidence: witness cannot testify as to what someone else told them outside court 
 - evidence collection and forensic procedure
-  - media analysis
-  - network analysis
-  - software analysis
-  - hardware/embedded device analysis
+  - International Organization on Computer Evidence (IOCE) six principles to guide media analysis for forensics:
+    1. When dealing with digital evidence, all of the general forensic and procedural principles must be applied
+    2. upon seizing digital evidence, actions taken should not change that evidence
+    3. when it is necessary for a person to access original digital evidence, that person should be trained for the purpose
+    4. all activity relating to the seizure, access, storage, or transfer of digital evidence must be fully documented, preserved, and available for review
+    5. an individual is responsible for all actions taken with respect to digital evidence while the digital evidence is in their posession
+    6. any agency responsible for seizing, accessing, storing, or transferring digital evidence is responsible for compliance with these principles 
+  - media analysis: identification and extraction of information from storage media 
+  - network analysis: analysis of activity that took place over the network during a security incident 
+    - intrusion detection and prevention system logs
+    - network flow data captured by a flow monitoring system
+    - packet captures deliberately collected during an incident
+    - logs from firewalls and other network sercurity devices
+  - software analysis: activity that takes places within a running application
+  - hardware/embedded device analysis: contents of hardware and embedded devices 
+
 
 ### investigation process 
 #### calling in law enforcement 
