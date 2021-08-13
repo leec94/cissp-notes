@@ -143,7 +143,6 @@
       - [electronic discovery](#electronic-discovery)
     - [evidence](#evidence)
     - [investigation process](#investigation-process)
-      - [calling in law enforcement](#calling-in-law-enforcement)
       - [conducting the investigation](#conducting-the-investigation)
     - [major categories of computer crime](#major-categories-of-computer-crime)
     - [incident handling](#incident-handling)
@@ -1585,20 +1584,35 @@ methods
     - packet captures deliberately collected during an incident
     - logs from firewalls and other network sercurity devices
   - software analysis: activity that takes places within a running application
-  - hardware/embedded device analysis: contents of hardware and embedded devices 
-
+  - hardware/embedded device analysis: contents of hardware and embedded devices are often also reviewed by forensic analysts 
+    - examples: personal computers, smartphones, tablet computers, embedded computers in cars, security systems, and other devices
 
 ### investigation process 
-#### calling in law enforcement 
+- an investigation must follow *rules of engagement*, which define and guide the actions that investigators are authorized to take at different phases of the investigation
+- rules of engagement
+  - calling in law enforcement: decisions to call in law enforcement may be helpful for experts aid the investigation, but also separate legal requirements may then apply and the investigation may become public
+  - interrograting suspects
+  - collecting evidence
+  - distrupting system access
 #### conducting the investigation 
-
+- key principles of conducting the investigation
+  - never conduct your investigation on an actual compromised system, take it offline, and investigate the backup
+  - never attempt to "hack back" and avenge a crime
+  - if in doubt, call in expert assistance
+  - best to begin investigation using informal interviewing techniques 
 ### major categories of computer crime
-- military and intelligence attacks
-- business attacks
-- financial attacks
-- terrorist attacks 
-- grudge attacks
-- thrill attacks
+- attacker: any individual who violates one or more of your security policies 
+- types of computer crimes
+  - military and intelligence attacks: launched to obtain secret and restricted information from law enforcement or military and technological research sources 
+    - advanced persistent threat (APTs): attackers that are well funded and with advanced technical skills that act on behalf of a nation-state, organized crime, terrorist group, etc against a very focused target 
+  - business attacks: focus on illegally obtaining an organization's confidential information 
+    - industrial espionage: gathering of a competitors confidential information 
+  - financial attacks: carried out to unlawfully obtain money or services 
+    - phone phreaking: attackers breaking into telephone company computers and placing free calls 
+  - terrorist attacks: purpose is to disrupt normal life and instill fear 
+  - grudge attacks: attacks carried out to damage an organization or a person 
+  - thrill attacks: attacks launched only for the fun of it 
+    - script kiddies: attackers that run only other people's programs, or scripts, to launch an attack
 
 ### incident handling 
 #### common types of incidents
