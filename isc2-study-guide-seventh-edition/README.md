@@ -1613,15 +1613,29 @@ methods
   - grudge attacks: attacks carried out to damage an organization or a person 
   - thrill attacks: attacks launched only for the fun of it 
     - script kiddies: attackers that run only other people's programs, or scripts, to launch an attack
+    - hacktivism: hacker activists that combine political motivations with the thrill of hacking
 
 ### incident handling 
+- event: any occurence that takes place during a certain period of time 
+- incident: an event that has a negative outcome affecting the confidentiality, integrity, or availability of an organization's data 
+- when an incident has occurred
+  - if impacts government or federal interest computers or certain financial transactions, incidents should be reported regardless of amount of damage 
+  - if involves certain type of personally identifiable data, US laws data that individuals affected must be notified 
 #### common types of incidents
-- scanning
-- compromises
-- malicious code
-- denial of service 
+- scanning: reconnaissance attacks that precede another, more serious attack
+  - scanning may not be illegal depending on local laws, but it can indicate that illegal activity will follow 
+- compromise: any unauthorized access to the system or information the system stores
+- malicious code: detection is by end user reporting behavior caused by malicious code or an automated alert reporting that scanned code containing a malicious component has been found
+- denial of service (DoS): to detect, a user or automated tool reports that one or two more services are unavailable 
 
 #### response teams 
+- computer incident reponse teams (CIRTs) or computer security incident response teams (CSIRTs)
+  - responsibilities
+    - determine the amount and scope of damage caused by the incident
+    - determine whether any confidential information was compromised during the incident
+    - implement any necessary recovery procedures to restore security and recover from incident-related damages
+    - supervise the implementation of any additional security measures necessary to improve security and prevent recurrence of the incident 
+- postmordem review: review of the incident within a week of its occurence to ensure that key players in the incident share their knowledge and develop best practices to assist in future incident response efforts
 ##### incident response process 
 - step 1: detection and identification
 - step 2: response and reporting 
