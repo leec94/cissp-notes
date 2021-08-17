@@ -1638,18 +1638,35 @@ methods
 - postmordem review: review of the incident within a week of its occurence to ensure that key players in the incident share their knowledge and develop best practices to assist in future incident response efforts
 ##### incident response process 
 - step 1: detection and identification
+  - two parts: 
+    - detecting security incidents
+    - notifying appropriate personnel 
+  - make sure to leave the system in a running state 
 - step 2: response and reporting 
-  - isolation and containment
-  - gathering evidence
-  - analysis and reporting
+  - isolation and containment: first action should be to limit exposure of your org and prevent further damage 
+  - gathering evidence: confiscate equipment, software or data to perform a proper investigation 
+      - ways to confiscate
+      - voluntarily surrender
+      - subpoena: or court order, compels an individual to surrender evidence and have the subpoena served by law enforcement
+      - search warrent
+  - analysis and reporting: analyze evidence to determine the most likely course of events leading up to the incident 
 - step 3: recovery and remediation
-  - restoration
-  - lessons learned
+  - restoration: remediate any damage that may have occurred to the organization, and limit damage incurred by similar incidents in the future 
+    - rebuilt compromised systems
+    - restore backup data 
+    - supplement existing security controls
+  - lessons learned: incident response team reviews their actions during the incident to look for potential areas of improvement, in their actions and in the incident response process
 
 ##### interviewing individuals 
-#### incident data integrity and retention
-#### reporting and documenting incidents 
+- during investigation, may gather information with interviews and interrogations 
+- always consult and attorney before conducting any interviews 
 
+#### incident data integrity and retention
+- make sure you can prove you maintained the integrity for all evidence 
+- remote logging may help against attackers sanitizing and tampering with logs 
+#### reporting and documenting incidents 
+- understand laws and regulations that require types of incidents that need to be reported 
+- build relationship with legal counsul and law enforcement, for when its time to report an incident 
 ### ethics 
 #### (ISC)2 Code of Ethics 
 - Code of Ethics Preamble
