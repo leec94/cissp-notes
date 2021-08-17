@@ -1668,12 +1668,36 @@ methods
 - understand laws and regulations that require types of incidents that need to be reported 
 - build relationship with legal counsul and law enforcement, for when its time to report an incident 
 ### ethics 
+- ethics: the rules that govern personal conduct
 #### (ISC)2 Code of Ethics 
 - Code of Ethics Preamble
+  - safety and welfare of society and the common good, duty to our principals, and to each other requires that we adhere, and be seen to adhere, to the highest ethical standards of behavior
+  - therefore, strict adherence to this code is a condition of certification
 - Code of Ethics Canons
+  - protect society, the common good, necessary public trust and confidence, and the infrastructure
+  - act honorably, honestly, justly, responsibly, and legally
+  - provide diligent and competent service to principals 
+  - advance and protect the profession 
 
 #### ethics and the internet
-
+- Internet Advisory Board (IAB) policy concerning proper use of the internet
+  - list of unethical practices 
+    - seeks to fain unauthorized access to the resources of the Internet 
+    - disrupts the intended use of the Internet
+    - Wastes resources through such actions
+    - destroys the integrity of computer-based information
+    - compromises the privacy of users
+- Computer Ethics Institute Ten Commandments of Computer Ethics
+  1. Thou shalt not use a computer to harm people
+  2. Thou shalt not interfere with other people's computer work
+  3. Thou shalt not snoop around in other people's computer files
+  4. Thou shalt not use a computer to steal
+  5. Thou shalt not use a computer to bear false witness
+  6. Thou shalt not copy proprietary software for which you have not paid
+  7. Thou shalt not use other people's computer resources without authorization or proper compensation
+  8. Thou shalt not appropriate other people's intellectual output
+  9. Thou shalt think about the social consequences of the program you are writing or the system you are designing
+  10. Thou shalt always use a computer in ways that ensure consideration and repect for your fellow humans
 ## Chapter 20: Software Development Security
 
 ## Chapter 21: Malicious Code and Application Attacks
