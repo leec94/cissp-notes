@@ -161,6 +161,7 @@
         - [Programming languages](#programming-languages)
         - [Object-Oriented Programming](#object-oriented-programming)
         - [Assurance](#assurance)
+        - [Avoiding and Mitigating System Failure](#avoiding-and-mitigating-system-failure)
       - [Systems Development Life Cycle](#systems-development-life-cycle)
       - [Life Cycle Models](#life-cycle-models)
       - [Gantt Charts and PERT](#gantt-charts-and-pert)
@@ -183,7 +184,6 @@
       - [Neural Networks](#neural-networks)
       - [Decision Support Systems](#decision-support-systems)
       - [Security Applications](#security-applications)
-        - [avoiding and mitigating system failure](#avoiding-and-mitigating-system-failure)
   - [Chapter 21: Malicious Code and Application Attacks](#chapter-21-malicious-code-and-application-attacks)
 
 ## Chapter 1: Security Governance
@@ -1730,6 +1730,16 @@ methods
 ### Introducing Systems Development Controls
 #### Software Development
 ##### Programming languages
+- machine language: binary
+- assembly language: assembly code
+- compiled languages: like C, Java, a compiler converts the higher-level language to an executable file designed for use on a specific operating system 
+- interpreted languages: like Javascript, end users use an interpreter to execute the source code on their systems 
+- programming language generations
+  - First-generation languages (1GL): all machine languages
+  - Second-generation languages (2GL): all assembly languages 
+  - Third-generation languages (3GL): all compiled languages 
+  - Fourth-generation languages (4GL): approximates natural languages and includes SQL
+  - Fifth-generation languages (5GL): allows programmers to create code using visual interfaces 
 ##### Object-Oriented Programming
 - message
 - method
@@ -1747,6 +1757,7 @@ methods
 - fail-secure 
 - fail-open
 
+##### Avoiding and Mitigating System Failure
 #### Systems Development Life Cycle
 - conceptual definition
 - functional requirements determination
@@ -1828,5 +1839,5 @@ methods
 #### Neural Networks
 #### Decision Support Systems 
 #### Security Applications
-##### avoiding and mitigating system failure
+
 ## Chapter 21: Malicious Code and Application Attacks
