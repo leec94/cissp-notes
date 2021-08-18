@@ -1741,23 +1741,28 @@ methods
   - Fourth-generation languages (4GL): approximates natural languages and includes SQL
   - Fifth-generation languages (5GL): allows programmers to create code using visual interfaces 
 ##### Object-Oriented Programming
-- message
-- method
-- behavior
-- class
-- instance
-- inheritance
-- delegation
-- polymorphism
-- cohesion
-- coupling
+- object-oriented programming (OOP): focuses on the objects involved in an interaction 
+- message: a communication to or input for an object
+- method: internal code that defines the actions an object performs in reponse to a message
+- behavior: the results exhibited by an object
+- class: a collection of the common methods from a set of objects that defines the behavior of those objects
+- instance: examples of classes that contain their methods
+- inheritance: methods from a class (parent) are inherited by another subclass (child)
+- delegation: forwarding of a request by an object to another object or delegate
+- polymorphism: characteristic of an object that allows it to respond with different behaviors to the same message because of changes in external conditions 
+- cohesion: the strength of the relationship between the purposes of the methods within the same class
+- coupling: the level of interaction between objects 
 
 ##### Assurance 
+- assurance procedures: ensures that security control mechanisms built into a new application properly implement the security policy throughout the life cycle of the system 
+  - also called life cycle assurance, by TCSEC
+
+##### Avoiding and Mitigating System Failure
 - input validation 
 - fail-secure 
 - fail-open
 
-##### Avoiding and Mitigating System Failure
+
 #### Systems Development Life Cycle
 - conceptual definition
 - functional requirements determination
