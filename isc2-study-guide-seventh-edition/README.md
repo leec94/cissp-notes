@@ -156,6 +156,34 @@
       - [(ISC)2 Code of Ethics](#isc2-code-of-ethics)
       - [ethics and the internet](#ethics-and-the-internet)
   - [Chapter 20: Software Development Security](#chapter-20-software-development-security)
+    - [Introducing Systems Development Controls](#introducing-systems-development-controls)
+      - [Software Development](#software-development)
+        - [Programming languages](#programming-languages)
+        - [Object-Oriented Programming](#object-oriented-programming)
+        - [Assurance](#assurance)
+      - [Systems Development Life Cycle](#systems-development-life-cycle)
+      - [Life Cycle Models](#life-cycle-models)
+      - [Gantt Charts and PERT](#gantt-charts-and-pert)
+      - [Change and Configuration Management](#change-and-configuration-management)
+      - [The DevOps Approach](#the-devops-approach)
+      - [Application Programming Interfaces](#application-programming-interfaces)
+      - [Software Testing](#software-testing)
+      - [Code Repositories](#code-repositories)
+      - [Service-Level Agreements (SLAs)](#service-level-agreements-slas)
+      - [Software Acquisition](#software-acquisition)
+    - [Establishing Databases and Data Warehousing](#establishing-databases-and-data-warehousing)
+      - [Database Management System Architecture](#database-management-system-architecture)
+      - [Security for Multilevel Databases](#security-for-multilevel-databases)
+      - [Open Database Connectivity (ODBC)](#open-database-connectivity-odbc)
+    - [Storing Data and Information](#storing-data-and-information)
+      - [Types of storage](#types-of-storage)
+      - [Storage Threats](#storage-threats)
+    - [Understanding Knowledge-Based Systems](#understanding-knowledge-based-systems)
+      - [Expert Systems](#expert-systems)
+      - [Neural Networks](#neural-networks)
+      - [Decision Support Systems](#decision-support-systems)
+      - [Security Applications](#security-applications)
+        - [avoiding and mitigating system failure](#avoiding-and-mitigating-system-failure)
   - [Chapter 21: Malicious Code and Application Attacks](#chapter-21-malicious-code-and-application-attacks)
 
 ## Chapter 1: Security Governance
@@ -1699,5 +1727,106 @@ methods
   9. Thou shalt think about the social consequences of the program you are writing or the system you are designing
   10. Thou shalt always use a computer in ways that ensure consideration and repect for your fellow humans
 ## Chapter 20: Software Development Security
+### Introducing Systems Development Controls
+#### Software Development
+##### Programming languages
+##### Object-Oriented Programming
+- message
+- method
+- behavior
+- class
+- instance
+- inheritance
+- delegation
+- polymorphism
+- cohesion
+- coupling
 
+##### Assurance 
+- input validation 
+- fail-secure 
+- fail-open
+
+#### Systems Development Life Cycle
+- conceptual definition
+- functional requirements determination
+- control specifications development
+- design review
+- code review walk-through
+- system test review, user acceptance testing 
+- maintenance and change management 
+
+#### Life Cycle Models
+- waterfall model 
+- spiral model
+- agile software development
+- software capability maturity model
+- IDEAL model 
+
+#### Gantt Charts and PERT 
+#### Change and Configuration Management 
+- request control
+- change control
+- release control
+- configuration identification
+- configuration control 
+- configuration status accounting 
+- configuration audit 
+#### The DevOps Approach 
+#### Application Programming Interfaces
+#### Software Testing 
+- White-box testing
+- Black-box testing 
+- Gray-box testing 
+- Static testing
+- Dynamic testing 
+
+#### Code Repositories 
+#### Service-Level Agreements (SLAs)
+
+#### Software Acquisition 
+
+### Establishing Databases and Data Warehousing 
+#### Database Management System Architecture 
+- hierarchical and distributed databases 
+- relational databases 
+  - candidate keys
+  - primary keys
+  - foreign keys
+- database transactions 
+  - atomicity
+  - consistency 
+  - isolation 
+  - durability 
+
+#### Security for Multilevel Databases
+- concurrency 
+- semantic integrity 
+- content-dependent access control
+- context-dependent access control 
+- database partitioning 
+- polyinstantiation 
+- noise and perturbation
+
+#### Open Database Connectivity (ODBC)
+- Open Database Connectivity (ODBC)
+
+### Storing Data and Information 
+#### Types of storage 
+- primary memory
+- secondary storage 
+- virtual memory
+- virtual storage 
+- random access storage
+- sequential access storage
+- volatile storage
+- nonvolatile storage
+
+#### Storage Threats 
+### Understanding Knowledge-Based Systems
+#### Expert Systems 
+#### Neural Networks
+#### Decision Support Systems 
+#### Security Applications
+##### avoiding and mitigating system failure
 ## Chapter 21: Malicious Code and Application Attacks
