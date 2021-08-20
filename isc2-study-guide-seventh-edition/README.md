@@ -1758,19 +1758,35 @@ methods
   - also called life cycle assurance, by TCSEC
 
 ##### Avoiding and Mitigating System Failure
-- input validation 
-- fail-secure 
-- fail-open
+- input validation: verified that the values provided by a user match with the programmer's expectation beflow allowing further processing. testing inputs to see if the program crashes or allows user to gain control of the system  
+  - escaping input: removing risky character sequences and replacing them with safe values 
+- fail-secure: at failure, puts the system in a high level of security until an administrator can diagnose the problem and restore the system to normal operations
+- fail-open: allows users to bypass failed security controls, erring on the side of permissiveness
 
-
+![security functionality usability triangle](chap-20\security-functionality-usability.jpg)
 #### Systems Development Life Cycle
 - conceptual definition
-- functional requirements determination
-- control specifications development
+  - concept definition of systems development: creating the basic concept statement for a system
+  - intro that enables an outsider to gain a top-level understanding of the project in a short period of time
+- functional requirements determination: developers begin to think about how the parts of the system should interoperate to meet the functional requirements
+  - refer to this document at all stages to ensure the project is on track
+  - in final stages, project managers should use this document as a checklist to ensure that all functional requirements are met 
+- control specifications development: analyze the system for security controls 
+  - only authorized users can access the system and not permitted to exceed their level of authorization
+  - system must maintain confidentiality of vital data through encryption and data protection
+  - system should provide an audit trail 
+  - availability and fault-tolerance should be addressed as corrective actions
 - design review
+  - designers determine how the various parts of the system will interoperate
 - code review walk-through
+  - software developers write code
+  - project managers schedule several code reviews to check it performs according to specification 
 - system test review, user acceptance testing 
+  - testing (after completion?), validating the system against predefined scenarios that model common and unusual user activities 
+  - next, deployment
 - maintenance and change management 
+  - maintenance tasks are necessary to ensure continued operations in the faces of changing requirements
+  - any changes to code should be handled through a formalized change management process
 
 #### Life Cycle Models
 - waterfall model 
