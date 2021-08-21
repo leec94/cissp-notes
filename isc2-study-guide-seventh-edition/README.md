@@ -1812,13 +1812,25 @@ methods
     - extreme programming (XP)
 - software capability maturity model
   - by software engineering institute (SEI)
+  - principles and practices underlying software process maturity
   - stages
     - Level 1: Initial
+      - little to no defined software development process
     - Level 2: Repeatable
+      - basic life cycle management processes are introduced, reuse of code in an organized fashion, and repeatable results are expected from similar projects
     - Level 3: Defined
+      - software developers operate according to a set of formal, documented software development processes 
     - Level 4: Managed
+      - management of the software process proceeds to the next level, quantitative measures are utilized to gain a detailed understanding of the development process 
     - Level 5: Optimizing
+      - sophisticated software development processes are in place that ensure that feedback from one phase reaches the previous phase to improve future results
 - IDEAL model 
+  - Stages
+    1. Initiating
+    2. Diagnosing
+    3. Establishing
+    4. Acting
+    5. Learning
 
 #### Gantt Charts and PERT 
 #### Change and Configuration Management 
