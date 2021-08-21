@@ -1825,14 +1825,22 @@ methods
     - Level 5: Optimizing
       - sophisticated software development processes are in place that ensure that feedback from one phase reaches the previous phase to improve future results
 - IDEAL model 
+    - model for software development by SEI 
   - Stages
     1. Initiating
+      - business reasons behind the change are outlined, support is built for the initiative, and appropriate infrastructure is put in place 
     2. Diagnosing
-    3. Establishing
-    4. Acting
-    5. Learning
-
+      - engineers analyze the current state of the organization and make general recommendations for change 
+    4. Establishing
+      - organization takes the general recommendations from the diagnosing phase and develops a specific plan of action that helps achieve those changes  
+    6. Acting
+      - organization develops solutions and then tests, refines, and implements them  
+    8. Learning
+      - organization continuously analyzes its efforts to determine whether it has achieved the desired goals and, if necessary, proposes new actions to put the organization back on course 
 #### Gantt Charts and PERT 
+- type of bar chart that shows the interrelationships over time between projects and schedules
+- Program Evaluation Review Technique (PERT): project-scheduling tool used to judge the size of a software product in development and calculate the standard deviation (SD) for risk assessment
+  - as capabilities of programming and management improve, the actual produced size of software should be smaller
 #### Change and Configuration Management 
 - request control
 - change control
