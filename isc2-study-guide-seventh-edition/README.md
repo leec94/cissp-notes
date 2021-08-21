@@ -1789,10 +1789,35 @@ methods
   - any changes to code should be handled through a formalized change management process
 
 #### Life Cycle Models
-- waterfall model 
+- waterfall model
+  - seven stages of development
+  - as each stage is completed, the project moves into the next phase 
+  - feedback loop characteristic: allows development to return to the previous phase to correct defects discovered during the subsequent phase 
+  - only allows developers to step back one phase in the process  
 - spiral model
+  - loops of iterations of another model, waterfall model
+  - Boehm's spiral mode: allows developers to return to the planning stages as changing technical demands and customer requirements necessitate the evolution of a system
 - agile software development
+  - emphasizes needs of the customer and on quickly developing new functionality that meets those needs in an iterative fashion
+  - manifesto for agile software development
+    - 12 principles (not going to write here)
+    - individuals and interactions over processes and tools
+    - working software over comprehensive documentation
+    - customer collaboration over contract negotiaion
+    - responding to change over following a plan
+  - variants
+    - scrum
+    - agile unified process (AUP)
+    - dynamic systems development model (DSDM)
+    - extreme programming (XP)
 - software capability maturity model
+  - by software engineering institute (SEI)
+  - stages
+    - Level 1: Initial
+    - Level 2: Repeatable
+    - Level 3: Defined
+    - Level 4: Managed
+    - Level 5: Optimizing
 - IDEAL model 
 
 #### Gantt Charts and PERT 
