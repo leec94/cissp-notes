@@ -1842,19 +1842,27 @@ methods
 - Program Evaluation Review Technique (PERT): project-scheduling tool used to judge the size of a software product in development and calculate the standard deviation (SD) for risk assessment
   - as capabilities of programming and management improve, the actual produced size of software should be smaller
 #### Change and Configuration Management 
-- request control
-- change control
-- release control
-- configuration identification
-- configuration control 
-- configuration status accounting 
-- configuration audit 
+- three basic components
+  - request control: provides an organized framework within which users can request modifications, managers can conduct cost/benefit analysis, and developers can prioritize tasks
+  - change control: used by developers to re-create the situation encountered by the user and analyze the appropriate changes to remedy the situation 
+  - release control: double check and ensure that any code inserted as a programming aid during the change process is removed before releasing the new software to production 
+- configuration management components (controlling version changes):
+  - configuration identification: administrators document the configuration of covered software products throughout the organization
+  - configuration control: ensures that changes to software versions are made in accordance with the change control and configuration management policies 
+  - configuration status accounting: formalized procedures are used to keep track of all authorized changes that take plac
+  - configuration audit: periodic configuration should be conducted to ensure that the actual production environment is consistent with the accounting records and that no unauthorized configuration changes have taken place
 #### The DevOps Approach 
+- devops: development and operations together, and also quality assurance
+- often deploy several times a day 
 #### Application Programming Interfaces
+- application programming interface (API): allows websites to interact with each other
+  - some should require authentication, and should be tested thoroughly for security flaws
 #### Software Testing 
-- White-box testing
-- Black-box testing 
-- Gray-box testing 
+- reasonableness check: ensures that values returned by software match specified ceiteria that are within reasonable bounds
+- software testing methods
+  - White-box testing
+  - Black-box testing 
+  - Gray-box testing 
 - Static testing
 - Dynamic testing 
 
