@@ -1860,19 +1860,34 @@ methods
 #### Software Testing 
 - reasonableness check: ensures that values returned by software match specified ceiteria that are within reasonable bounds
 - software testing methods
-  - White-box testing
-  - Black-box testing 
-  - Gray-box testing 
-- Static testing
-- Dynamic testing 
+  - White-box testing: examines the internal logical structures of a program and steps through code line by line, analyzing the program for potential errors
+  - Black-box testing: examines the program from a user perspective by providing a wide variety of input scenarios and inspecting the output, no access to internal code
+    - includes acceptance testing
+  - Gray-box testing: testers examine the software from a user perspective, and also have access to source code and uses it to help design their tests. they do not analyze the inner workings of the program during their testing 
+- Static testing: evaluates the security of software by analyzing the source code or compiled application 
+- Dynamic testing: evaluates the security of software in a runtime environment and is the only option for organizations deploying appliations written by somewhere else 
 
 #### Code Repositories 
+- code repositories: central storage point for developers to place their source code
+  - other features: version control, bug tracking, web hosting, release management, communications functions 
+  - risks: developers must properly control access to sensitive repositories
 #### Service-Level Agreements (SLAs)
-
+- service-level agreements (SLAs): ensures that organizations providing services to internal and/or external customers maintain an appropriate level of service agreed on both the service provider and the vendor
+- issues addressed in SLAs:
+  - system uptime
+  - maximum consecutive downtime
+  - peak load
+  - average load
+  - responsibility for diagnostics
+  - failover time 
+- if agreement is not maintained, financial and other contractual remedies kick in such as waiving charges if a circuit is down more than 15 minutes
 #### Software Acquisition 
-
+- often software is purchaed, run via on premesis, or IaaS, or SaaS
+- must understand the proper configuration of that software to meet security objectives, and keep up to date with security vulnerabilities 
+- other security measures to verify vendor maintains proper controls: audits, assessments, vulnerability scans, etc. 
 ### Establishing Databases and Data Warehousing 
 #### Database Management System Architecture 
+- relational database management system (RDBMS)
 - hierarchical and distributed databases 
 - relational databases 
   - candidate keys
