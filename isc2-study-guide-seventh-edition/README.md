@@ -1887,29 +1887,44 @@ methods
 - other security measures to verify vendor maintains proper controls: audits, assessments, vulnerability scans, etc. 
 ### Establishing Databases and Data Warehousing 
 #### Database Management System Architecture 
-- relational database management system (RDBMS)
+- relational database management system (RDBMS): used by most systems 
 - hierarchical and distributed databases 
-- relational databases 
-  - candidate keys
-  - primary keys
-  - foreign keys
+  - hierarchical data model: combines records and fields that are related in a logical tree structure 
+    - one-to-many model
+  - distributed data model: data stored in more than one database, but the databases are logically connected
+    - each field can have numerous children as well as numerous parents
+- relational databases: flat two-dimensional tables made up of rows and columns, one-to-one data mapping relationships
+  - table: contains a set of related records 
+  - fields: attributes, or columns in the table where each table contains a number of attributes 
+  - tuple: each revord or row in the table
+  - cardinality: number of rows in the relation
+  - degree: number of columns
+  - domain: the set of allowable values that an attribute can take 
+  - keys: a subset of the fields of a table and used to uniquely identify records 
+  - candidate keys: subset of attributes that can be used to uniquely identify any record in a table 
+  - primary keys: selected from the set of candidate keys for a table to be used to uniquely identify records in a table 
+  - foreign keys: used to enforce relationships between two tables
+    - referential integrity: ensures that if one table contains a foreign key, it corresponds to a still-existing primary key in the other table in the relationship
 - database transactions 
-  - atomicity
-  - consistency 
-  - isolation 
-  - durability 
+  - atomicity: database transactions must be all or nothing. if any part of the transaction fails, the entire transaction must be rolled back as if nothing occurred
+  - consistency: all transactions must begin operating in an environment that is consistent with all of the databases's rules. and when the transaction is complete the database must still be consistent with the rules  
+  - isolation: transactions operate separately from each other. for two transactions, one must be completed in its entirety before the other transaction is allowed to modify the same data 
+  - durability: once transactions are committed to the database, it must be preserved. 
 
 #### Security for Multilevel Databases
-- concurrency 
-- semantic integrity 
-- content-dependent access control
-- context-dependent access control 
-- database partitioning 
-- polyinstantiation 
-- noise and perturbation
+- database contamination: mixing data with different classification levels and/or need-to-know requirements
+- concurrency: makes sure the information stored in the database is always correct of at least has its integrity and availability protected
+  - uses locks and unlocks to allow certain users to make changes at one time 
+- semantic integrity: ensures that user actions don't violate any structural rules  
+- content-dependent access control: type of granular object control, objects can be controlled granularly within the database depending on the contents or payload of the object being accessed
+- context-dependent access control: evaluates the big picture to make access control decision, how each object relates to the overall activity or communication 
+- database partitioning: splitting a single database into multiple parts, each with a unique and distinct security level or type of content 
+- polyinstantiation: two or more rows in the same relational databse table appear to have identical primary key elements but contains different data for use at differing classification levels  
+- noise and perturbation: inserting false or misleading data into a DBMS in order to redirect information confidentiality attacks
 
 #### Open Database Connectivity (ODBC)
-- Open Database Connectivity (ODBC)
+- Open Database Connectivity (ODBC): database feature that allows applications to communicate with different types of databases without having to be directly programmed for interaction with each type
+  - acts as a proxy between applications and backend datanase drivers
 
 ### Storing Data and Information 
 #### Types of storage 
