@@ -1927,21 +1927,35 @@ methods
   - acts as a proxy between applications and backend datanase drivers
 
 ### Storing Data and Information 
+- precautions must be made though other processing resources such as memory and physical media 
 #### Types of storage 
-- primary memory
-- secondary storage 
-- virtual memory
-- virtual storage 
-- random access storage
-- sequential access storage
-- volatile storage
-- nonvolatile storage
+- primary memory: main memory resources directly available to a system's CPU, RAM 
+- secondary storage: more inexpensive, nonvolatile storage resources available to a system for long-term use. examples: tapes, disks, hard drives, flash drives, and CD/DVD storage 
+- virtual memory: allows a system to simulate additional primary memory resources through the use of secondary storage
+- virtual storage: allows a system to simulate secondary storage resources through the use of secondary storage  
+- random access storage: allows the operating system to request contents from any point within the media. Example, RAM and hard drives 
+- sequential access storage: scanning through the entire media from the beginning to reach a specific address. example, magnetic tape
+- volatile storage: loses its content when power is removed from the resource. example: RAM 
+- nonvolatile storage: does not depend upon the presence of power to maintain its contents. example: magnetic/optical media and nonvolatile RAM (NVRAM) are examples
 
 #### Storage Threats 
+- threat of illegilimate access to storage resources
+  - to prevent, implement adequate filesystem access controls, use of an encrypted filesystem, and fail-safe controls on shared memory resources so data from one classification level is not readable at a lower classification level
+- threat of covert channel attacks 
+  - covert channels: allow the transmission of sensitive data between classification levels through direct or indirect manipulation of shared storage media
 ### Understanding Knowledge-Based Systems
+- "since the advent of computing, engineers and scientists have worked toward developing systems capable of performing routine actions that would bore a human and consume a significant amount of time" 
 #### Expert Systems 
+- expert systems: seeks to embody the accumulated knowledge of exprts on a particular subject and apply it in a consistent fashion to future decisions
+  - components
+    - knowledge base: contains the rules known by an expert system in if/else statements
+    - inference base: analyzes information in the knowledge base to arrive at an appropriate decision
+      - fuzzy logic: inference designed to more closely approximate human thought patterns with blurred boundaries. phases include fuzzification, inference, composition, and defuzzification 
 #### Neural Networks
+- neural networks: chains of computational units are used in attempt to imitate the biological reasoning process of the human mind
+  - Delta rule: or learning rule, the activity performed to learn from experience and the training period
 #### Decision Support Systems 
+- decision support system (DSS): knowledge-based application that analyzes business data and presents it in such a way to make business decisions easier for users. may present information in a graphical manner to link concepts and guide the script of the operator 
 #### Security Applications
-
+- security and audit logs are overwhelming for humans to sift through, so security applications have been built which uses inference engines and knowledge bases on a variety of audit logs across a network, and provides notification of security administrators when the activity of an individual user varies from the user's standard usage profile
 ## Chapter 21: Malicious Code and Application Attacks
