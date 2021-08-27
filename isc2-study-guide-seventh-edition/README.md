@@ -185,6 +185,35 @@
       - [Decision Support Systems](#decision-support-systems)
       - [Security Applications](#security-applications)
   - [Chapter 21: Malicious Code and Application Attacks](#chapter-21-malicious-code-and-application-attacks)
+    - [Malicious Code](#malicious-code)
+      - [Sources of Malicious Code](#sources-of-malicious-code)
+      - [Viruses](#viruses)
+      - [logic bombs](#logic-bombs)
+      - [torjan horses](#torjan-horses)
+      - [worms](#worms)
+      - [spyware and adware](#spyware-and-adware)
+      - [countermeasures](#countermeasures-1)
+    - [Password Attacks](#password-attacks)
+      - [password guessing](#password-guessing)
+      - [dictionary attacks](#dictionary-attacks)
+      - [social engineering](#social-engineering)
+      - [countermeasures](#countermeasures-2)
+    - [Application Attacks](#application-attacks)
+      - [buffer overflows](#buffer-overflows)
+      - [time of check to time of use](#time-of-check-to-time-of-use)
+      - [back doors](#back-doors)
+      - [escalation of privilege and rootkits](#escalation-of-privilege-and-rootkits)
+    - [Web Application Security](#web-application-security)
+      - [cross-site scripting (XSS)](#cross-site-scripting-xss)
+      - [sql injection](#sql-injection)
+    - [Reconnaissance Attacks](#reconnaissance-attacks)
+      - [IP probes](#ip-probes)
+      - [port scans](#port-scans)
+      - [vulnerability scans](#vulnerability-scans)
+      - [dumpster diving](#dumpster-diving)
+    - [masquerading attacks](#masquerading-attacks)
+      - [ip spoofing](#ip-spoofing)
+      - [session hijacking](#session-hijacking)
 
 ## Chapter 1: Security Governance
 
@@ -1959,3 +1988,61 @@ methods
 #### Security Applications
 - security and audit logs are overwhelming for humans to sift through, so security applications have been built which uses inference engines and knowledge bases on a variety of audit logs across a network, and provides notification of security administrators when the activity of an individual user varies from the user's standard usage profile
 ## Chapter 21: Malicious Code and Application Attacks
+### Malicious Code 
+#### Sources of Malicious Code
+#### Viruses
+- virus propagation techniques 
+  - master boot record viruses 
+  - file infector viruses
+  - macro viruses
+  - service injection viruses 
+- platforms vulnerable to viruses
+- antivirus mechanisms
+- virus technologies 
+  - multipartite viruses
+  - stealth viruses
+  - polymorphic viruses
+  - encrypted viruses
+- hoaxes
+
+#### logic bombs 
+#### torjan horses 
+#### worms 
+- code red worm 
+- Stuxnet
+#### spyware and adware 
+#### countermeasures
+- implement antivirus filters in at least three key areas: 
+  - client systems 
+  - server systems
+  - content filters
+- improving delay in signature-based filters
+- other countermeasures 
+
+### Password Attacks 
+#### password guessing 
+#### dictionary attacks
+#### social engineering
+#### countermeasures
+
+
+### Application Attacks
+#### buffer overflows 
+#### time of check to time of use 
+#### back doors
+#### escalation of privilege and rootkits 
+
+### Web Application Security 
+#### cross-site scripting (XSS)
+#### sql injection 
+- dynamic web applications 
+- SQL injection attacks 
+- protecting against SQL injection 
+### Reconnaissance Attacks 
+#### IP probes 
+#### port scans
+#### vulnerability scans
+#### dumpster diving 
+### masquerading attacks
+#### ip spoofing 
+#### session hijacking 
