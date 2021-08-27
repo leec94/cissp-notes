@@ -1988,13 +1988,19 @@ methods
 #### Security Applications
 - security and audit logs are overwhelming for humans to sift through, so security applications have been built which uses inference engines and knowledge bases on a variety of audit logs across a network, and provides notification of security administrators when the activity of an individual user varies from the user's standard usage profile
 ## Chapter 21: Malicious Code and Application Attacks
-### Malicious Code 
+### Malicious Code
+
 #### Sources of Malicious Code
+- script kiddie: malicious individual who doesn't understand the technology behind security vulnerabilities but downloads ready-to-use software (or scripts) from the Internet and uses them to launch attacks against remote systems
+- international organized crime syndicates: in countries with weak law enforcement mechanism  
 #### Viruses
+- virus: contains technology that enables it to spread from system to system, aided by unsuspecting computer users seeking to share data  
 - virus propagation techniques 
-  - master boot record viruses 
-  - file infector viruses
-  - macro viruses
+  - master boot record viruses: master boot record (MBR) virus attacks the MBR. the virus stores the majority of their code on another portion of the storage media. when the system reads the infected MBR, the virus instructs it to read and execute the code stored in this alternate location, thereby loading the entire virus into memory and potentially triggering the delivery of the virus's payload  
+  - file infector viruses: slightly alters the code of an executable program (.exe and .com files), which implants the technology needed to replicate and damage the system. can be detected by comparing file characteristics or hash values from before and after the infection 
+    - companion virus: self-contained executable files that escape detection by using a filename similar to a legitimate operating system file 
+  - macro viruses: viruses created with scripting functionality of common software applications, such as visual basic for applications (VBA)
+    - now untrusted macros cannot run without explicit user permission, so the result is a drastic reduction in macro viruses
   - service injection viruses 
 - platforms vulnerable to viruses
 - antivirus mechanisms
