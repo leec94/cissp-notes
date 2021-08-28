@@ -2001,17 +2001,22 @@ methods
     - companion virus: self-contained executable files that escape detection by using a filename similar to a legitimate operating system file 
   - macro viruses: viruses created with scripting functionality of common software applications, such as visual basic for applications (VBA)
     - now untrusted macros cannot run without explicit user permission, so the result is a drastic reduction in macro viruses
-  - service injection viruses 
+  - service injection virusesviruses that inject themselves into trusted runtime processes such as svhost.exe, winlogin.exe, and explorer.exe, and avoiding detection by any antivirus software running on the host   
 - platforms vulnerable to viruses
-- antivirus mechanisms
-- virus technologies 
-  - multipartite viruses
-  - stealth viruses
-  - polymorphic viruses
-  - encrypted viruses
-- hoaxes
+  - book says mostly Windows but i think in 2021 all platforms are vulnerable to viruses now
+- antivirus mechanisms: scans for files that match the database of visruses and quaratine, disinfect, or delete the files to protect the system
+  - signature-based detection: has a large database of telltale characteristics of all known viruses
+  - heuristic based mechanisms: analyzes the behavior of software, looking for signs of virus activity, such as elevated privilege, covering their tracks, or altering unrelated or operating system files
+- virus technologies: virus types that use techniques to evade detection  
+  - multipartite viruses: uses more than one propagation technique in an attemptyo penetrate systems that defend against only one method or another
+  - stealth viruses: tampers with the operating system to fool antivirus packages into thinking that everything is functioning normally
+  - polymorphic viruses: modifies their own code as they travel from system to system
+  - encrypted viruses: uses cryptographic techniques to avoid detection 
+    - virus decryption routine: the encrypted virus uses cryptographic information to load and decrypt the main virus code stored elsewhere on the disk 
+- hoaxes: fake viruses that spread by email chains. 
 
 #### logic bombs 
+- logic bombs: malicious code objects that infect a system and lie dormant until they're triggered by the occurence of one or more conditions 
 #### torjan horses 
 #### worms 
 - code red worm 
