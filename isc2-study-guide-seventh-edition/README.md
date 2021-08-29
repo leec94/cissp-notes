@@ -189,7 +189,7 @@
       - [Sources of Malicious Code](#sources-of-malicious-code)
       - [Viruses](#viruses)
       - [logic bombs](#logic-bombs)
-      - [torjan horses](#torjan-horses)
+      - [trojan horses](#trojan-horses)
       - [worms](#worms)
       - [spyware and adware](#spyware-and-adware)
       - [countermeasures](#countermeasures-1)
@@ -2017,22 +2017,38 @@ methods
 
 #### logic bombs 
 - logic bombs: malicious code objects that infect a system and lie dormant until they're triggered by the occurence of one or more conditions 
-#### torjan horses 
+#### trojan horses 
+- trojan horse: a software program that appears benevolent but carries a malicious, behind the scenes payload that has the potential to wreak havoc on a system or network 
+- ransomware: infects a target machine and then uses encryption technology to encrypt documents, spreadsheets, and other files stored on the system with a key known only to the malware creator. the user is then unable to access their files and receives an ominous pop-up message warning that the files will be permanently deleted unless a ransom is paid within a short period of time 
 #### worms 
-- code red worm 
-- Stuxnet
+- worms: contain the same destructive potential as other malicious code objects, but they propogate themselves without requiring any human intervention
+- code red worm: ran on unpatched versions of Microsoft's Internet Information Server (IIS) 
+  - randomly selected hundreds of IP addresses and probed those addresses to see whether they were running a vulnerable version of IIS
+  - defaced HTML pages on the local web server, replacing normal content with their own text
+  - planted a logic bomb that would initiate a denial of service attack against an IP address 
+- Stuxnet: high sophisticated worm from mid 2010 that used multiple previously undocumented vulnerabilities 
+  - spread wide but was looking for systems using a controller manufactured by Siemens and allegedly used in the production of material for nuclear weapons
+  - designed by western nations (US?) with the intent of disrupting an iranian nuclear weapons program
 #### spyware and adware 
+- spyware: monitors your actions and transmits important detials to a remote system that spies on your activity
+- adware: uses a variety of techniques to display advertisements on infected computers 
 #### countermeasures
-- implement antivirus filters in at least three key areas: 
+- implement antivirus filter software in at least three key areas: 
   - client systems 
-  - server systems
-  - content filters
+  - server systems: a single virus on a common server could quickly spread throughout an entire network
+  - content filters: content filtering on your network for emails to scan inbound and outbound electronic mail and web traffic for signs of malicious code
 - improving delay in signature-based filters
+  - uses integrity checking software to detect unexpected modifications in code, and reports back to you periodically 
+  - maintain and enforce access controls
 - other countermeasures 
+  - use a sandbox
+  - whitelist applications 
 
 ### Password Attacks 
 #### password guessing 
+- basic password attack: attackers guess a user's password, using personal information, list of most common passwords, or other guesses
 #### dictionary attacks
+- use of john the ripper to match on encrypted passwords found in /etc/passwd
 #### social engineering
 #### countermeasures
 
