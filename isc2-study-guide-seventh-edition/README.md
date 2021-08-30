@@ -2048,20 +2048,34 @@ methods
 #### password guessing 
 - basic password attack: attackers guess a user's password, using personal information, list of most common passwords, or other guesses
 #### dictionary attacks
-- use of john the ripper to match on encrypted passwords found in /etc/passwd
+- use of john the ripper or similar tools to test encryption of passwords and try to match on encrypted passwords found in /etc/passwd
 #### social engineering
+- social engineering: contacting the user and asking for their password, posing as a technical support representative or other authority figure who needs the information immediately 
+  - often relies on phishing emails which prompt users to log in to a fake site using their actual username and password, which is captured by the attacker and used to log into the actual site
 #### countermeasures
-
-
+- education: provide training routinely, teach users to use complex passwords and encourage password managers
+- use /etc/shadow, which is not accessible to anyone but the administrator
 ### Application Attacks
 #### buffer overflows 
+- buffer overflow: developer does not properly validate user input, so an input too large can "overflow" a data structure and affect other data stored in the computer's memory
+- mitigations
+  - make sure user cannot enter a value longer than the size of any buffer that will hold it
+  - make sure the user cannot enter an invalid value for the variable types that will hold it
+  - make sure the user cannot enter a value that will cause the program to operate outside of its specified parameters
 #### time of check to time of use 
+- time-of-check-to-time-of-use (TOCTTOU or TOC/TOU): timing vulnerability that occurs when a program checks access permissions too far in advance of a resource request
 #### back doors
+- back doors: undocumented command sequences that allow individuals with knowledge of the back door to bypass normal access restrictions 
 #### escalation of privilege and rootkits 
-
+- escalation of privilege attacks: attackers expanding their foothold in a system
+- rootkits: freely available exploits known vulnerabilities in various operating systems
 ### Web Application Security 
 #### cross-site scripting (XSS)
+- cross-site scripting attacks (XSS): occur when web applications contain some type of reflected input 
+- mitigations
+  - input validation: ensure the input is only the type that is allowed in that field, and validate the input to ensure it matches that pattern
 #### sql injection 
+- sql injection attacks: use unexpected input to a web application to gain unauthorized access to an underlying database
 - dynamic web applications 
 - SQL injection attacks 
 - protecting against SQL injection 
