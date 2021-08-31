@@ -2076,14 +2076,28 @@ methods
   - input validation: ensure the input is only the type that is allowed in that field, and validate the input to ensure it matches that pattern
 #### sql injection 
 - sql injection attacks: use unexpected input to a web application to gain unauthorized access to an underlying database
-- dynamic web applications 
-- SQL injection attacks 
-- protecting against SQL injection 
+- dynamic web applications: sites that retrieve dynamic content containing information about the user accessing the page. this involves a database server, which should be protected by a firewall, or a demilitarized zone (DMZ)  
+- SQL injection attacks: allows a malicious individual to directly perform SQL transactions against the underlying database  
+- protecting against SQL injection
+  - perform input validation
+  - limit account privileges
+  - use stored procedures 
 ### Reconnaissance Attacks 
+- reconnaissance: allows an attacker to find weak points to target directly with their attack code
 #### IP probes 
+- IP probes: or IP sweeps, or ping sweeps, where automated tools attempt to ping each address in a range. systems that respond to the ping request are logged for further analysis
 #### port scans
+- port scans: using port scan software to probe all the active systems on a network and determine what public services are running on each machine 
 #### vulnerability scans
+- vulnerability scans: attacker discovers a specific vulnerability that can be exploited, using tools such as Nessus, OpenVAS, Qualys, Core Impact, and Nexpose 
 #### dumpster diving 
+- literal dumpster diving, mitigations include keeping the trash locked up until garbage collectors arrive, and purchase shredders for key departments
 ### masquerading attacks
 #### ip spoofing 
+- ip spoofing: malicious individual reconfigures their system so that it has the IP address of a trusted sustem and attempts to gain access to other external resources
+- protection filters
+  - packets with internal source IP addresses don't enter the network from the outside
+  - packets with external source IP addresses don't exit the network from the inside 
+  - packets with private IP addresses don't pass theough the router in either direction 
 #### session hijacking 
+- session hijacking: malicious individual intercepts part of the communication between an authorized user and a resource and then uses a hijacking technique to take over the session and assume the identity of the authorized user
