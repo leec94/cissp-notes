@@ -1,2 +1,52 @@
 # Chapter 1: Security Governance Through Principles and Policies
 ## Notes
+- CIA Triad
+  - Confidentiality
+  - Integrity 
+  - Availability 
+- AAA Services
+  - Identification: When a subject professes an identity and accounting is initiated 
+  - Authentication: Process of verifying that a claimed identity is valid with info from subject that corresponds to the identity indicated  
+  - Authorization: Process that ensures that the requested activity or object access is possible given the rights and privileges assigned to the authenticated identity  
+  - Auditing: The programmatic means where subjects are held accountable for their actions while authenticated on a system through documentation or recording of subject activities  
+  - Accounting: Where a subject's identity is proven and their activities tracked  
+- Abstraction: Similar elements are collected into groups, classes, or roles and assigned security controls, restrictions, or permissions as a collective. To carry out a security plan 
+- Security boundary: The intersection between two areas, subnets, or environments that have different security requirements or needs 
+- Security governance: The collection of practices related to supporting, defining, and directing the security efforts of an organization 
+- Third-party governance: The system of external entity oversight that may be mandated by law, regulation, industry standards, contractual obligation, or licensing requirements. Generally done by an outside investigator or auditor 
+- Documentation review: The process of reading the exchanged materials and verifying them against standards and expectations
+- Security management planning 
+  - Security policy: designing and implementing security
+  - Security management Types
+    - Strategic: Long term plan that's fairly stable - defines the organization's goals, mission, and objectives 
+    - Tactical: Mid-term plan developed to provide more details on accomplishing the goals set forth in the strategic plan. 
+    - Operational: Short term plan, highly detailed plans based on strategic and tactical plans. 
+  - Security plan elements
+    - Security policy
+    - Standards 
+    - Baseline 
+    - Guidelines 
+    - Procedures 
+  - Key Security Roles 
+    - Senior manager
+    - Security professional 
+    - Asset owner
+    - Custodian
+    - User
+    - Auditor
+- Business case: a documented argument or stated position, a need to alter an existing process or choose an approach to a business task. 
+- Due Diligence vs Due Care
+  - Due diligence: Establishing a plan, policy, and process to protect the interests of an organization  
+  - Due care: practicing the individual activities that maintain the due diligence effort 
+- Threat modeling: the security process where potential threats are identified, categorized, and analyzed 
+  - STRIDE
+  - PASTA
+  - VAST
+  - Diagramming 
+  - Reduction/decomposing 
+  - DREAD
+- Supply chain risk management (SCRM): a means to ensure that all vendors or links in the supply chain are reliable, trustworthy, reputable organizations that disclose their practices and security requirements to their business partners. 
+  - Includes
+    - Evaluating risks to hardware, software, and services
+    - Establishing minimum security requirements 
+    - Enforcing service-level requirements
