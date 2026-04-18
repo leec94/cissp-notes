@@ -1,0 +1,103 @@
+# Domain 1: Security and Risk Management
+## Table of Contents
+- [Domain 1: Security and Risk Management](#domain-1-security-and-risk-management)
+  - [Table of Contents](#table-of-contents)
+  - [Topics](#topics)
+  - [Notes](#notes)
+  - [References](#references)
+
+## Topics
+- Ethics
+  - ISC2 Code of Professional Ethics
+  - Organizational code of ethics
+- Security concepts
+  - Confidentiality
+  - Integrity
+  - Availability
+  - Authenticity
+  - Non-repudiation
+- Security governance principles
+  - Security to business alignment
+  - Organizational processes
+    - acquisitions
+    - divestitures
+    - governance committees
+  - Org roles and responsibilities 
+  - Security control frameworks
+    - International Organization for Standardization (ISO)
+    - National Institute of Standards and Technology (NIST)
+    - Control Objectives for Information and Related Technology (COBIT)
+    - Sherwood Applied Business Security Architecture (SABSA)
+    - Payment Card Industry (PCI)
+    - Federal Risk and Authorization Management Program (FedRAMP)
+  - Due care/Due Diligence
+- Legal and compliance
+  - Cybercrimes and data breaches
+  - Licensing and Intellectual Property (IP)
+  - Import/export controls
+  - Transborder data flow
+  - Privacy issues 
+    - General Data Protection Regulation (GDPR)
+    - California Consumer Privacy Act
+    - Personal Information Protection Law
+    - Protection of Personal Information Act
+  - Other legal requirements and industry standards
+- Investigation types
+  - Administrative
+  - Criminal 
+  - Civil 
+  - Regulatory
+  - Industry standards
+- Security policy, standards, procedures, guidelines
+  - Security policy
+  - Standard
+  - Procedure
+  - Guideline
+- Business Continuity requirements
+  - Business impact analysis (BIA)
+  - External dependencies
+- Personnel security
+  - Candidate screening + hiring
+  - Employment agreements 
+  - Onboarding, transfers, terminations
+  - Vendor, consultant, contractor
+- Risk Management
+  - Threat and vulnerability identification
+  - Risk analysis
+  - Risk response 
+  - Security controls
+    - Preventative, detection, corrective
+  - Control assessments
+  - Continuous monitoring and measurement
+  - Reporting
+  - Continuous improvement
+    - risk maturity model
+  - Risk frameworks (overlaps with security control frameworks above)
+    - International Organization for Standardization (ISO)
+    - National Institute of Standards and Technology (NIST)
+    - Control Objectives for Information and Related Technology (COBIT)
+    - Sherwood Applied Business Security Architecture (SABSA)
+    - Payment Card Industry (PCI)
+- Threat modeling 
+- Supply Chain Risk Management (SCRM)
+  - Acquisition of products and services risks from suppliers
+    - Product tampering
+    - Counterfeits
+    - Implants
+  - Risk mitigations
+    - third-party assessment and monitoring
+    - minimum security requirements
+    - service level requirements
+    - silicon root of trust
+    - physically unclonable function
+    - software bill of materials
+- Security education 
+  - Methods to increase awareness and training
+    - Social engineering
+    - Phishing
+    - Security champions
+    - Gamification 
+  - Content reviews to include emerging technologies and trends (like crypto, AI, blockchain)
+  - Program effectiveness evaluation
+## Notes
+## References
