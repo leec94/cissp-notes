@@ -7,5 +7,100 @@
   - [References](#references)
 
 ## Topics
+- Secure design principles in network architectures 
+  - Open system interconnection (OCI)
+  - TCP/IP Models 
+  - IPv4 and IPv6
+    - unicast
+    - broadcast
+    - multicast
+    - anycast 
+  - Secure protocols 
+    - IPSec
+    - SSH
+    - SSL/TLS
+  - Multilayer protocols
+  - Converged protocols
+    - Internet Small Computer Systems Interface (iSCSI)
+    - Voice over Internet Protocol (VoIP)
+    - InfiniBand over Ethernet 
+    - Computer Express Link
+  - Transport architecture
+    - topology
+    - data plane
+    - control plane
+    - management plane
+    - cut through/store-and-forward
+  - Performance metrics
+    - bandwidth
+    - latency
+    - jitter
+    - throughput
+    - signal-to-noise ratio 
+  - Traffic flows
+    - north-south
+    - east-west
+  - Physical segmentation 
+    - in-band
+    - out-of-band
+    - air-gapped
+  - Logical segmentation 
+    - VLANs
+    - VPNs
+    - virtual routing and forwarding 
+    - virtual domain
+  - Micro-segmentation 
+    - network overlays/encapsulation
+    - distributed firewalls
+    - routers
+    - IDS/IPS
+    - zero trust
+  - Edge networks
+    - ingress/egress
+    - peering
+  - Wireless networks
+    - bluetooth
+    - WiFi
+    - Zigbee
+    - satellite
+  - Cell/mobile networks
+    - 4G, 5G
+  - Content distribution networks (CDN)
+  - Software defined networks (SDN)
+    - API
+    - Software-defined wide-area network
+    - network functions virtualization 
+  - Virtual Private Cloud (VPC)
+  - monitoring and management
+    - network observability
+    - traffic flow/shaping
+    - capacity management
+    - fault detection and handling
+- Secure network components
+  - Operation of infrastructure 
+    - redundant power
+    - warranty
+    - support
+  - Transmission media
+    - physical security of media
+    - signal propagation quality
+  - Network Access Control (NAC) systems
+    - physical 
+    - virtual solutions
+  - Endpoint security 
+    - host-based
+- Secure communication channels
+  - Voice, video, and collaboration
+    - conferencing
+    - Zoom rooms
+  - Remote access
+    - network administrative functions
+    - Data communications
+      - backhaul networks
+      - satellite
+    - Third-party connectivity 
+      - telecom providers
+      - hardware support
+
 ## Notes
 ## References

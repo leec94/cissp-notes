@@ -7,5 +7,96 @@
   - [References](#references)
 
 ## Topics
+- Secure design principles 
+  - Threat modeling 
+  - Least privilege
+  - Defense in depth
+  - Secure defaults 
+  - Fail securely 
+  - Segregation of Duties (SoD) 
+  - Keep it simple and small 
+  - Zero trust 
+  - Trust but verify
+  - Privacy by design 
+  - Shared responsibility 
+  - Secure access service edge
+- Security models
+  - Biba
+  - Star Model
+  - Bell-LaPadula 
+- Controls 
+- Security capabilities of information systems
+  - memory protection 
+  - Trusted Platform Module (TPM)
+  - encryption 
+  - decryption 
+- Vulnerabilities of security architectures
+  - Client-based systems
+  - Server-based systems
+  - Database systems 
+  - Cryptographic systems 
+  - Industrial Control Systems (ICS)
+  - Cloud-based systems
+    - Software as a service (SaaS)
+    - Infrastructure as a service (IaaS)
+    - Platform as a Service (PaaS)
+  - Distributed systems 
+  - Internet of Things (IoT)
+  - Microservices
+    - API
+  - Containerization 
+  - Serverless
+  - Embedded systems 
+  - High-performance computing systems 
+  - Edge computing systems 
+  - Virtualized systems 
+- Cryptographic solutions
+  - cryptography life cycle
+    - keys
+    - algorithm selection
+  - Cryptographic methods 
+    - symmetric
+    - asymmetric
+    - elliptic curves
+    - quantum
+  - Public key infrastructure (PKI)
+    - quantum key distribution
+- Cryptanalytic attacks
+  - Brute force
+  - ciphertext only
+  - known plaintext
+  - frequency analysis
+  - Chosen ciphertext 
+  - Implementation attacks 
+  - Side-channel
+  - Fault injection 
+  - Timing
+  - Man-in-the-middle (MITM)
+  - Pass the hash
+  - Kerberos exploitation
+  - Ransomware
+- site and facility security controls 
+  - Wiring closets/intermediate distribution facilities
+  - server rooms/data centers
+  - media storage facilities 
+  - evidence storage 
+  - restricted and work area security 
+  - utilities and heating, ventilation, and air conditioning (HVAC)
+  - environmental issues 
+    - natural disasters
+    - man-made
+  - power
+    - redundant
+    - backup 
+- Information system lifecycle
+  - stakeholder needs and requirements 
+  - requirements analysis
+  - architectural design 
+  - development/implementation 
+  - integration 
+  - verification/deployment 
+  - operations and maintenance/sustainment
+  - retirement/disposal
+ 
 ## Notes
 ## References
