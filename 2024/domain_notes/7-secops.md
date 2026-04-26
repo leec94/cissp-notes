@@ -7,5 +7,109 @@
   - [References](#references)
 
 ## Topics
+- investigations
+  - evidence collection and handling
+  - reporting and documentation
+  - investigative techniques 
+  - digital forensics tools, tactics, procedures
+  - artifacts
+    - data
+    - computer
+    - network
+    - mobile devices
+- logging and monitoring 
+  - intrusion detection and prevention (IDS, IPS)
+  - security information and event management (SIEM)
+  - continuous monitoring and tuning
+  - egress monitoring
+  - log management
+  - threat intelligence
+    - threat feeds
+    - threat hunting
+  - user behavior analysis (UBA)
+  - entity behavior analysis (EBA)
+- configuration management (CM)
+  - provisioning
+  - baselining
+  - automation
+- security operations concepts
+  - need to know/ least privilege
+  - separate of duties (SoD) and responsibilities 
+  - privileged account management
+  - job rotation 
+  - service level agreement (SLA)
+- resource protection
+  - media management
+  - media protection techniques
+  - data at rest
+  - data in transit
+- incident management
+  - detection
+  - response
+  - mitigation
+  - reporting 
+  - recovery 
+  - remediation
+  - lessons learned
+- detection and preventative measures
+  - firewalls
+    - next generation firewalls
+    - web application firewalls
+    - network firewalls
+  - intrusion detection systems (IDS)
+  - intrusion prevention systems (IPS)
+  - whitelisting/blacklisting
+    - allowlist/blocklist
+  - third-party provided security services
+  - sandboxing
+  - honeypots/honeynets
+  - anti-malware
+  - machine learning and AI based tools
+- patch and vulnerability management
+- change management process
+- recovery strategies
+  - backup storage strategies
+    - cloud storage
+    - onsite
+    - offsite
+  - recovery site strategies 
+    - cold vs. hot
+    - resource capacity agreements 
+  - multiple processing sites
+  - system resilience
+  - high availability (HA)
+  - quality of service (QoS)
+  - fault tolerance
+- disaster recovery
+  - response
+  - personnel
+  - communications 
+    - methods
+  - assessment
+  - restoration
+  - training and awareness
+  - lessons learned
+- disaster recovery plans (DRP)
+  - read-through/tabletop
+  - walkthrough
+  - simulation
+  - parallel
+  - full interruption
+  - communications 
+    - stakeholders
+    - test status
+    - regulators
+- business continuity (BC)
+- physical security
+  - perimeter security controls
+  - internal security controls
+- personnel safety and security
+  - travel
+  - security training and awareness
+    - insider threat
+    - social media impacts
+    - 2FA fatigue
+  - emergency management
+  - duress
 ## Notes
 ## References
