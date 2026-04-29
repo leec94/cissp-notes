@@ -11,7 +11,7 @@ This folder contains notes on the contents in each domain for the 2024 CISSP exa
 - [Domain 8: Software Development Security](./8-devsec.md)
 
 ## Mappings to Chapters
-
+Link: [Domain mappings](https://github.com/leec94/cissp-notes/tree/main/isc2-study-guide-10th-edition#domain-mappings)
 | Domain | Chapters                 |
 | ------ | ------------------------ |
 | 1      | 1,2,3,4,19               |
