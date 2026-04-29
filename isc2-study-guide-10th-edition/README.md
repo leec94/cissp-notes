@@ -24,3 +24,28 @@
 - [Chapter 20: Software Development Security](./chap-20/README.md)
 - [Chapter 21: Malicious Code and Application Attacks](./chap-21/README.md)
 
+## Domain Mappings
+
+| Chapter | Domains |
+| ------- | ------- |
+| 1       | 1,3     |
+| 2       | 1       |
+| 3       | 1,7     |
+| 4       | 1       |
+| 5       | 2       |
+| 6       | 3       |
+| 7       | 3       |
+| 8       | 3       |
+| 9       | 3       |
+| 10      | 3,7     |
+| 11      | 4,7     |
+| 12      | 4       |
+| 13      | 5       |
+| 14      | 3,5     |
+| 15      | 6,8     |
+| 16      | 2,3,7,8 |
+| 17      | 7       |
+| 18      | 6,7     |
+| 19      | 1,7     |
+| 20      | 3,8     |
+| 21      | 3,7,8   |
