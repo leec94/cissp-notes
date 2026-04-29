@@ -26,6 +26,8 @@
 
 ## Domain Mappings
 
+Link: [Mappings from Domains to Chapters](https://github.com/leec94/cissp-notes/blob/main/2024/domain_notes/README.md#mappings-to-chapters)
+
 | Chapter | Domains |
 | ------- | ------- |
 | 1       | 1,3     |
