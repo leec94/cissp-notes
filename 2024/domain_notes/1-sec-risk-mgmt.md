@@ -99,5 +99,129 @@
     - Gamification 
   - Content reviews to include emerging technologies and trends (like crypto, AI, blockchain)
   - Program effectiveness evaluation
+
 ## Notes
+- Notes from Mike Chappelle Linkedin Learning
+  - Security Fundamentals
+    - 
+  - Security Governance
+    - security leader vs business leader 
+      - questions should consider both perspectives 
+    - committees
+      - information governance committee
+      - risk management committee
+      - board of directors
+    - integrating security governance
+      - ensure governing bodies understand risks and controls
+      - inform governing bodies of security incidents 
+      - provide audit reports to governing bodies
+    - other governance situations
+      - corporate acquisitions 
+      - corporate divestitures
+    - roles
+      - CISO: most senior info sec role
+    - due care: fulfill legal responsibilities and professional best practices
+    - due diligence: taking reasonable measures to investigate security risks 
+    - control and risk frameworks
+      - Control Objectives for IT (COBIT): business-focused control framework covering IT and related technologies
+        - developed by ISACA, used by auditors
+      - ISO Standard
+        - ISO 27001: cybersecurity control objectives
+        - ISO 27002: more detail, cybersecurity control implementation 
+        - ISO 27701: privacy controls
+        - ISO 31000: risk management programs
+      - NIST 
+        - NIST 800-53: building a security program
+          - for federal agencies
+        - NIST Cybersecurity Framework (CSF)
+          - common language for cybersecurity risk
+        - NIST Risk Management Framework (RMF)
+          - in NIST 800-37
+          - risk management as ongoing progress
+        - Federal Risk and Authorization Management Program (FedRAMP): certifies cloud service providers for US federal government use
+      - Sherwood Applied Business Security Architecture (SABSA): integrating security into business strategies 
+  - Compliance and Ethics
+    - GDPR
+      - went into effect 2018 
+      - EU privacy regulation
+      - applies to data controllers and data processors
+      - data controllers: organizations that determine the purposes and meaning of personal data processing
+      - data processor: organizations that process information on behalf of data controllers
+      - requires "right to notice" of data collection and processing 
+      - businesses must obtain "consent" from data subjects
+      - data subjects may retract consent at any time
+      - "right of erasure" of personal information or "right to be forgotten" 
+      - "right to access" personal information 
+      - "right to rectification" to correct inaccurate information
+      - "right to restriction" of data processing activities 
+      - "right to portability" of personal information between providers
+      - "right to opt out" of certain data processing activities and automated decision making
+      - transferring data outside EU, 3 ways
+        - Standard Contractual Clauses
+        - Binding Corporate Rules (for large orgs)
+        - Safe Harbor Agreements (Privacy Shield) - Invalid from Schrems II as of 2020
+    - California Privacy Laws
+    - PCI DSS
+    - HIPAA
+    - Personally Identifiable Information (PII): any information that can by traced back to an individual
+    - Protected Health Information (PHI): Individually identifiable health records governed under HIPAA
+    - Generally accepted privacy principles (GAPP): outlines 10 components of data privacy to design privacy programs
+      - developed by a bunch of accounting and auditing associations, AICPA, CICA, ISACA, IIA
+      - GAPP components
+        1. Management
+        2. Notice
+        3. Choice and Consent
+        4. Collection
+        5. Use, Retention, and Disposal
+        6. Access
+        7. Disclosure to Third Parties
+        8. Security
+        9. Quality
+        10. Monitoring and Enforcement
+  - Security Policy
+  - Business Continuity
+  - Personnel Security
+  - Risk Management
+  - Threat Modeling
+    - Open source intelligence
+    - criteria for threat intelligence sources
+      - timeliness
+      - accuracy
+      - reliability
+    - threat indicators
+    - sharable formats for threats
+      - cyber observable eXpression (CybOX): provides schema to classify different threats 
+      - structured threat information eXpression (STIX): representation of the elements as defined by CyBOX
+      - trusted automated eXchange of intelligence information (TAXII): a way to exchange STIX threat information
+      - OpenIOC: standard to share threat information, by Fireeye Mandiant
+    - sharing threats
+      - information sharing and analysis centers (ISACs): share industry specific security info in confidential manner across orgs 
+    - threat research
+      - reputational threat research: based on their use of IP address, email address, domains, etc. used previously in attacks
+      - behavioral threat research: identify potentially malicious actors based upon the similarity of their behaviors to past attackers
+    - identifying threats
+      - asset focus: using asset inventory as basis
+      - threat focus: how specific threats may affect each info system
+      - service focus: impact of various threats on a specific focus
+    - automating threat intelligence
+      - data enrichment
+      - SOAR to enhance SIEM
+      - machine learning for automated creation of malware signatures
+    - threat hunting: organized, systematic approach to seek out indicators of compromise on a network using expertise and analytic techniques
+  - Supply Chain Risk Management: TODO
+  - Awareness and Training
+    - Security education programs
+      - security training: provide knowledge to protect org's security
+      - security awareness: keep lessons learned during training top of mind
+        - can test success by simulated phishing training for example, or gamification or CTFs
+        - security champions
+    - compliance programs: to comply with laws, regulations, standards 
+      - include in security training
+      - GLBA: financial institution law
+      - HIPAA: healthcare regulation
+      - PCIDSS: payment standards 
+    - measuring effectiveness
+      - security awareness surveys
+      - phishing simulations
+
 ## References
