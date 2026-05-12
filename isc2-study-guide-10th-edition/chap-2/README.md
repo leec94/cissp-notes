@@ -18,4 +18,38 @@
 - quantitative risk analysis 
 - single loss expectancy (SLE): asset value (AV) * exposure factor (EF)
 - annualized loss expectancy (ALE): SLE * annualized rate of occurrence (ARO)
- 
+- threat assessments 
+- annual cost of safeguard (ACS)
+- value of safeguard to company = (ALE1 (b4 safeguard) - ALE2 (after safeguard)) - ACS
+- risk mitigation: implementation of safeguards and countermeasures
+- risk deterrence: process of implementing deterrents to would-be violators of security and policy
+- risk avoidance: process of selecting alternate options or activities with less associated risk that default option 
+- accepting risk: management evaluated cost/benefit analysis of possible safeguards and determined the cost of countermeasure greatly outweighs possible cost of loss due to a risk 
+- security control assessment (SCA): formal evaluation of a security infrastructure's individual mechanism against a baseline or reliability expectation 
+- risk reporting: production of a risk report and presentation of that report to the interested/relevant parties 
+- risk maturity model (RMM): means to assess the key indicators and activities of a mature, sustainable, and repeatable risk management process
+- end of life (EOF): the point at which a manufacturer no longer produces a product
+- eng of service life (EOSL) or end of support (EOS): no longer receiving updates and support from the vendor
+- social engineering: a form of attack that exploits human nature and human behavior 
+  - phishing
+  - spear phishing
+  - business email compromise (BEC)
+  - whaling 
+  - smishing
+  - vishing
+  - spam
+  - shoulder surfing
+  - invoice scams 
+  - hoaxes
+  - impersonation
+  - masquerading
+  - tailgating
+  - piggybacking
+  - baiting
+  - dumpster diving
+  - identity fraud
+  - typosquatting
+  - influence campaigns
+- security awareness: to comply with all standards, guidelines, and procedures mandated by the security policy
+- security education: more detailed endeavor in which students/users learn much more than they actually need to know to perform their work tasks, mostly associated with certifications or seeking job promotion
+- periodic content reviews: to ensure training materials and presentation stays in line with business goals, organizational mission, and security objectives
