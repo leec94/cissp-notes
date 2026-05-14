@@ -73,8 +73,50 @@
   - clearing: overwrites sensitive info 
   - purging: more advanced techniques, degaussing
   - destroying: completely obliterates media through shredding, pulverizing, melting, or burning. Like shredding, pulping, burning
-- 
+- security baselines: set of minimum standards for systems
+  - can be customized 
+- security standards
+  - government agencies: NIST 
+  - independent organizations: CIS, like hardened images
+  - venders create their own of their products
+  - Microsoft Security Compliance Toolkit (SCT)
+- cloud security: should be the same as servers
+  - encryption, access control
+- data classification policy: assigns information into categories, known as classifications, which determines storage, handling, and access requirements
 
+| Military classification | Business Classification |
+| ----------------------- | ----------------------- |
+| Top Secret              | Highly Sensitive        |
+| Secret                  | Sensitive               |
+| Confidential            | Internal                |
+| Unclassified            | Public                  |
+
+- label requirements: identify sensitive information consistently
+- information rights management (IRM)
+- digital rights management (DRM): provides the owners of intellectual property with the technical means to prevent the unauthorized use of their content through the use of encryption technology
+- host-based DLP: uses software agents installed on a single system
+- network-based DLP: scans network transmissions for sensitive information
+- cloud-based DLP: as a managed security service
+- change management: ensures that an organization follows a standard process for requesting, reviewing, approving, and implementing changes to information systems
+  - versioning: assigns numbers to each version
+  - diagrams: important for troubleshooting and incident investigations
+- request for changes (RFC): submission and documentation of a change with description, impact, risk assessment, schedule, and more
+- baselines: provides a configuration snapshot
+- asset management: lifecycle approach
+- media management: use to track highly sensitive information
+- Device enumeration: probes the network looking for devices that are not actively managed.
+- end of life terms
+  - end of sale: no longer offered for purchase, but vendor will support existing customers
+  - end of support: vendor will reduce or eliminate support for existing users of the product
+  - end of life (EOL): vendor will no longer provide any support or updates for the product
+- product tampering: unauthorized alteration of products
+- counterfeits: products made without authorization
+- implants: unauthorized hardware or software embedded in a legitimate product for covert surveillance or control 
+- supply chain controls
+  - silicon root of trust
+  - physically unclonable functions
+  - software bill of materials (SBOM)
+- 
 
 
 ## References

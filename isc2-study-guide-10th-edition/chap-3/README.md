@@ -23,4 +23,6 @@
 - types of analysis
   - quantitative impact assessment: use of numbers and formulas to reach a decision, often in dollar value to businesses
   - qualitative impact assessment: non-numerical factors like reputation, investor/customer confidence, workforce stability, and other concerns into account. often results in categories of prioritization (high/medium/low)
+- asset value (AV)
+- maximum tolerable downtime (MTD) or maximum tolerable outage (MTO)
 - 
