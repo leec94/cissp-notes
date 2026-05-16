@@ -103,7 +103,7 @@
 ## Notes
 - Notes from Mike Chappelle Linkedin Learning
   - Security Fundamentals
-    - 
+    - TODO
   - Security Governance
     - security leader vs business leader 
       - questions should consider both perspectives 
@@ -161,6 +161,37 @@
         - Binding Corporate Rules (for large orgs)
         - Safe Harbor Agreements (Privacy Shield) - Invalid from Schrems II as of 2020
     - California Privacy Laws
+      - California Financial Information Privacy Act (SB-1)
+        - expands upon federal GLBA
+        - restricts financial institution sharing of customer information
+        - shifts to an opt-in consent process
+      - California Electronic Communications Privacy Act (CalECPA)
+        - in 2015
+        - builds upon ECPA
+        - if law enforcement wants to access private info
+          - Access to service provider records: 
+            - requires a search warrant or court order in criminal cases
+            - requires a subpoena in non-criminal cases
+          - Access to electronic devices:
+            - requires a search warrant, wiretap order, consent of the customer, or certification of an emergency situation
+      - California Consumer Privacy Act (CCPA)
+        - right to know what information is collected
+        - right to know how information is shared
+        - right to opt out of information sharing
+        - right to review information
+        - right to request deletion of information
+        - also includes a private right of action if biz doesn't maintain reasonable security procedures
+      - California Data Broker Law
+        - in 2019
+        - requires annual registration with the attorney general
+        - requires the attorney general publish registrations on their website
+      - California Privacy Rights Act (CPRA)
+        - in Jan 2023
+        - new category of sensitive information sensitive personal information (SPI)
+        - right to correct inaccurate information
+        - right to limit use and disclosure of sensitive personal information 
+        - right to information about automated decision-making
+        - right to opt-out of automated decision making
     - PCI DSS
     - HIPAA
     - Personally Identifiable Information (PII): any information that can by traced back to an individual
@@ -178,6 +209,95 @@
         8. Security
         9. Quality
         10. Monitoring and Enforcement
+    - National data privacy laws
+      - EU: GDPR
+      - Canada: Personal Information Protection and Electronic Documents Act (PIPEDA)
+        - can exchange info with GDPR
+      - Brazil: Brazil General Data Protection Law (LGPD)
+      - China: Personal Information Protection Law (PIPL)
+        - in 2021
+        - explicit restrictions on data processing 
+        - explicit restrictions on data transfer outside of China
+        - stringent penalties for non-compliance
+      - South Africa: Protection of Personal Information Act (PPIA)
+        - in 2020
+        - obtaining explicit consent for processing personal data
+        - rights to access and correct personal information
+        - obligation to notify the regulator and affected individuals in the case of a data breach
+    - Computer crimes 
+      - Computer Fraud and Abuse Act (CFAA)
+        - makes hacking a criminal activity
+        - prohibits unauthorized access to computer systems 
+        - prohibits the creation of malicious code
+      - Electronic Communications Privacy Act (ECPA)
+        - restricts government interception of communications 
+      - Identity Theft and Assumption Deterrence Act (ITADA)
+        - makes identity theft a federal crime
+    - software licensing 
+      - Software License Agreement types
+        - Enterprise License Agreements (ELAs): detailed contracts negotiated between the software vendor and the customer
+        - End User License Agreements (EULAs): agreements presented to the user as they install or activate the software
+      - license durations
+        - perpetual licenses: allow indefinite use for a one-time fee
+        - subscription licenses: require monthly or annual payments
+      - license use types
+        - concurrent use licenses: allow a specified number of users to access the software at the same time
+        - named user licenses: allow specifically named users to access the software whenever they wish
+      - license pricing types
+        - freeware: software released for use without charge
+        - open source software: software that may be freely used, distributed, and modified under the terms of an open source license. Examples like GNU, GPL, and MIT licenses
+      - cloud service license agreements: cover use of software as a SaaS application
+    - intellectual property
+      - copyrights: protects creative works against theft
+        - granted to creator automatically
+        - provided for 70 years beyond the creator's death
+        - covered works move to public domain after expiration
+      - trademarks: protects words and symbols like brand names and slogans
+        - granted upon registration
+        - provided for renewable 10 year periods 
+        - granted contingent upon active use in commerce
+        - can be considered abandoned after 5 years of non use
+      - patents: protects inventions
+        - requirements: novelty, usefulness, non-obviousness
+        - generally last 20 years
+        - require public disclosure of the invention
+      - trade secrets
+        - secret alternative to patent protection
+    - import and export controls 
+      - export controls: restrict flow of goods and data
+      - International Traffic in Arms Regulations (ITAR)
+        - covers "defense articles"
+      - Export Administration Regulations (EAR)
+        - covers "dual use" technologies
+      - Office of Foreign Assets Control (OFAC)
+        - covers sanctioned countries
+    - data breaches
+      - consequences: reputational damage, identity theft, fines, intellectual property theft
+      - industry specific regulations
+        - HIPAA for healthcare information
+        - SOX for public companies
+        - PCI DSS for credit card records 
+      - jurisdiction specific regulations
+        - geo related such as GDPR
+      - common PII elements
+        - social security numbers
+        - driver's license numbers
+        - bank account numbers
+        - and more
+      - common requirements 
+        - notifying affected individuals
+        - informing government agencies
+        - notice to general public
+        - offer compensation and/or credit monitoring services
+      - many data breach notification laws include exceptions for encryption information
+    - ethics
+      - ISC2 Code of Ethics: https://www.isc2.org/ethics
+        - canons
+          - Protect society, the common good, necessary public trust and confidence, and the infrastructure
+          - Act honorably, honestly, justly, responsibly, and legally
+          - Provide diligent and competent service to principals
+          - Advance and protect the profession
+        - ISC2 members are required to report breaches of the code of ethics to ISC2 for investigation
   - Security Policy
   - Business Continuity
   - Personnel Security
