@@ -299,9 +299,43 @@
           - Advance and protect the profession
         - ISC2 members are required to report breaches of the code of ethics to ISC2 for investigation
   - Security Policy
-  - Business Continuity
-  - Personnel Security
-  - Risk Management
+    - policies 
+      - provide the foundation for a security program
+      - written carefully over a long period of time
+      - require compliance from all employees
+      - approved at the highest levels of the organization
+      - policy criteria
+        - foundational authority for data security efforts
+        - clear expectations for data security responsibilities 
+        - guidance for requesting access to information
+        - process for granting policy exceptions
+      - data storage policies
+        - appropriate storage locations
+        - access control requirements
+        - encryption requirements
+      - data transmission policies
+        - appropriate data transmissions
+        - encryption requirements
+        - acceptable transmission mechanisms
+      - data lifecycle policies
+        - data retention policies: specify the minimum and/or maximum period that an organization will retain different data elements
+        - data disposal policies: describe proper techniques for destroying data that is no longer needed by an organization
+      - cloud policies: should address what data may be used in the cloud and how the organization approves cloud services
+    - standards 
+      - provide specific details of security controls
+      - derive their authority from policies
+      - follow a less rigorous approval process 
+      - require compliance from all employees
+      - example: CIS Benchmarks list of images
+    - procedures 
+      - outlines step-by-step process for an activity
+      - must be followed by employees
+    - guidelines
+      - provides security advice to the organization
+      - follow best practices from industry
+  - Business Continuity: TODO
+  - Personnel Security: TODO
+  - Risk Management: TODO
   - Threat Modeling
     - Open source intelligence
     - criteria for threat intelligence sources
