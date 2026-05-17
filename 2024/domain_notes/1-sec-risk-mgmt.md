@@ -384,7 +384,13 @@
       - prevent account hijacking, use multifactor authentication
       - can use social media management tools
       - adopt social media policy
-  - Risk Management: TODO
+  - Risk Management
+    - risk assessment
+      - identify scope in advance
+      - threat: external force jeopardizing security
+      - risks: combination of threat and vulnerability
+      - vulnerability: weaknesses in security controls
+      - threat vector: specific methods that threats use to exploit a vulnerability
   - Threat Modeling
     - Open source intelligence
     - criteria for threat intelligence sources
