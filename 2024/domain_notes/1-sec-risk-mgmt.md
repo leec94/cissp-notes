@@ -333,8 +333,57 @@
     - guidelines
       - provides security advice to the organization
       - follow best practices from industry
-  - Business Continuity: TODO
-  - Personnel Security: TODO
+  - Business Continuity Planning (BCP)
+    - also known as continuity of operations planning (COOP)
+    - defining BCP scope
+      - what business activities will the plan cover?
+      - what systems will it cover? 
+      - what controls will it consider?
+    - business impact assessment (BIA): identify and prioritize risks
+      - output is list of risks to a business
+    - redundancy
+      - single point of failure analysis: identifies and removes SPOFs
+      - succession planning
+    - availability
+      - high availability: uses multiple systems to protect against service failure
+      - fault tolerance: makes a single system resilient against technical failures
+      - load balancing: spreads demand across systems
+      - uninterruptible power supplies (UPSs): supplies battery power to devices during brief disruptions
+      - power distribution units (PDUs)
+      - redundant array of inexpensive disks (RAID) 
+        - RAID 1
+        - RAID 5: disk striping with parity
+        - fault tolerant strategy, not backup
+      - network redundancy
+        - multiple internet service providers
+        - NIC teaming
+  - Personnel Security
+    - handle policy violations carefully, clearly
+    - clear policies around personal resources and company data
+    - education: best defense against social engineering attacks
+    - insider threat: 25% of data breaches are from insider threats 
+    - hiring process
+      - preemployment screening: checks the background of potential employees
+        - can include checks of criminal record, sex offender registry, reference checks, education and employment verification, credit checks
+      - employment agreements
+        - nondisclosure agreements (NDA)
+        - return of information and physical assets at termination
+      - include security at orientation sessions
+      - employee transfer
+        - ensure they're trained for new role
+        - ensure old privileges have been properly revoked
+      - offboarding
+        - exit interview
+        - revoke access promptly
+        - retrieve organization property
+      - minimization: collect minimal information and store only as long as its needed
+      - limit access: limit access to as few employees as possible
+      - encryption: uses cryptography to render info unreadable decryption
+      - masking: removes portions of sensitive info to reduce sensitivity
+    - social media policies
+      - prevent account hijacking, use multifactor authentication
+      - can use social media management tools
+      - adopt social media policy
   - Risk Management: TODO
   - Threat Modeling
     - Open source intelligence
