@@ -437,6 +437,41 @@
       - control failures
         - false positive errors: control inadvertently triggers when it should not
         - false negative errors: control fails to trigger in a situation where it should
+    - continuous security monitoring: maintaining ongoing awareness of information security, vulnerabilities, and threats to support organizational risk management decisions 
+      - maps to risk tolerance
+      - adapts to ongoing needs 
+      - actively involves management
+    - monitoring process
+      - define
+      - establish
+      - implement
+      - analyze/report
+      - respond
+      - review/update
+    - anomaly analysis: detects outlier data points
+    - behavioral analysis: detects unusual user activity with signatures or heuristic analysis
+    - availability analysis: provides uptime information
+    - continuous tuning: maintains effective controls
+    - risk management framework
+      - NIST SP 800-37
+        - steps in managing risks:
+          1. Categorize - information system
+          2. Select - security controls
+          3. Implement - security controls
+          4. Assess - security controls
+          5. Authorize - information systems
+          6. Monitor - security controls
+    - risk visibility and reporting
+      - risk register: tracks risk information. contains description, category, risk owner, probability + impact, risk rating, and risk management actions
+      - risk register information sources
+        - risk assessment results
+        - audit findings
+        - team member output
+        - threat intelligence
+      - threat intelligence: shares risk information 
+      - reporting types
+        - internal reporting: provides updates to management on status and effectiveness of risk management activities
+        - external reporting: meets requirements for providing information to regulators, investors, customers, and partners
   - Threat Modeling
     - Open source intelligence
     - criteria for threat intelligence sources
@@ -463,7 +498,33 @@
       - SOAR to enhance SIEM
       - machine learning for automated creation of malware signatures
     - threat hunting: organized, systematic approach to seek out indicators of compromise on a network using expertise and analytic techniques
-  - Supply Chain Risk Management: TODO
+  - Supply Chain Risk Management
+    - vendor management life cycle  
+      - vendor selection
+      - onboarding
+      - monitoring
+      - offboarding
+    - life cycle considerations
+      - socialize with your team
+      - present to stakeholders
+      - schedule weekly or monthly metrics meetings
+      - hold yourself accountable
+    - ISO 27036: covers supplier relationships
+    - nondisclosure agreements (NDAs): protect confidentiality of information
+    - service level requirements (SLRs): specific requirements that a customer has for any aspect of a vendor's service performance
+    - service level agreement (SLA): written contract with vendor and customer that describes the conditions of service
+    - memorandum of understanding (MOU)
+    - memorandum of agreement (MOA)
+    - business partners agreement (BPA)
+    - master service agreement (MSA)
+    - work order (WO) or statement of work (SOW)
+    - System and Organization Control (SOC) reports: offer an alternative approach to evaluating providers
+    - SOC types
+      - SOC 1: provides assurance required for customer financial audits
+      - SOC 2: provides detailed assurance of confidentiality, integrity, and availability controls
+      - SOC 3: provides high level, public reporting for confidentiality, integrity, an availability controls
+      - Type I report: describes the controls that the service provider has in place and an opinion on the suitability of those controls
+      - Type II report: includes the same information as a Type I report along with the results of control testing by the auditor 
   - Awareness and Training
     - Security education programs
       - security training: provide knowledge to protect org's security
