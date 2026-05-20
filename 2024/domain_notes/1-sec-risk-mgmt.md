@@ -525,6 +525,9 @@
       - SOC 3: provides high level, public reporting for confidentiality, integrity, an availability controls
       - Type I report: describes the controls that the service provider has in place and an opinion on the suitability of those controls
       - Type II report: includes the same information as a Type I report along with the results of control testing by the auditor 
+    - SOC standards by geo
+      - SSAE 18 applies in the US
+      - ISAE 3402 applies internationally
   - Awareness and Training
     - Security education programs
       - security training: provide knowledge to protect org's security
