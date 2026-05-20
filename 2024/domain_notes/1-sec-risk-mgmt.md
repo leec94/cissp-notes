@@ -391,6 +391,52 @@
       - risks: combination of threat and vulnerability
       - vulnerability: weaknesses in security controls
       - threat vector: specific methods that threats use to exploit a vulnerability
+      - likelihood: probability that a risk will occur
+      - impact: amount of expected damage
+      - risk analysis types:
+        - qualitative: uses subjective ratings to evaluate risk likelihood and impact
+          - rankings like low/medium/high
+        - quantitative: uses objective numeric ratings to evaluate risk likelihood and impact
+      - asset valuation techniques 
+        - original cost
+        - depreciated cost 
+        - replacement cost 
+      - exposure factor (EF): expected percentage of damage to an asset if it occurred
+      - single loss expectancy (SLE): expected dollar loss if a risk occurs. SLE = AV * SLE
+      - annualized rate of occurrence (ARO): number of times a risk is expected to occur each year
+      - annualized loss expectancy (ALE): expected dollar loss from a risk in any given year. ALE = SLE * ARO
+      - mean time to failure (MTTF): average time a nonrepairable component will last
+      - mean time between failures (MTBF): average time gap between failures of a repairable component
+      - mean time to repair (MTTR): average time required to return a repairable component to service
+      - risk management/treatment: process of systematically analyzing potential responses to each risk and implementing strategies to control those risks appropriately 
+      - risk management strategies
+        - risk avoidance: changes the org's business practices
+        - risk transference: shifts the impact of a risk to another organization 
+        - risk mitigation: reduces the likelihood or impact of the risk
+        - risk acceptance: accepts the risk without taking further action
+      - risk profile: the full set of risks facing an organization
+      - levels of risk
+        - inherent risk: risks that exist before any controls are put in place
+        - residual risk: risks after controls are applied
+        - control risk: new risks from the controls themselves
+      - risk appetites 
+        - expansionary risk appetite: a willingness to take on higher levels of risk
+        - neutral risk appetite: balanced approach to risk
+        - conservative risk appetite: focuses on maintaining stability and protecting assets 
+      - risk threshold: level at which a risk becomes unacceptable
+      - risk tolerance: the organization's ability to withstand risks and continue operations
+      - security controls: procedures and mechanisms that an org puts in place to manage security risks
+      - defense in depth: multiple controls for one objective
+      - security control types
+        - preventive: stop a security issue from occurring in the first place
+        - detection: identify that a potential security issue has taken place
+        - corrective: remediate security issues that have already occurred
+      - technical controls: use technology to achieve security control objectives
+      - operational controls: use human driven processes to manage technology in a secure manner
+      - management controls: improve the security of the risk management process itself
+      - control failures
+        - false positive errors: control inadvertently triggers when it should not
+        - false negative errors: control fails to trigger in a situation where it should
   - Threat Modeling
     - Open source intelligence
     - criteria for threat intelligence sources
