@@ -99,4 +99,42 @@
   - retirement/disposal
  
 ## Notes
+- subject/object model: 
+- fail open: failed security controls are bypassed
+- fail secure or fail closed: failed security controls block access 
+- isolation: 
+  - examples: network segmentation, process isolation, memory segmentation, virtual machine isolation
+- segmentation: 
+- security models
+  - multilevel security: systems designed to operate at different security levels simultaneously while enforcing confidentiality and integrity constraints that restrict access between security levels 
+  - Bell-LaPadula Model: enforces confidentiality. used mostly in military applications 
+    - Rules
+      1. Simple Security Rule: No "read up" 
+      2. *-Property: No "write-down"
+  - Biba Model: enforces integrity
+    - Rules
+      1. Simple integrity property: No "read down"
+      2. *-Integrity property: No "write up" 
+- Trusted Computer System Evaluation Criteria (TCSEC) or orange book: contained DoD computer security requirements. replaced in 2005 with common criteria
+- Common Criteria: unified evaluation processes across NATO countries 
+- Certification: determines that a system meets security criteria. not the same as accreditation  
+- Accreditation: approves use of a system in a specific environment. same as authorization 
+  - accreditation decisions:
+    - authorization to operate (ATO)
+    - interim authorization to operate (IATO)
+    - interim authorization to test (IATT)
+    - denial of authorization to operate (DATO)
+- segregation of duties: no individual should possess two permissions that, in combination, allow them to perform a highly sensitive action 
+- two-person control (or dual control): requires the authorization of two separate individuals to carry out a sensitive action
+- privacy by design principles
+  1. proactive, not reactive; preventive, not remedial 
+  2. privacy as the default setting 
+  3. privacy embedded into design 
+  4. full functionality: positive sum, not zero sum 
+  5. end-to-end security full lifecycle protection 
+  6. visibility and transparency: keep it open
+  7. respect for user privacy: keep it user-centric
+
+
+
 ## References
