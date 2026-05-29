@@ -134,7 +134,26 @@
   5. end-to-end security full lifecycle protection 
   6. visibility and transparency: keep it open
   7. respect for user privacy: keep it user-centric
-
-
+- secure default 
+  - zero trust: least privilege to network access 
+- information system lifecycle
+  1. stakeholder needs
+  2. requirement analysis
+  3. architectural design
+  4. development / implementation 
+  5. integration 
+  6. verification & validation 
+  7. transition / deployment  
+  8. operations & maintenance 
+  9. retirement / disposal
+- cloud computing security
+  - cloud service provider: offers cloud computing services for sale to third parties
+  - purchases cloud computing services from one or more cloud service providers 
+  - cloud access security broker (CASB): provides IAM services
+  - managed security service providers (MSSPs): provide security services for other organizations as a managed service
+  - network-based CASB: broker intercepts traffic between the user and the cloud service, monitoring for security issues 
+    - broker can block requests
+  - API-based CASB: broker queries the cloud service via API 
+    - broker may not be able to block requests, depending upon API capabilities
 
 ## References
