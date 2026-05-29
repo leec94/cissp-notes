@@ -155,5 +155,21 @@
     - broker can block requests
   - API-based CASB: broker queries the cloud service via API 
     - broker may not be able to block requests, depending upon API capabilities
+- multitenancy: shared computing resources
+- isolation: users don't impact each other
+- oversubscription: sold capacity exceeds actual capacity
+- resource pooling: CPU and memory shared among users
+- hypervisor types
+  - type 1 hypervisor: hypervisor runs directly on top of the hardware, then guest operating systems on top of that
+  - type 2 hypervisor: physical machine actually runs an operating system of its own, and the hypervisor runs as a program on top of that operating system. examples include VirtualBox and Parallels
+- virtualization security
+  - virtual machine isolation is critical
+  - each server must have access to only its own memory and storage
+  - VM escape attacks attempt to break out of the guest environment
+- VM sprawl: unused and unmaintained servers
+- virtual desktop infrastructure (VDI): provides network-based access to a desktop computing environment 
+- application virtualization: streams applications to the user's desktop
+
+
 
 ## References
