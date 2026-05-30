@@ -160,7 +160,7 @@
 - oversubscription: sold capacity exceeds actual capacity
 - resource pooling: CPU and memory shared among users
 - hypervisor types
-  - type 1 hypervisor: hypervisor runs directly on top of the hardware, then guest operating systems on top of that
+  - type 1 hypervisor: hypervisor runs directly on top of the hardware, then guest operating systems on top of that. Examples include VMWare ESXi, KVM, Microsoft Hyper-V
   - type 2 hypervisor: physical machine actually runs an operating system of its own, and the hypervisor runs as a program on top of that operating system. examples include VirtualBox and Parallels
 - virtualization security
   - virtual machine isolation is critical
@@ -169,6 +169,36 @@
 - VM sprawl: unused and unmaintained servers
 - virtual desktop infrastructure (VDI): provides network-based access to a desktop computing environment 
 - application virtualization: streams applications to the user's desktop
+- containers: lightweight alternative to virtual servers. uses host's operating system, runs on containerization platforms, contains application code and dependencies only
+- ISO/IEC 17789:2014: ISO cloud reference architecture, defines cloud computing activities
+  - customer activities: uses cloud services, perform service trials, monitor services, administer security, provide billing reports, handle problems, administer tenancies, perform business administration, services 
+  - provider activities: prepare systems and services, monitor services, manage assets, provide audit data, manage customer relationships, perform peering, ensure compliance, provide connectivity, and more
+  - partner activities: design, create, and maintain services, test services, perform audits, set up legal agreements, acquire and assess customers, assess the marketplace  
+- Cloud Controls Matrix (CCM)
+- cloud deployment models
+  - private cloud: organization uses a dedicated cloud infrastructure
+  - public cloud: orgs use a multitenancy infrastructure
+  - hybrid cloud: orgs use both a private and public cloud
+  - community cloud: shared with a consortium 
+- Xaas: anything as a service
+- Software as a Service (SaaS): customer purchases an entire app. Examples include Gmail and Box 
+- Infrastructure as a Service (IaaS): customer purchases servers/storage
+- Platform as a Service (PaaS): customer purchases app platform
+- Function as a Service (FaaS): or serverless computing
+- edge computing: computing on the endpoint
+- fog computing: computing near the endpoint 
+- horizontal scaling: adds more servers to the pool to meet increased demand
+- vertical scaling: adds more resources to existing servers to meet demand
+- automatic scaling: performs vertical or horizontal scaling on an automated basis
+- memory types: 
+  - read-only memory (ROM): contents may not be changed by applications or the operating system
+  - random-access memory (RAM): contents may be changed by applications and the operating system
+- memory management actions: tracks what applications are using each segment of memory, grants request for additional memory, frees up memory that is no longer needed
+- memory protection: restricts access to memory segments 
+- segmentation fault: error that occurs when the application requests unauthorized access to a memory segment  
+- memory leak: applications accumulate memory over time and fail to release it when no longer needed
+- AES Crypt: open source software for encryption 
+- hardware security module (HSM): manages encryption keys
 
 
 
