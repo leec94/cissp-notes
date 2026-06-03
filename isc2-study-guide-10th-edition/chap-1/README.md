@@ -13,6 +13,7 @@
 - Abstraction: Similar elements are collected into groups, classes, or roles and assigned security controls, restrictions, or permissions as a collective. To carry out a security plan 
 - Security boundary: The intersection between two areas, subnets, or environments that have different security requirements or needs 
 - Security governance: The collection of practices related to supporting, defining, and directing the security efforts of an organization 
+  - Security governance seeks to compare the security processes and infrastructure used within the organization with knowledge and insight obtained from external sources
 - Third-party governance: The system of external entity oversight that may be mandated by law, regulation, industry standards, contractual obligation, or licensing requirements. Generally done by an outside investigator or auditor 
 - Documentation review: The process of reading the exchanged materials and verifying them against standards and expectations
 - Security management planning 
@@ -28,12 +29,12 @@
     - Guidelines 
     - Procedures 
   - Key Security Roles 
-    - Senior manager
-    - Security professional 
+    - Senior manager: ultimately responsible for the security maintained by an organization 
+    - Security professional: functional responsibility for security, including writing the security policy and implementing it
     - Asset owner
-    - Custodian
+    - Custodian: person who is responsible for the tasks of implementing the prescribed protection defined by the security policy and senior management
     - User
-    - Auditor
+    - Auditor: responsible for reviewing and verifying that the security policy is properly implemented and that the derived security solutions are adequate
 - Business case: a documented argument or stated position, a need to alter an existing process or choose an approach to a business task. 
 - Due Diligence vs Due Care
   - Due diligence: Establishing a plan, policy, and process to protect the interests of an organization  
@@ -45,8 +46,50 @@
   - Diagramming 
   - Reduction/decomposing 
   - DREAD
+- STRIDE: Microsoft developed threat categorization scheme
+  - Spoofing
+  - Tampering
+  - Repudiation  
+  - Information disclosure
+  - Denial of Service (DoS)
+  - Elevation of privilege
+- Process for Attack Simulation and Threat Analysis (PASTA): threat modeling methodology
+  1. Definition of the Objectives (DO)
+  2. Definition of the Technical Scope (DTS)
+  3. Application Decomposition and Analysis (ADA)
+  4. Threat Analysis (TA)
+  5. Weakness and Vulnerability Analysis (WVA)
+  6. Attack Modeling & Simulation (AMS)
+  7. Risk Analysis & Management (RAM)
+- Visual, Agile, and Simple Threat (VAST): threat modeling concept that integrates threat and risk mgmt to a scalable Agile programming environment  
+- DREAD: threat rating system 
+  - Damage (potential)
+  - Reproducibility
+  - Exploitability
+  - Affected Users
+  - Discoverability
 - Supply chain risk management (SCRM): a means to ensure that all vendors or links in the supply chain are reliable, trustworthy, reputable organizations that disclose their practices and security requirements to their business partners. 
   - Includes
     - Evaluating risks to hardware, software, and services
     - Establishing minimum security requirements 
     - Enforcing service-level requirements
+- Control Objectives for Information and Related Technologies (COBIT): set of best IT security practices by ISACA. auditing protocol, 
+- COBIT principles: 
+  - Provide Stakeholder Value
+  - Holistic Approach 
+  - Dynamic Governance System
+  - Governance Distinct from Management 
+  - Tailored to Enterprise Needs 
+  - End-to-End Governance System
+- commodity vendor: a third-party vender that manufactures a component in the supply chain
+- threat modeling steps
+  - Identifying Threats 
+  - Determining and Diagramming Potential Attacks
+  - Performing reduction analysis: gain greater understanding of the logic of the product, components, and connections. also decomposition 
+    - decomposition steps
+      - trust boundaries 
+      - dataflow paths
+      - input points 
+      - privileged operations 
+      - details about security stance and approach 
+  - Prioritization and Response
