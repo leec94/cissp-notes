@@ -4,6 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
+    - [cryptography](#cryptography)
   - [References](#references)
 
 ## Topics
@@ -247,6 +248,78 @@
   - connect to home and office wireless networks 
   - connect back to cloud services for command and control 
 - IoT safety
-  - smart devices require regular updates
+  - smart devices require regular updates. auto updates or manual updates
+  - check for weak default passwords
+  - firmware version control: updates applied in orderly fashion
+  - security wrappers: system that monitors input and output for security issues rather than directly connecting to network
+  - segmenting embedded devices increases network security 
+  - application firewalls: provides added protection for embedded devices 
+- embedded system: technology components of an IoT device that place a full computer inside another, larger system
+- system on a chip (SoC): combines processing, memory, networking, and other embedded system components on a single chip. Examples include raspberry pi's abd arduinos 
+- field programmable gat arrays (FPGAs): chips that allow dynamic reprogramming 
+  - eFUSE: technology from IBM that allows dynamic modification of the chip
+- real-time operating systems (RTOs): provides reliable and secure computing for IoT devices
+- CAN bus: facilitates embedded device communications 
+- embedded system constraints: power, compute capabilities, and network capacity, cryptography, patching difficulties. 
+  - cell networks may be able to help with coverage, use SIM cards to connect
+- Zigbee and Z-Wave: short range communication standards for smart devices
+- radio frequency comms: work when even cell networks are not available
+- digital signal processing (DSP): made up of memory, compute engine, and input/output. takes an input, processes it, and provides an output 
+- satellite comms tech: offers the widest global coverage, reaching remote and geographically isolated areas where other technologies cannot
+### cryptography
+- crypto involves tradeoff between security strength and resource consumption 
+- symmetric encryption: encryption and decryption use the same secret key
+- asymmetric encryption: or public key cryptography, encryption and decryption use different keys from the same pair 
+  - public key: freely distributed to communications partners
+  - private key: kept secret
+  - anything encrypted with one key from a pair can be decrypted with the other key from that same pair
+  - only need 2 key for each user
+- computing number of symmetric keys required for a group to communicate: where n is the number of people that want to communicate, n(n-1)/2
+- goals of cryptography
+  - confidentiality: no unauthorized access 
+  - integrity: no unauthorized changes
+  - authentication: proof of identity claims 
+  - obfuscation: hiding sensitive data
+  - non-repudiation: verification of origin
+- codes: system that substitutes one word or phrase for another. intended to provide secrecy and/or efficiency 
+  - "10" code system used by police
+- ciphers: systems that use algorithms to encrypt and decrypt messages
+  - stream ciphers: operates on one character, or bit, of a message at a time 
+  - block ciphers: operates on large segments of the message at the same time 
+  - substitution ciphers: changes the characters in a message
+  - rotation ciphers: type of substitution cipher if they shift letters by an increment
+  - transposition ciphers: rearranges characters in a message
+- operations
+  - exclusive or (XOR): true when exactly one of two input values is true
+- pseudorandom: algorithms that make almost random numbers
+- confusion: every bit of ciphertext must depend on more than one bit of the encryption key
+- diffusion: changing a single bit of the plaintext should change about 50% of the ciphertext bits
+- obfuscation: uses cryptography to hide source code from users
+- security through obscurity: security depends on the secrecy of its approach
+- key length: cost/benefit analysis, select key length that balances security goals and speed of encryption/decryption
+- choosing algorithm: use tested encryption modules and crypto service providers 
+- one-time pad: unbreakable encryption algorithm, completely random
+- crypto lifecycle: to phase out algorithms as they become insecure. ensures that crypto systems remain robust over time by evaluating and updating encryption methods, keys, and practices as vulns are discovered and computing power increases, which can render older algorithms less effective
+- NIST cryptographic lifecycle
+  1. Initiation: gather requirements for new cryptographic system
+  2. Acquisition & development: finds appropriate combo of hardware, software, and algorithms that meet objective
+  3. Implementation and assessment: configure and test crypto system
+  4. Operations and maintenance: ensure continued secure operation og cryptographic system
+  5. Sunset: phase out system and destroy/archive keying material
+- Data Encryption Standard (DES): intended to serve as a federal encryption standard, enhanced interoperability of comms. designed by IBM in the 1970s. **no longer secure**
+  - uses an encryption operation called Feistel function for 16 rounds of encryption 
+- Feistel function: performs combo of substitution and transposition operations
+- confusion: hides relationship between ciphertext and key. commonly carried out through substitution
+- diffusion: hides relationship between plaintext and ciphertext. commonly carries out through transposition
+- Triple DES: or 3DES, applies DES encryption 3 times 
+
+| Algorithm | Type      | Type Cipher                 | Key Length | Secure? |
+| --------- | --------- | --------------------------- | ---------- | ------- |
+| DES       | Symmetric | Block cipher, 64-bit blocks | 56 bits    | No      |
+|  Triple DES         |           |                             |            |         |
+
+
+
+
 
 ## References
