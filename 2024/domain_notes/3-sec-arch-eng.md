@@ -5,6 +5,7 @@
   - [Topics](#topics)
   - [Notes](#notes)
     - [cryptography](#cryptography)
+      - [Algorithms Quick Ref](#algorithms-quick-ref)
   - [References](#references)
 
 ## Topics
@@ -312,11 +313,35 @@
 - confusion: hides relationship between ciphertext and key. commonly carried out through substitution
 - diffusion: hides relationship between plaintext and ciphertext. commonly carries out through transposition
 - Triple DES: or 3DES, applies DES encryption 3 times 
+- Blowfish: public domain algorithm by Bruce Schnier, designed as DES replacement. Uses Feistel network and combines substitution and transposition
+- Twofish: same as blowfish details, but still considered secure
+- Rijndael or Advanced Encryption Standard(AES)
+  - uses substitution and transposition
+- RC4: symmetric stream cipher used in network encryption by WEP, WPA, SSL, TLS. uses pseudorandom keystream, no longer considered secure
+- cipher mode: how an algorithm encrypts and decrypts data 
+  - electronic codebook (ECB) mode
+  - cipher block chaining (CBC) mode
+  - counter mode (CTR) mode: allows block ciphers to act more like stream ciphers
+  - galois/counter mode (GCM): adds authentication capability
+- steganography: hides data in large files, like hiding messages in image files 
+- Rivest-Shamir-Adelman (RSA): early asymmetric algorithm. key pair are made using 2 large prime numbers. its slow, used to exchange symmetric keys
+  - sender encrypts messages using the recipient's public key
+  - recipient decrypts messages using their own private key
+- pretty good privacy (PGP): asymmetric algorithm by phil zimmerman. OpenPGP open source version. uses public and private keys, and combines both symmetric and asymmetric crypto
 
-| Algorithm | Type      | Type Cipher                 | Key Length | Secure? |
-| --------- | --------- | --------------------------- | ---------- | ------- |
-| DES       | Symmetric | Block cipher, 64-bit blocks | 56 bits    | No      |
-|  Triple DES         |           |                             |            |         |
+
+
+#### Algorithms Quick Ref
+| Algorithm                                     | Type       | Type Cipher                    | Key Length                       | Secure?                    |
+| --------------------------------------------- | ---------- | ------------------------------ | -------------------------------- | -------------------------- |
+| DES                                           | Symmetric  | Block cipher, 64-bit blocks    | 56 bits                          | No                         |
+| Triple DES                                    | Symmetric  | Block cipher, 64-bit blocks    | 112 bits                         | No, being phased out       |
+| Blowfish                                      | Symmetric  | Block cipher on 64-bit blocks  | between 32 and 448 bits          | No                         |
+| Twofish                                       | Symmetric  | Block cipher on 128-bit blocks | 128, 192, or 256 bits            | No                         |
+| Rijndael or Advanced Encryption Standard(AES) | Symmetric  | Block cipher, 128-bit blocks   | 128, 192, or 256 bits            | Yes                        |
+| RC4                                           | Symmetric  | stream cipher                  | between 40 - 2048 bits           | No                         |
+| RSA                                           | Asymmetric |                                | Between 1,024 (insecure) - 4,096 | Yes above key length 2,048 |
+| PGP                                           | Asymmetric |                                |                                  |                            |
 
 
 
