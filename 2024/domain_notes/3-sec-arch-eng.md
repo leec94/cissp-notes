@@ -128,6 +128,7 @@
     - denial of authorization to operate (DATO)
 - segregation of duties: no individual should possess two permissions that, in combination, allow them to perform a highly sensitive action 
 - two-person control (or dual control): requires the authorization of two separate individuals to carry out a sensitive action
+- privacy design principles: by IAPP
 - privacy by design principles
   1. proactive, not reactive; preventive, not remedial 
   2. privacy as the default setting 
@@ -327,7 +328,46 @@
 - Rivest-Shamir-Adelman (RSA): early asymmetric algorithm. key pair are made using 2 large prime numbers. its slow, used to exchange symmetric keys
   - sender encrypts messages using the recipient's public key
   - recipient decrypts messages using their own private key
-- pretty good privacy (PGP): asymmetric algorithm by phil zimmerman. OpenPGP open source version. uses public and private keys, and combines both symmetric and asymmetric crypto
+- pretty good privacy (PGP): asymmetric algorithm by phil zimmerman. OpenPGP and GnuPG (GPG) open source version. uses public and private keys, and combines both symmetric and asymmetric crypto
+- elliptic curve cryptography: does not depend on prime factorization problem. cannot protect against quantum attacks 
+- quantum computing: using quantum mechanics principles 
+- quantum cryptography: not practical currently, but may be stronger than any modern approach
+  - quantum key distribution is same
+- out of band key exchange: uses a different channel 
+  - examples: face to face meeting, physical mail, telephone
+- in band key exchange: 
+- diffie hellman key exchange: provides symmetric key exchange capability. difficulty lies in the discrete log complexity
+- elliptic curve diffie hellman
+- encryption key escrow: allows government access to keys 
+  - Clipper chip: allowed goverment to access encrypted information. many lobbied against this chip
+- recovery agents: allows internal access to lost keys 
+- key stretching: takes a relatively insecure value, such as a password, and uses math techniques to strengthen it, making it harder to crack
+  - salting: adds a value to the encryption key to make it more complex
+  - hashing: adds time to the verification process by requiring more math
+- password-based key derivation function v2 (PBKDF2): key stretching method, should be used 4,000 times
+- bcrypt: uses blowfish and a salt to strengthen keys 
+- hardware security modules (HSM): manages encryption keys and perform cryptographic operations
+  - FIPS 140-3 security requirements for crptographic modeules, for HSM security for the government
+- trust models
+  - personal knowledge 
+  - web of trust (WOT): relies on indirect relationships, participants digitally sign the public keys of people they know personally
+    - decentralized, high barrier to entry, and requires technical knowledge
+  - public key infrastructure (PKI): builds on web of trust with certificate authorities (CA)
+- certificate authority (CA): trusted third-party organizations that verify the identity of individuals or organizations and then issue digital certificates containing both identity information and a copy of the subject's public key 
+- hash functions: one-way function that transforms a variable length input into a unique, fixed-length output
+- message digest 5 (MD5): created by ron rivest in 1991, producing 129-bit hashes. no longer secure
+- SHA-3: Keccak algorithm that replaced SHA-2
+- hash-based message authentication code (HMAC): combines symmetric crypto and hashes to provide authentication and integrity for messages. creates a message authentication code by using a secret key in conjunction with a hash function
+- digital signatures: uses asymmetric crypto to achieve integrity, authentication, and non-repudiation. private key to create digital signatures, public key for decryption. 
+  - FIPS 186-5 digital signature standard (DSS)
+    - approved digital signature algorithms: RSA, ECDSA, EdDSA
+- X.509 standard: 
+- certificate signing request (CSR)
+- registration authority (RA)
+- subject alternative name (SANs)
+- certificate revocation: invalidates compromised certificates 
+
+
 
 
 
@@ -342,6 +382,15 @@
 | RC4                                           | Symmetric  | stream cipher                  | between 40 - 2048 bits           | No                         |
 | RSA                                           | Asymmetric |                                | Between 1,024 (insecure) - 4,096 | Yes above key length 2,048 |
 | PGP                                           | Asymmetric |                                |                                  |                            |
+| Diffie Hellman Key Exchange                   |            |                                |                                  |                            |
+
+| Hash Algorithm | Hash value length    | Secure? |
+| -------------- | -------------------- | ------- |
+| MD5            | 129-bit              | No      |
+| SHA-1          | 160-bit              | No      |
+| SHA-2          | 224,256,384,512 bits | No      |
+| SHA-3          | variable             | Yes        |
+| RIPEMD         | 128,160,256,320-bits |  160 and up       |
 
 
 
