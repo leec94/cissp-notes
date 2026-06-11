@@ -5,7 +5,11 @@
   - [Topics](#topics)
   - [Notes](#notes)
     - [cryptography](#cryptography)
-      - [Algorithms Quick Ref](#algorithms-quick-ref)
+    - [cyberattacks](#cyberattacks)
+    - [site and facility design](#site-and-facility-design)
+      - [Encryption Algorithms](#encryption-algorithms)
+      - [Hash Algorithms](#hash-algorithms)
+      - [Certificate Formats](#certificate-formats)
   - [References](#references)
 
 ## Topics
@@ -357,6 +361,7 @@
 - hash functions: one-way function that transforms a variable length input into a unique, fixed-length output
 - message digest 5 (MD5): created by ron rivest in 1991, producing 129-bit hashes. no longer secure
 - SHA-3: Keccak algorithm that replaced SHA-2
+- DSA: hash function, no longer used by the government 
 - hash-based message authentication code (HMAC): combines symmetric crypto and hashes to provide authentication and integrity for messages. creates a message authentication code by using a secret key in conjunction with a hash function
 - digital signatures: uses asymmetric crypto to achieve integrity, authentication, and non-repudiation. private key to create digital signatures, public key for decryption. 
   - FIPS 186-5 digital signature standard (DSS)
@@ -366,12 +371,59 @@
 - registration authority (RA)
 - subject alternative name (SANs)
 - certificate revocation: invalidates compromised certificates 
+- certificate revocation list (CRL): includes serial numbers of revoked certificates 
+- online certificate status protocol (OCSP): provides real-time certificate status verification 
+- certificate stapling: reduces CA's burden, often valid for 24 hours 
+- self-signed certificates: for internal purposes, issued by an internal CA
+- certificate chaining: allows the use of intermediate CAs
+- offline CAs: protect sensitive root keys, root CAs are an example
+- certificate subject: owns the public key. Could be servers, devices, individuals, or developers 
+- certificate object identifiers (OIDs)
+- certificate pinning: ties a certificate to a subject for a period of time 
+- root certificates: protects CA private keys 
+- wildcard certificates: covers an entire domain, only goes one level deep
+- domain validation: validates domain ownership
+- organizational validation: verifies business name
+- extended validation: requires extensive investigation
+- distinguished encoding rules (DER): binary format, uses DER, CRT, and CER file extensions
+- PEM certificates: name comes from outdated privacy enhanced mail (PEM) standard 
+  - ASCII text equivalents of DER certificates 
+  - convert with OpenSSL
+  - uses PEM or CRT extensions 
+- personal information exchanges (PFX): binary format, commonly used by windows systems, uses PFX and P12 file extensions
+- P7B format: ascii text equivalent of PFX certificates, commonly used by Windows systems, uses P7B file extension
+
+### cyberattacks 
+- brute force attacks: repeatedly guessing keys, type of ciphertext attack
+- keyspace: the set of all possible encryption keys usable with an algorithm
+- frequency analysis: detects patterns in ciphertext
+- known plaintext attack: attacker has access to an unencrypted message
+- chosen plaintext attack: attacker can create an encrypted message of their choice
+- birthday attack: attacker finds two inputs with the same hash values
+- eavesdropping attacks: rely on a compromised communications path. examples include network device tapping, DNS poisoning, and ARP poisoning
+- man-in-the-middle attack
+- replay attack: to prevent, use unique characteristics like token and timestamp
+- SSL stripping: tricks browsers into using unencrypted communications 
+- fault injection attack: uses externally forced errors to cause a system to behave in unexpected ways, allowing attackers to bypass security measures or extract sensitive information
+- side channel attack: measures encryption foorprints 
+- timing attack: measures encryption time
+- entropy: reduces the predictability of cryptographic methods
+- downgrade attacks: remove or weaken encryption 
+- ransomware: encrypts data, demanding payment
+- mimikatz: steals passwords from memory
+- backups: provide a safety net for data
+- antimalware: protects against infections
+
+### site and facility design
+- evidence storage locations: used to preserve chain of custody 
+- intermediate distribution frames (IDF): hold central networking equipment
+- wiring closets and distribution cabling
+- 
 
 
 
 
-
-#### Algorithms Quick Ref
+#### Encryption Algorithms
 | Algorithm                                     | Type       | Type Cipher                    | Key Length                       | Secure?                    |
 | --------------------------------------------- | ---------- | ------------------------------ | -------------------------------- | -------------------------- |
 | DES                                           | Symmetric  | Block cipher, 64-bit blocks    | 56 bits                          | No                         |
@@ -384,16 +436,24 @@
 | PGP                                           | Asymmetric |                                |                                  |                            |
 | Diffie Hellman Key Exchange                   |            |                                |                                  |                            |
 
-| Hash Algorithm | Hash value length    | Secure? |
-| -------------- | -------------------- | ------- |
-| MD5            | 129-bit              | No      |
-| SHA-1          | 160-bit              | No      |
-| SHA-2          | 224,256,384,512 bits | No      |
+
+#### Hash Algorithms
+
+| Hash Algorithm | Hash value length    | Secure?    |
+| -------------- | -------------------- | ---------- |
+| MD5            | 129-bit              | No         |
+| SHA-1          | 160-bit              | No         |
+| SHA-2          | 224,256,384,512 bits | No         |
 | SHA-3          | variable             | Yes        |
-| RIPEMD         | 128,160,256,320-bits |  160 and up       |
+| RIPEMD         | 128,160,256,320-bits | 160 and up |
 
 
+#### Certificate Formats 
 
+| Binary Version | Binary File Extensions | Text Version | Text File Extensions |
+| -------------- | ---------------------- | ------------ | -------------------- |
+| DER            | .der, .crt, .cer       | PEM          | .pem, .crt           |
+| PFX            | .pfx, .p12             | P7B          | .p7b                 |
 
 
 ## References
