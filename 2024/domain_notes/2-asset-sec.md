@@ -116,7 +116,5 @@
   - silicon root of trust
   - physically unclonable functions
   - software bill of materials (SBOM)
-- 
-
-
+  
 ## References

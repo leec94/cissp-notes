@@ -54,4 +54,6 @@
   - Software-defined security
 
 ## Notes
+- Notes from Mike Chappelle Linkedin Learning
+
 ## References

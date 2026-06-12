@@ -51,4 +51,7 @@
   - internal, external, third-party, location
 
 ## Notes
+- Notes from Mike Chappelle Linkedin Learning
+
+
 ## References

@@ -103,4 +103,6 @@
       - hardware support
 
 ## Notes
+- Notes from Mike Chappelle Linkedin Learning
+- 
 ## References

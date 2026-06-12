@@ -111,5 +111,8 @@
     - 2FA fatigue
   - emergency management
   - duress
+
 ## Notes
+- Notes from Mike Chappelle Linkedin Learning
+
 ## References

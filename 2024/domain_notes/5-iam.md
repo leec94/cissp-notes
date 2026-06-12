@@ -61,4 +61,6 @@
 - Implement authentication systems
 
 ## Notes
+- Notes from Mike Chappelle Linkedin Learning
+
 ## References
