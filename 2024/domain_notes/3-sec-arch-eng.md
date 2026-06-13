@@ -430,7 +430,9 @@
   - class C: electrical fires (data centers)
   - class D: heavy metal fires (industrial equipment)
   - class K: kitchen fires (fats and oils)
+  
 ![alt text](image.png)
+
 - other fire suppression methods
   - wet pipe: contains water in the pipes ready to deploy when a fire strikes
   - dry pipe: does not contains water until a valve opens during a fire alarm

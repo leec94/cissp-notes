@@ -7,6 +7,10 @@ Videos
   - TBH seems like it was meant for the 2021 exam since he keeps mentioning 2021 but most of the content should be relevant
 - Destination Certification CISSP Domain Reviews: https://www.youtube.com/playlist?list=PLZKdGEfEyJhKWyryIvx_jm1jn6ZMTi7gW 
 
+Mindset Vieos
+- Kelly Handerhan: https://www.youtube.com/watch?v=-99b1YUFx0A
+- Larry Greenblatt: https://www.youtube.com/watch?v=HWg2geVJuvs 
+
 Notes
 - CISSP Sunflower notes (last edited 2019): https://docs.wixstatic.com/ugd/dc6afa_fc8dba86e57a4f3cb9aaf66aff6f9d22.pdf 
 - A french dude's notes: http://luc.desfosses.fr/CISSP/ 
