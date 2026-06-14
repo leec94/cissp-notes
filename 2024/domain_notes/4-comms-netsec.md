@@ -247,6 +247,42 @@
 - forward proxies: work on behalf of clients
 - reverse proxies: work on behalf of servers
 - transparent proxies: or in line proxies, work without the client or servers knowledge
+- load balancers: distribute work among servers. also can do ssl certificate management, url filtering, and more
+- autoscaling: automatically adds and removes servers as needed
+- round robin scheduling: each server gets an equal number of requests
+- session persistence: routes an individual user's request to the same server
+- active-active mode: two or more load balancers actively handle network traffic and continue to function with diminished capacity if one device fails
+- active-passive: one load balancer handles all traffic while a second monitors activity and assumes responsibility if the primary load balancer fails
+- VPNs: virtual tunnel to connect systems
+- site-to-site VPNs: connects remtoe offices to each other and headquarters
+- remote access VPNs: provides remote access to corporate networks for mobile users
+- IPSec: works at network layer (layer 3), supports L2TP, provides secure transport, and difficult to configure
+- SSL/TLS VPNs: work at application layer (layer 7) over TCP port 443
+- HTML5 VPNs: work entirely within the web browser
+- full-tunnel VPN: all network traffic leaving the connected device is routed through VPN tunnel, regardless of final destination
+- split-tunnel VPN: only traffic destined for corporate network is sent through VPN tunnel. Other traffic is routed directly over the internet
+- always on VPN: connects automatically
+- intrusion detection system (IDS): monitors network traffic for signs of malicious activity
+  - example detections: SQL injections, malformed packets, unusual logins, and botnet traffic
+- intrusion prevention system (IPS): blocks malicious activity automatically
+- signature detection: contains databases with rules describing malicious activity, alerts admins to traffic matching signatures, though fails to detect brand new attacks. reduced false positive rates
+- anomaly detection systems: also behavior based detection and heuristic detection builds models of "normal" activity. alerts asmins to activity not matching the model, detects previously unknown attacks, though has increased false positive rates
+- protocol analyzers: allows deep inspection of traffic. used to troubleshoot network issues or investigate security incidents
+- tcpdump: open source command line protocol analyzer
+- libpcap: both tcpump and wireshark are built on this library
+- tcpreplay: allows editing and replaying of traffic
+- unified threat management (UTM): combines multiple security functions in a single appliance. protects network against attacks, blocks unsolicited traffic, and routes traffic to and from the internet. also has VPN connectivity, intrusion detection and prevention, url filtering, content inspection, malware inspection, email inspection
+- content distribution networks (CDNs): provides scalability and security. has ondemand scaling, is cost efficient, has locality of content, and security enhancements like DDoS filtering and WAF functionality
+
+
+
+
+
+
+
+
+
+
 
 
 
