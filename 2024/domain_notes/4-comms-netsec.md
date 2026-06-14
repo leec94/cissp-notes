@@ -273,12 +273,54 @@
 - tcpreplay: allows editing and replaying of traffic
 - unified threat management (UTM): combines multiple security functions in a single appliance. protects network against attacks, blocks unsolicited traffic, and routes traffic to and from the internet. also has VPN connectivity, intrusion detection and prevention, url filtering, content inspection, malware inspection, email inspection
 - content distribution networks (CDNs): provides scalability and security. has ondemand scaling, is cost efficient, has locality of content, and security enhancements like DDoS filtering and WAF functionality
-
-
-
-
-
-
+- network restriction types
+  - rule based, role based, time based, location based
+- network access control (NAC): intercepts network traffic coming from unknown devices and verifies the system and user are authorized before allowing further communication
+- physical NAC: deploy functionality on dedicated NAC Appliances or existing network hardware
+- virtual NAC: software based functionality that may be run as a virtual appliance
+- RADIUS 
+- shadowed rule: never gets hit
+- promiscuous rules: allows more access than necessary
+- orphaned rules: allows access to decommissioned systems and services
+- access control lists: performs filtering based upon source IP address
+- extended ACLs: block traffic based upon more advanced criteria such as source and destination IP addresses, source and destination ports, and protocols used for communication
+- VLAN security
+- VLAN hopping attacks
+- VLAN trunking: 
+- VLAN pruning: limit the unnecessary exposure of VLANs by limiting the number of switches where they are trunked, especially for sensitive VLANs
+- VLAN trunk negotiation: deny the use of automatic VLAN trunk negotiation to limit the effectiveness of VLAN hopping attacks 
+- port security: limit the devices that may connect to a network switchport by MAC addressing
+- DHCP snooping: blocks malicious DHCP traffic
+- SYN floods: fill connection state tables on firewalls with half-open connection entries
+- MAC floods: fill switch's MAC address table with many entries, causing it to flood traffic on all ports
+- routing loops: allows broadcast storms
+- spanning tree protocol (STP): prevents broadcast storms by implementing loop prevention
+- BPDU guard: blocks malicious STP updates
+- bandwidth: theoretical rate at which data can be transferred over a network, measured in bits per second (bps)
+- throughput: actual rate at which data was transferred over a network. measured in bits per second (bps)
+- latency: time it takes for a packet to travel from source to destination, measured in ms
+- jitter: variability in the time of arrival of data packets. measured in ms
+- signal-to-noise ratio (SNR): measures how strong a signal is relative to background noise. measured in dB
+- SNMP: current version is SNMPv3
+  - SetRequest: used by a network management system to change a value on an SNMP agent
+  - GetRequest: used by a network management system to get a value on an SNMP agent
+  -  Trap: SNMP message to a network management system to report an unusual event, such as an error or a threshold being reached.
+- darknets: unused but monitored IP address space 
+- honeyfiles: false stores of sensitive information
+- honeypots: systems designed to attract and trap attackers
+- honeynet
+- DNS sinkhole: altered DNS records to reroute botnet traffic
+- flood guard: designed to prevent denial of service attacks by limiting the rate of traffic to a network or a particular resource, thus protecting against overwhelming floods of traffic
+- VoIP 
+- XMPP: open source messaging protocol. Jabber 
+- network attached storage (NAS): simple, self contained storage devices that commonly use CIFS and NFS
+- storage area networks (SAN): complex, massive storage systems that require dedicated networks 
+  - SAN communications
+    - Fibre Channel: requires the use of dedicated connections and is known for its high speed and reliability in connecting computer data storage to servers.
+    - Infiniband
+    - Infiniband over ethernet: combines Fibre Channel's reliability for storage communication with the Ethernet network infrastructure
+    - compute express link (CXL)
+    - internet SCSI (iSCSI)
 
 
 
