@@ -202,6 +202,7 @@
 - software defined visibility (SDV): allows visibility through virtual tapping, virtual net flow, and other features to analyze and summarize network traffic
 - control plane: responsible for making routing and switching decisions
 - data plane: responsible for carrying out the instructions of the control plane
+- management plane: configures devices, monitors performance, and troubleshoots problems
 - encapsulation: allows one protocol to carry traffic that uses another protocol
 - VXLAN: "extended vlan" builds overlay networks that operate at layer 2 using layer 3 equipment
 - Software-defined wide area networks (SD-WAN): connects larger areas. allows granular network configuration, and facilitates faster response to security incidents. however, increases network complexity 
@@ -219,6 +220,8 @@
   - policy administrator
 - secure access service edge (SASE): combines SDN, STNA, CASB, FWaaS, and other network security services. long term goal, where zero trust is medium term
 - switches: connect devices to the network, at layer 2 working with mac addresses. some function at layer 3
+  - cut-through mode: switches begin forwarding packets before they have received the entire packet, reducing latency
+  - store-and-forward mode: switches wait until they have received the entire packet before forwarding it. increases latency but reduces errors
 - conduits: physical tubes (metal or PVC) used to route and protect network cables
 - wireless access points (WAP): connects to switches and creates wifi networks
 - routers: connect networks to each other, making intelligent packet routing decisions. also does stateless inspection with access control lists
@@ -231,9 +234,19 @@
 - mesh network: connects every device to several other devices, requires too much wire in a wired network. improves reliability of wireless networks
 - tree network: uses hierarchical design, interconnects star networks in "tree and star" topology
 - transport architecture: guides the flow of data across a network
-
-
-
+- peering agreements: connects two networks directly to each other
+- firewalls: 
+  - stateless firewalls: evaluates each connection independently
+  - stateful inspection: tracks open connections
+  - network hardware vs. host-based software firewall
+- DMZ: 
+- implicit deny: if the firewall receives traffic not explicitly allowed by a firewall rule, then that traffic must be blocked
+- next generation firewalls (NGFW): incorporates contextual information into their decision-making
+- proxy servers: connect to websites on a user's behalf 
+  - benefits: anonymization, performance boosting, content filtering
+- forward proxies: work on behalf of clients
+- reverse proxies: work on behalf of servers
+- transparent proxies: or in line proxies, work without the client or servers knowledge
 
 
 
