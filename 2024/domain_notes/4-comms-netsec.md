@@ -321,10 +321,23 @@
     - Infiniband over ethernet: combines Fibre Channel's reliability for storage communication with the Ethernet network infrastructure
     - compute express link (CXL)
     - internet SCSI (iSCSI)
-
-
-
-
+- TLS/SSL 
+  - SSL: older version of TLS that's deprecated
+  - OpenSSL: open source version of TLS
+- IPSec
+- ESP: provides confidentiality and integrity protection for packet payloads
+- AH: provides integrity protection for packet headers and payloads
+- SSH
+- wireless access points (WAP)
+- WEP 
+- WPA: uses TKIP to rotate encryption keys, no longer secure
+- WPA2: encrypts packets using AES, uses CCMP, widely used and considered secure
+- WPA3: supports CCMP, uses SAE for key exchange
+- LEAP: insecure protocol that relies on MS-CHAP
+- EAP: broad framework for wireless authentication with many variants, some secure, some not
+  - Secure variants include EAP-TLS, EAP-TTLS, EAP-FAST
+  - Insecure includes EAP-MD5
+- PEAP: tunnels EAP inside an encrypted TLS session
 
 
 
@@ -367,8 +380,25 @@ Common ports
 | 80            | HTTP     | HTTP                                    |
 | 443           | HTTPS    | Secure HTTP                             |
 |               |          |                                         |
+Wifi 
 
+| Standard | Speed   | Year |
+| -------- | ------- | ---- |
+| 802.11   | 2Mbps   | 1997 |
+| 802.11b  | 11Mbps  | 1999 |
+| 802.11g  | 54Mbps  | 2003 |
+| 802.11n  | 600Mbps | 2009 |
+| 802.11ac | 1Gbps+  | 2014 |
+| 802.11ax | 10Gbps  | 2019 |
 
+Wireless encryption stnadards 
+
+| Standard | Status   |
+| -------- | -------- |
+| WEP      | Insecure |
+| WPA      | Insecure |
+| WPA2     | Secure   |
+| WPA3     | Secure   |
 
 
 
