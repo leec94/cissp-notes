@@ -338,6 +338,21 @@
   - Secure variants include EAP-TLS, EAP-TTLS, EAP-FAST
   - Insecure includes EAP-MD5
 - PEAP: tunnels EAP inside an encrypted TLS session
+- beamforming: pointing antenna in targeted direction
+- fat access points: contains all hardware and software needed to operate a wireless network
+- thin access points: rely on wireless controllers for config and to serve as the "brains" of the wireless network
+- wireless controllers: manage configs, optimize performance, and reduce interference among APs 
+- NFC: uses electromagnetic induction, covers distances in centimeters
+- mobile device management (MDM):
+- network firewall vs host firewall 
+- next gen firewall 
+- 
+
+
+
+
+
+
 
 
 
