@@ -133,7 +133,43 @@
 - session management: uses timeouts and screen savers to disconnect user sessions that have gone idle, preventing an unauthorized individual from taking control of an abandoned user session
 - timeouts: disconnects user session after a predetermined time, or inactivity. can also require reauthentication for sensitive activities. 
   - screensaver is common timeout mechanism
-- 
+- least privilege
+- segregation of duties 
+- job rotation
+- mandatory vacation
+- account types: user, privileged, guest, shared, service 
+- group policy object (GPO): applies configuration settings to users and computers
+- password policies: length, expiration, lockout policies, and disablement for unused accounts 
+  - current NIST guidance says complex passwords should be allowed, not required, as long as MFA is used 
+  - NIST says that passwords should not expire
+- password recovery mechanisms: allow users to reset passwords self service, relieves help desk burden
+- roles: groups permissions to allow shared security settings, such as windows security groups
+  - benefits: simplifies account management, may assign permissions to new users by adding a role to the user, and admin may remove permissions from deparding users by removing the role. removes the need for shared accounts 
+- account monitoring: 
+  - inaccurate permissions
+  - attestation: formal approval of user privileges
+  - unauthorized use: illegitimate actions by legitimate users
+  - other violations: impossible travel, unusual network location logins, unusual time-of-day logins, deviations from normal behavior, deviations in volume of data transferred
+- user account audits: 
+  - pull list of account permissions, review, make necessary adjustments, and prioritize review of users with job changes
+- geotagging
+- geofencing: alerts admins to devices leaving defined boundaries
+- provisioning: after onboarding, admins create authentication credentials and grant appropriate authorization
+- deprovisioning: during offboarding, admins disable accounts and revoke authorizations at the appropriate time
+- routine workflow: disables accounts on a scheduled basis for planned departures
+- emergency workflow: immediately suspends access when user is unexpectedly terminated
+- privilege creep: users accumulate privileges as they transfer between roles, violating the principle of least privilege
+
+
+
+
+
+
+
+
+
+
+
 
 
 
