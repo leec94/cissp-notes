@@ -145,6 +145,7 @@
 - password recovery mechanisms: allow users to reset passwords self service, relieves help desk burden
 - roles: groups permissions to allow shared security settings, such as windows security groups
   - benefits: simplifies account management, may assign permissions to new users by adding a role to the user, and admin may remove permissions from deparding users by removing the role. removes the need for shared accounts 
+  - security group: assign users to roles within his Windows enterprise, as it allows for the grouping of user accounts, computer accounts, and other security groups into manageable units for assigning permissions and access rights
 - account monitoring: 
   - inaccurate permissions
   - attestation: formal approval of user privileges
