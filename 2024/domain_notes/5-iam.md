@@ -160,16 +160,54 @@
 - routine workflow: disables accounts on a scheduled basis for planned departures
 - emergency workflow: immediately suspends access when user is unexpectedly terminated
 - privilege creep: users accumulate privileges as they transfer between roles, violating the principle of least privilege
-
-
-
-
-
-
-
-
-
-
+  - account review: limits privilege creep 
+- authorization
+- mandatory access control (MAC): access control system where operating system restricts authorizations based on labels, and users are not permitted to modify those authorizations  
+  - used by government often
+  - SELinux provides MAC functionality
+- discretionary access control (DAC): uses access control lists
+  - NTFS by Microsoft uses this
+- NTFS permissions
+  - full control grants complete authority over a resource
+  - read allows user to read the file
+  - read & execute also allows user to execute an application
+  - write allows user to create files and modify contents
+  - modify adds ability to delete files and also includes read & execute permissions
+- database authentication
+  - SQL server authentication: uses local database user accounts
+  - Windows authentication: uses underlying server user accounts
+  - Mixed authentication: uses both SQL Server and Windows authentication
+- role-based authorization: manages permissions through roles assigned to users by admins
+- account-based authorization: manages permissions by making explicit permission grants to each account
+- role based access control (RBAC): permissions are grouped together into functional roles and users are assigned to those roles
+- attribute based access control (ABAC): admins make access control decisions based on characteristics of the user, object, and environment
+- location based control: limits access based on geographic location
+- risk based access controls: evaluates the environment and situation and makes access decisions based on coded policies 
+  -  apply stronger standards in situations posing  greater risk
+- social engineering
+- spam
+- phishing: stealing credentials
+- spear phishing: targeted attack
+- whaling: targeted attacks on execs
+- pharming: using fake websites
+- dns poisoning
+- typosquatting
+- vishing: voice phishing
+- smishing 
+- SPIM 
+- spoofing: faking an identity
+- brand impersonation
+- pretexting: impersonate a consumer to business
+- watering hole attack: use sneaky techniques to lure unsuspecting users and infect their systems with malware. They use commonly visited sites without the website owner's knowledge
+  - type of client side attack
+  - step 1: identify and compromise highly targeted website
+  - step 2: choose a client exploit and bundle in a botnet
+  - step 3: place malware on the compromised website
+  - step 4: sit back and wait for infected systems to phone home
+- shoulder surfing
+- dumpster diving
+- tailgaiting
+- 
 
 
 
