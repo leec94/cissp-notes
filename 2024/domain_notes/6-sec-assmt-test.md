@@ -195,8 +195,9 @@ PCI DSS CVSS Scores
 #### important stuff
 
 the average cybersec professional
-![the average cybsersec professional](image-2.png)
 
+
+<img src="image-2.png" width="350" height="300">
 
 ## References
 
