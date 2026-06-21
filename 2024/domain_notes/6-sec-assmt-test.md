@@ -246,7 +246,7 @@
 - external auditors: independent firms perform audits requested by the Board. outside the org's control
 - third-party auditors: agencies or industry groups that perform regulatory audits. outside enterprise control
 - attestation: included in audit, attests ny auditor that controls are adequate and functioning properly
-- compensating controls: mitigates the risk of exceptionss
+- compensating controls: mitigates the risk of exceptions, specifically designed to mitigate the risk of exceptions to security policies by providing alternative security measures
 
 #### quick ref tables
 

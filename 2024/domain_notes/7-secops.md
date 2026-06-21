@@ -114,5 +114,174 @@
 
 ## Notes
 - Notes from Mike Chappelle Linkedin Learning
+- investigation types
+  - operational, or administrative: look into technology issues, restore normal operations as quickly as possible, uses very low standards of evidence, and involves root cause analysis
+  - criminal: look into possible crimes
+    - involves possibility of fines and jail time
+    - uses **beyond a reasonable doubt** standard of evidence
+  - civil: resolves disputes between parties
+    - does not involve possibility of fines and jail time
+    - uses **preponderance of the evidence** standard
+  - regulatory investigation: conducted by the government or industry regulators
+- evidence types
+  - real: consists of tangible objects
+  - documentary: written information
+    - authentication rule: documents must be authenticated by testimony
+    - best evidence rule: original documents are superior to copies
+    - parol evidence rule: written contracts are assumed to be the entire agreement
+    - testimonial evidence: consists of witness statements
+      - direct evidence: witness provides evidence based upon their own observations
+      - expert opinion: expert witness draws conclusions based upon other evidence
+  - testimonial
+- digital forensics: investigate techniques that collect, preserve, analyze, and interpret digital evidence
+- volatility: the relative permanence of a piece of evidence
+- order of volatility
+  - network traffic
+  - memory contents
+  - system and process data
+  - files
+  - logs
+  - archived records 
+- write blockers: or forensic disk controllers, prevent accidental modification of disks during imaging
+- ethernet: sends electrical pulses over copper wire
+- fiber optic: sends light pulses over strands of glass
+- netflow: sumaarizes traffic, provides high-level information
+  - example data: IP addresses, port, timestamp, and amount of data transferred
+  - often captured by routers and firewalls, by NetFlow and also sFlow and IPFIX
+- bandwidth monitors: report network utilization
+- software forensics: to resolve intellectual property disputes, or identify malware origins
+- embedded devices: special purpose computers found inside smart devices found in homes, businesses, and industrial settings
+- chain of custody: provides a paper trail of evidence
+- evidence container: used with labels to store evidence
+- evidence log events
+  - initial collection
+  - transfer
+  - storage
+  - opening and resealing the container
+- evidence log entry details
+  - investigator name
+  - date and time
+  - purpose
+  - nature of action
+- evidence logs: must be available to present in court
+- incident communication efforts
+  - initial notification of key stakeholders
+  - regular progress updates on the response
+  - documentation of the incident for historic purposes
+- key stakeholders must be notified promptly
+  - chief info officer
+  - director of cybersecurity
+  - other response teams
+  - system owners
+  - business process owners
+  - public relations staff
+  - attorneys
+- notifications
+  - federal government agencies must notify US-CERT of cybersecurity incidents
+- formal incident report: creates historical documentation
+- electronic discovery process
+  1.  preservation
+  2.  collection
+  3.  production: attorneys must review documents for relevance and turn them over to the other side. most litigation holds never move forward to production phase
+- legal hold: requires preservation of relevant electronic and paper records
+- sources of electronic records
+  - file servers
+  - endpoint systems
+  - email messages
+  - enterprise systems and cloud services
+- electronic discovery management systems: coordinate collection efforts
+- need to know: limits info access 
+- least privilege: limits system permissions
+- emergency access procedures: staff can upgrade their own privileges in emergency situations in highly audited process, supplements least privilege approach
+- privilege aggregation: jeopardizes least privilege
+- privileged access management: safeguards admin accounts
+- password vaulting: stores admin passwords
+- command proxying: eliminates the need for direct server access
+- monitoring: logs admin user activity
+- cred management: rotates passwords and access keys
+- emergency access workflow: should be provided with logs and approval
+- incident response plan: provides structure during cybersec incidents
+  - consult NIST SP 800-61
+- NIST incident response process
+  - preparation
+  - detection & analysis
+  - containment eradication & recovery
+  - post-incident activity
+- incident response plan elements
+  - statement of purpose
+  - strategies and goals for incident response
+  - approach to incident response
+  - comms with other groups
+  - senior leadership approval
+- incident response teams
+  - should have personnel available 24/7
+  - communications plan: ensures that all participants have timely, accurate info. crucial for stakeholder management
+- incident response team personnel
+  - management, info sec, SMEs, legal counsel, public affairs, human resources, and physical security
+- IR service provider: complements your team
+- incident data sources (not all encompassing)
+  - IDS/IPS
+  - firewalls
+  - authentication systems
+  - integrity monitors
+  - vuln scanners
+  - system event logs
+  - NetFlow records
+  - antimalware packages
+  - SIEM helps collect info from diverse sources
+- first response highest priority is to contain damage through isolation
+- escalation and notification objectives
+  - evaluate incident severity based on impact
+  - escalate response to an appropriate level
+  - notify management and other stakeholders
+- triaging incidents: low/medium/high impact
+- incident response mitigation: control damage and loss to org through containment
+- containment strategy evaluation
+  - damage potential
+  - evidence preservation
+  - service availability
+  - resource requirements
+  - expected effectiveness
+  - solution time frame
+- containment techniques: segmentation, isolation, and removal
+- eradication: removes all traces of an incident
+- recovery: restores normal operations
+- endpoint security practices
+  - application whitelisting
+  - application blacklisting
+  - quarantine
+  - access controls
+- enterprise security controls
+  - firewall rules
+  - mobile device management (MDM)
+  - data loss prevention (DLP)
+  - URL And content filtering
+  - update or revoke digital certs
+- sanitization techniques
+  - clearing: overwrites sensitive info to frustrate casual analysis
+  - purging: uses more advanced techniques to frustrate lab analysis, includes degaussing
+  - destroying: completely obliterates media through shredding, pulverization, melting, or burning
+- validation process
+  - verify secure config of every system
+  - run vuln scans
+  - perform account and permission reviews
+  - verify that systems are logging and communicating security info to the SIEM
+- post-incident activities
+  - lessons learned: provide incident responders with an opportunity to reflect on the incident response efforts, and offer feedback that will improve the org's response to future incidents
+    - best to be led by independent facilitator. impartial and trained to lead constructive conversations
+  - evidence retention
+  - indicator of compromise generation
+- incident summary report: describes response efforts
+- personnel safety: should be above all other concerns
+- panic button: silently alerts security personnel to a dangerous situation when pressed
+- duress code: appears to function normally but triggers an emergency security response
+- emergency management plans: should be based on a risk assessment
+  - examples: weather emergency plans like tornado sheltering instructions, and lockdown plan in the event of workplace violence
+- fire plan: should include instructions for building evacuation, fire department notification, and accounting for personnel
+
+
+
+
+
 
 ## References

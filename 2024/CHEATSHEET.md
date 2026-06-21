@@ -75,3 +75,7 @@ ALE = SLE * ARO
 4. Eradication
 5. Recovery
 6. Lessons Learned
+
+#### NIST List
+- NIST SP 800-61: for incident response planning
+- NIST 800-88: sanitization techniques
