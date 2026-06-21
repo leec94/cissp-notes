@@ -220,10 +220,33 @@
     - answer key facts around event
     - lessons learned 
     - conclusions: with next steps 
-
-
-
-
+- security metric types
+  - KPIs: 
+    - demonstrate the succcess of the security program, and present backwards looking perspective on security
+  - KRI: predict the likelihood of future risks materializing
+- ITIL Security KPIs
+  - decrease in breaches
+  - decrease in breach impact
+  - increase in strong SLAs
+  - number of new controls
+  - time to implement controls
+  - number of major incidents 
+  - number of incident related outages
+  - number of training events 
+  - number of shortcomings 
+- KRI criteria from ISACA
+  - business impact
+  - effort to implement, measure, and support
+  - reliability
+  - sensitivity
+- audits: often imposed by external requirements, follow a formal standard and use planned tests
+  - PCI DSS example
+- assessments: usually requested internally 
+- internal auditors: work for the org but report independently. inside the org's control
+- external auditors: independent firms perform audits requested by the Board. outside the org's control
+- third-party auditors: agencies or industry groups that perform regulatory audits. outside enterprise control
+- attestation: included in audit, attests ny auditor that controls are adequate and functioning properly
+- compensating controls: mitigates the risk of exceptionss
 
 #### quick ref tables
 
