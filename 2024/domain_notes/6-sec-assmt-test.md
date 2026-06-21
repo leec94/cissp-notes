@@ -179,7 +179,50 @@
 - APIs: allow interaction with remote services
 - mitigate software risks: input validation, encrypt sensitive data, enforce least privilege, and test all code prior to deployment
 - sandboxing: isolates development code
-- 
+- disaster recovery: designed to restore a business to formal operations as quickly as possible. is a subset of business continuity
+  - initial response:
+    - contain damage caused by the disaster
+    - recover whatever capabilities may be immediately restored
+    - include a variety of activities depending upon the nature of the disaster
+    - 
+  - disaster communications
+    - initial activation of the disaster recovery team
+    - regular status updates
+    - tactical communications
+- recovery time objective (RTO): max amounto f time it should take to recover a service after a disaster
+- recovery point objective (RPO): max time period from which data may be lost in the wake of a disaster
+- recovery service level (RSL): percentage of a service that must be available during a disaster
+- backups: provide a data "safety net" 
+- backup media: examples include tape, disk-to-disk, cloud
+- backup storage locations: onsite, offsite, cloud
+- full backups: include a complete copy of all data
+- differential backups: includes all data modified since the last full backup
+- incremental backups: include all data modified since the last full *or incremental* backup 
+- disaster recovery sites: alternate data processing
+- hot sites: fully operational data centers
+  - stocked with equipment and data, available at a moment's notice, very expensive
+- cold sites: empty data centers, stocked with core equipment, network, environmental controls. relatively inexpensive, but operational in weeks or months
+- warm sites: stocked with all necessary equipment and data, not maintained in a parallel fashion. similar in expensive to hot sites, available in hours or days 
+- offsite storage: geographically distant, site redundancy, manual transfer or site replication through SAN or VM. can be online or offline backup format
+- resource capacity agreements: guarantee availability of power, storage, and networking during a disaster
+- disaster recovery testing goals: validate plan functions correctly, and identifies necessary plan updates
+- disaster recovery test types
+  - read-through: asks each team member to review their role in the disaster recovery process and provide feedback
+  - walkthrough: gathers the team together for a formal review of the disaster recovery plan
+  - simulation: uses a practice scenario to test the disaster recovery plan
+  - parallel: activate the disaster recovery environment but do not switch operations there
+  - full interruption: switch primary operations to the alternate environment and can be very disruptive to business
+- communications plan: to keep all stakeholders and any necessary regulators informed of test plans and status
+- after action reports (AAR): create formal record of a disaster recovery (DR) or business continuity (BC) event
+  - components:
+    - executive summary
+    - background info: to allow reader to understand context
+    - answer key facts around event
+    - lessons learned 
+    - conclusions: with next steps 
+
+
+
 
 
 #### quick ref tables
