@@ -55,5 +55,130 @@
 
 ## Notes
 - Notes from Mike Chappelle Linkedin Learning
+- endpoint application: self-contained on a device, does not interact with other systems
+- client/server apps: interact with a server
+- development methodologies
+  - waterfall
+    - system requirements
+    - software requirements 
+    - preliminary design
+    - detailed design
+    - code and debug
+    - testing
+    - operations and maintenance
+  - spiral model
+    - determine requirements
+    - risk assessment
+    - development and testing
+    - begin again
+  - agile methodology 
+- integrated product team (IPT)
+  - multifunctional team brought together to develop a product, process, or policy through parallel decision-making
+- Scaled Agile Framework (SAFe): applies Agile principles at enterprise scale
+- SAFe principles
+  - take an economic view
+  - apply systems thinking
+  - assume variability; preserve options
+  - build incrementally with fast, integrated learning cycles
+  - base milestones on objective evaluation of working systems
+  - make value flow without interruptions
+  - apply cadence, synchronize with cross-domain planning
+  - unlock the intrinsic motivation of knowledge workers
+  - decentralize decision-making
+  - organize around value
+- SAFe configuration levels
+  - Essential SAFe: uses traditional agile practices, teams work in agile release trains (ARTs). program increments last 8-12 weeks
+  - Large Solution SAFe: works for large systems with multiple ARTs, provides additional roles and artifacts
+  - Portfolio SAFe: strategic direction is translated into actionable items. investment themes guide work. work is aligned with business objectives, and Lean Portfolio Management (LPM) principles drive work
+  - Full SAFe
+    - includes all elements of Essential, Large Solution, and Full SAFe
+    - adds additional guidance for business agility
+    - supports enterprises that build solutions requiring hundreds of developers
+- maturity models: provides standard benchmarks 
+- Capability Maturity Model Integration (CMMI): assesses an org's process maturity
+  - level 1: Initial
+    - work gets done but is subject to delays and budget overruns
+  - level 2: Managed
+    - configuration management
+    - measurement and analysis
+    - project monitoring and control
+    - project planning
+    - process and product quality assurance
+    - requirements management
+    - supplier agreement management
+  - level 3: Defined
+    - decision analysis and resolution
+    - integrated project management
+    - org process definition 
+    - org training
+    - org process focus
+    - product integration
+    - requirements development
+    - risk management
+    - technical solution
+    - validation
+    - verification
+  - level 4: Quantitatively Managed
+    - organizational process performance
+    - quantitative project management
+  - level 5: Optimizing
+    - causal analysis and resolution
+    - organizational performance management
+- IDEAL model
+  - Initiating
+  - Diagnosing
+  - Establishing
+  - Action
+  - Learning
+- Software Assurance Maturity Model (SAMM): developed by OWASP
+- DevOps Goals
+  - build collaborative relationships
+  - embrace automation
+  - facilitate rapid release of code
+  - provide stable operating environment
+- infrastructure as code (IaC): scripts the creation of resources
+  - increases scalability of environments, reduces user error, and facilitates testing of new code
+- DevOps Tools
+  - continuous validation
+  - continuous integration
+  - continuous delivery
+  - continuous deployment
+  - continuous monitoring
+- interpreted languages: translates source code into machine language when the software runs
+- compiled langues: uses compilers to create machine language executable files in advance
+- reverse engineering: process of starting with a finished product, in hardware or software form, and decomposing it to determine how it was originally created
+  - more difficult for compiled languages
+- decompiler: assists with recreating source code from executable code by translating program binaries back into a human-readable format
+- commercial off the shelf (COTS): purchased from third-party vendors and run on systems managed by the customer
+- software as a service: software developed by vendors that runs in the cloud on vendor managed services
+- OWASP Top Ten
+  - broken access control: allows unauthorized access
+  - cryptographic failure: allows access to sensitive data 
+  - injection: inserts unwanted code
+  - insecure design: fails to meet security requirements
+  - security misconfiguration: occurs in many possible locations
+  - vulnerable and outdated components: jeopardizes application security
+  - identification and authentication failures: allows exploitation of session management
+  - software and data integrity failures: allows insertion of insecure code
+  - security logging and monitoring failures: deprives analysts of needed data
+  - server side request forgery: tricks servers into requesting URLs
+- SANS and CIS has similar lists to OWASP Top Ten
+- purchased software: acquired from software venders for use in many different orgs
+- developed software: custom written to meet specialized needs of a single org
+- application hardening
+  - use proper authentication
+  - encrypt sensitive data
+  - validate user input
+  - avoid and remediate known exploits 
+  - deploy obfuscation and camouflage 
+- application configuration
+  - type and scope of encryption
+  - users with access to the application
+  - access granted to authorized users
+  - security of underlying infrastructure
+- configuration baselines: allows quick identification and remediation of security gaps
+
+
+
 
 ## References

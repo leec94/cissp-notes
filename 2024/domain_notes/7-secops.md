@@ -279,9 +279,4 @@
   - examples: weather emergency plans like tornado sheltering instructions, and lockdown plan in the event of workplace violence
 - fire plan: should include instructions for building evacuation, fire department notification, and accounting for personnel
 
-
-
-
-
-
 ## References
