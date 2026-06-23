@@ -4,6 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
+      - [tables](#tables)
   - [References](#references)
 
 ## Topics
@@ -177,7 +178,120 @@
   - access granted to authorized users
   - security of underlying infrastructure
 - configuration baselines: allows quick identification and remediation of security gaps
+- input validation: protects against unsafe user input by checking it on the server before executing commands
+  - should always be performed on the server
+- parameterized SQL: precompiles SQL on database server to prevent user input from altering query structure
+- cross-site scripting (XSS): attacker embeds malicious scripts in a third-party website that's later run by innocent visitors to that site
+  - protection includes input validation
+- cross-site request forgery (XSRF or CSRF): leverages the fact that users are often logged into multiple sites at the same time and use one site to trick the browser into sending malicious requests to another site without the user's knowledge 
+- defending against CSRF
+  - rearchitect web applications
+  - prevent use of HTTP GET requests
+  - advise users to log out of sites
+  - auto log out users after an idle period
+- server-side request forgery (SSRF): request forgery attack that targets servers by manipulating servers into retrieving malicious data from what it believes to be a trusted source
+- buffer overflow attacks: uses input larger than the buffer
+- cookies
+  - be careful that cookies are random
+  - make sure "secure cookies" are set on, so cookies are sent using encryption
+- cookie risks
+  - cookies can be used across different websites
+  - cookies can track user activity
+  - if you log into one site, everything is de-anonymized
+  - might attract the cookie monster
+- cookie guessing: possible if cookie values are not randomly generated
+- session replay: possible if cookie values are not encrypted in transit
+- code execution attacks: occurs when an attacker exploits a vuln in a system that allows the attacker to run commands on that system
+- arbitrary code execution: code execution attacks where the attacker runs commands of his or her choice
+- remote code execution: code execution attacks that take place over a network connection
+- code execution objectives
+  - install malicious code
+  - join a system to a botnet
+  - steal sensitive information
+  - create accounts for later access
+- protections against RCE
+  - limit admin access
+  - patch systems and applications
+- directory traversal: where an attacker attempts to access files and directories that are stored outside the web root folder
+- privilege escalation attack: to gain admin access
+  - often exploit buffer overflow vulns
+- mitigating privilege escalation
+  - perform input validation
+  - patch operating systems, platforms, and applications
+  - enforce least privilege principle
+  - use DEP and ASLR technologies
+- device drivers: serve as software interfaces between hardware devices and the operating system
+- refactoring: modifying a driver to carry out malicious activities. requires access to the driver source code
+- shimming: wraps a legitimate driver with a malicious shim. does not require access to the legitimate driver's source code
+- malicious drivers
+  - code signing can protect against this
+- memory management: secure, isolated memory for each system process
+- resource exhaustion: may slow down or disable a system
+- memory overflow: allows arbitrary code execution
+- memory leak: fails to release memory for reuse
+- null pointer dereferencing
+- DLL injection: tricks an app into loading malicious code
+- race condition: occurs when the proper functioning of a security control depends upon the timing of actions performed by the user or computer
+  - uncontrolled race conditions can be significant security vulnerabilities
+- time of check/time of use: time elapsing between authorization and the action, leading to unauthorized actions or access
+- locks: prevents simultaneous transactions from causing race conditions
+- input validation approaches
+  - whitelisting (allowlisting): specifies allowable input
+  - blacklisting (blocklisting): specifies disallowed input. more difficult and less effective than whitelisting
+- parameterized query: SQL template is precompiled on the database server
+- stored procedures: uses parameterized queries, protects against SQL injection
+- transport layer security (TLS): encrypts web traffic
+- output encoding: replaces dangerous characters
+  - use trusted libraries to perform encoding
+- HTML encoding: uses "&" notation to replace dangerous values that appear in an HTML based web document
+- URL encoding: uses "%" notation to replace dangerous values that appear in a URL
+- inappropriate handling
+- unpredictable states: jeopardizes application security
+- error handling: avoids unpredictable states
+- code signing: provides users with confidence that software comes from a trusted source
+  - implemented with digital signatures
+- digital signatures: provide nonrepudiation
+- signing code
+  1. developer obtains a digital certificate
+  2. developer creates a digital signature for the code using the private key associated with the cert
+- verifying code signatures
+  1. user downloads the software
+  2. OS uses the cert's public key to validate the signature
+  3. OS verifies the signature's hash matches the code
+  4. OS verifies that the developer is trusted
+- database normal forms: design rules for columns and tables
+- reasons for db normalization
+  - prevent data inconsistency
+  - prevent update anomalies
+  - reduce need for restructuring existing databases
+  - make db schema more informative
+- first normal form (1NF): don't need to know for exam?
+  1. create separate tables for different sets of related data
+  2. provide a primary key for every table
+  3. records may not have multivalued fields
+  4. records in a table must have the same number of fields
+- second normal form (2NF)
+  - table must be in 1NF
+  - every non-key field must be a fact about the entire key
+- third normal form (3NF)
+  - table must be in 2NF
+  - no non-key field may be a fact about another non-key field
+- obfuscation and camouflage: to hide locations of sensitive information
+- database activity monitoring: logs and analyzes database requests
+- deidentification: removes obvious identifiers
+- anonymization: removes possibility of identification
+  - HIPAA has deidentification standards/methods
+    - expert determination
+    - safe harbor 
+- data obfuscation: transforms personally identifying info into a form where it's no longer possible to tie it to an individual person
+- rainbow table attack: compares hash values with precomputed hashes
+- tokenization: replaces sensitive fields with a random identifier, can be reversed or detokenized
+- masking: redacts sensitive info from a file. replaces with dummy data, can't be reversed
 
+#### tables
+Common encodings
+
+![html and url encodings](image-3.png)
 
 
 

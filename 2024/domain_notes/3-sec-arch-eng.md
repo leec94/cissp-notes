@@ -349,7 +349,7 @@
   - Clipper chip: allowed goverment to access encrypted information. many lobbied against this chip
 - recovery agents: allows internal access to lost keys 
 - key stretching: takes a relatively insecure value, such as a password, and uses math techniques to strengthen it, making it harder to crack
-  - salting: adds a value to the encryption key to make it more complex
+  - salting: adds a value to the encryption key to make it more complex. protects against rainbow table attacks
   - hashing: adds time to the verification process by requiring more math
 - password-based key derivation function v2 (PBKDF2): key stretching method, should be used 4,000 times
 - bcrypt: uses blowfish and a salt to strengthen keys 
