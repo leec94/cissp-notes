@@ -405,7 +405,8 @@ Common ports
 | 143           | IMAP     | Internet Message Access Protocol (IMAP) |
 | 80            | HTTP     | HTTP                                    |
 | 443           | HTTPS    | Secure HTTP                             |
-|               |          |                                         |
+
+
 Wifi 
 
 | Standard | Speed   | Year |
