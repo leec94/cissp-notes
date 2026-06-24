@@ -426,8 +426,36 @@ Wireless encryption stnadards
 | WPA2     | Secure   |
 | WPA3     | Secure   |
 
+Common Attacks
 
+| Attack                | Description              | Defense                         |
+| --------------------- | ------------------------ | ------------------------------- |
+| **DoS/DDoS**          | Resource exhaustion      | Rate limiting, CDN, IPS         |
+| **MITM**              | Intercept communications | Encryption, certificate pinning |
+| **Spoofing**          | Fake source address      | Ingress/egress filtering        |
+| **Sniffing**          | Passive eavesdropping    | Encryption, switched networks   |
+| **Session Hijacking** | Steal active session     | Strong session IDs, timeouts    |
+| **DNS Poisoning**     | Corrupt DNS cache        | DNSSEC, secure resolvers        |
 
+IPv4 vs IPv6
+
+| Feature          | IPv4                    | IPv6                       |
+| ---------------- | ----------------------- | -------------------------- |
+| **Address Size** | 32-bit (4.3B addresses) | 128-bit (340 undecillion)  |
+| **Format**       | Dotted decimal          | Hexadecimal                |
+| **Security**     | Optional (IPSec)        | Built-in (IPSec mandatory) |
+| **NAT**          | Required                | Not needed                 |
+
+Network Devices
+
+| Device      | Layer | Function                    |
+| ----------- | ----- | --------------------------- |
+| **Hub**     | 1     | Broadcast to all ports      |
+| **Switch**  | 2     | MAC-based forwarding        |
+| **Router**  | 3     | IP routing between networks |
+| **Bridge**  | 2     | Connect network segments    |
+| **Gateway** | 7     | Protocol translation        |
+| **Proxy**   | 7     | Intermediary, caching       |
 
 
 
