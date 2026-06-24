@@ -4,6 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
+  - [More Notes](#more-notes)
   - [References](#references)
 
 ## Topics
@@ -117,4 +118,11 @@
   - physically unclonable functions
   - software bill of materials (SBOM)
   
+## More Notes
+- From Destination CISSP eBook
+
+
+
+
+
 ## References

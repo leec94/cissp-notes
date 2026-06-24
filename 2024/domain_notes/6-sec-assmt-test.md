@@ -4,6 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
+  - [More Notes](#more-notes)
       - [quick ref tables](#quick-ref-tables)
       - [important stuff](#important-stuff)
   - [References](#references)
@@ -247,6 +248,11 @@
 - third-party auditors: agencies or industry groups that perform regulatory audits. outside enterprise control
 - attestation: included in audit, attests ny auditor that controls are adequate and functioning properly
 - compensating controls: mitigates the risk of exceptions, specifically designed to mitigate the risk of exceptions to security policies by providing alternative security measures
+
+## More Notes
+- From Destination CISSP eBook
+
+
 
 #### quick ref tables
 

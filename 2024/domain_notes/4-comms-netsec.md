@@ -4,6 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
+  - [More Notes](#more-notes)
     - [Tables](#tables)
   - [References](#references)
 
@@ -346,10 +347,20 @@
 - mobile device management (MDM):
 - network firewall vs host firewall 
 - next gen firewall 
-- 
 
-
-
+### More Notes
+- From Destination CISSP eBook
+- OSI levels: Please Do Not Throw Sausage Pizza Away
+  - Please
+  - Do
+  - Not 
+  - Throw
+  - Sausage
+  - Pizza
+  - Away
+- Firewalls: can exists at multiple layers, Network, Session, and Application 
+  - Network: Packet filtering firewalls
+  - Application: application firewalls, or application proxy firewalls
 
 
 
@@ -361,15 +372,15 @@
 
 OSI Model
 
-| Layers       | Description                      | Protocols |
-| ------------ | -------------------------------- | --------- |
-| Application  | User programs                    |           |
-| Presentation | Data translation and encryption  |           |
-| Session      | Exchanges between systems        |           |
-| Transport    | TCP and UDP                      |           |
-| Network      | Internet Protocol (IP)           |           |
-| Data link    | Data transfers between two nodes |           |
-| Physical     | Wires, radios, and optics |           |
+| Layers       | Description                      | Protocols | Info type             |
+| ------------ | -------------------------------- | --------- | --------------------- |
+| Application  | User programs                    |           | Data                  |
+| Presentation | Data translation and encryption  |           | Data                  |
+| Session      | Exchanges between systems        |           | Data                  |
+| Transport    | TCP and UDP                      |           | Segments or Datagrams |
+| Network      | Internet Protocol (IP)           |           | Packets               |
+| Data link    | Data transfers between two nodes |           | Frames                |
+| Physical     | Wires, radios, and optics        |           | Bits                  |
 
 TCP Model
 

@@ -4,6 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
+  - [More Notes](#more-notes)
   - [References](#references)
 
 ## Topics
@@ -278,5 +279,12 @@
 - emergency management plans: should be based on a risk assessment
   - examples: weather emergency plans like tornado sheltering instructions, and lockdown plan in the event of workplace violence
 - fire plan: should include instructions for building evacuation, fire department notification, and accounting for personnel
+
+## More Notes
+- From Destination CISSP eBook
+
+
+
+
 
 ## References

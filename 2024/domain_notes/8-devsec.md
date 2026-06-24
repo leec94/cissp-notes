@@ -4,6 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
+  - [More Notes](#more-notes)
       - [tables](#tables)
   - [References](#references)
 
@@ -287,6 +288,12 @@
 - rainbow table attack: compares hash values with precomputed hashes
 - tokenization: replaces sensitive fields with a random identifier, can be reversed or detokenized
 - masking: redacts sensitive info from a file. replaces with dummy data, can't be reversed
+
+## More Notes
+- From Destination CISSP eBook
+
+
+
 
 #### tables
 Common encodings

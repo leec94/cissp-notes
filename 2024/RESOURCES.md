@@ -5,8 +5,10 @@ Links to helpful resources to study for the CISSP 2024 objectives.
 Books
 - CISSP Certified Information Systems Security Professional Official
   - by Sybex, the most popular study guide of them all
+  - ebook may be available through your library
 - Destination CISSP: A Concise Guide
-  - More readable than Official Study Guide they say
+  - More readable, casual than Official Study Guide
+  - ebook may be available through your library
 
 Videos
 - Linkedin Learning ISC2 CISSP Cert Prep 
@@ -14,13 +16,15 @@ Videos
   - many notes in this repo are based on these videos
   - lightly touches on each topic, not enough as only resource
   - updated to 2024
+  -  may be available through your library
 - CISSP Exam Cram from Inside Cloud and Security, Pete Zerger: https://www.youtube.com/watch?v=_nyZhYnCNLA
   - TBH seems like it was meant for the 2021 exam since he keeps mentioning 2021 but most of the content should be relevant
-- Destination Certification CISSP Domain Reviews: https://www.youtube.com/playlist?list=PLZKdGEfEyJhKWyryIvx_jm1jn6ZMTi7gW 
+- Destination Certification CISSP Mind Maps/Domain Reviews: https://www.youtube.com/playlist?list=PLZKdGEfEyJhLd-pJhAD7dNbJyUgpqI4pu
 
 Mindset Vieos
 - Kelly Handerhan: https://www.youtube.com/watch?v=-99b1YUFx0A
 - Larry Greenblatt: https://www.youtube.com/watch?v=HWg2geVJuvs 
+- Destination Cert: https://destcert.com/think-like-a-ceo/
 
 Communities
 - Discord Cybersecurity Station: https://discord.gg/certstation
@@ -34,6 +38,7 @@ Practice Questions
   - questions more realistic to exam
 - [DestCert App](https://destcert.com/destcert-app/)
   - Free App
+  - little buggy through Android
 - [LearnZapp](https://www.learnzapp.com/apps/isc2/)
   - Paid, ~$20 per month, has different plans, similar to Boson
 

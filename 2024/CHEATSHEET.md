@@ -14,6 +14,9 @@ Notes I want to add to my cheatsheet on exam day. As of 3/29/2026, this is my ch
 | Where | Data Custodian  | Where data is stored and where it is going                          |
 | How   | Data Steward    | How they will ensure data quality, policies, procedures, guidelines |
 
+#### OSI
+Please Do Not Throw Sausage Pizza Away
+
 #### Ports and protocols 
 HTTP (80), HTTPS (443), SSH (22), Telnet (23), FTP (21), SMTP (25), DNS (53), DHCP (67/68)
 

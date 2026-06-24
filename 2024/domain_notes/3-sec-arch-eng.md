@@ -9,6 +9,7 @@
     - [site and facility design](#site-and-facility-design)
     - [physical security](#physical-security)
     - [SOAP and REST](#soap-and-rest)
+  - [More Notes](#more-notes)
       - [Encryption Algorithms](#encryption-algorithms)
       - [Hash Algorithms](#hash-algorithms)
       - [Certificate Formats](#certificate-formats)
@@ -489,6 +490,12 @@
   - may be composed of other services
 - microservices: fine-grained services
 
+## More Notes
+- From Destination CISSP eBook
+
+
+
+
 
 #### Encryption Algorithms
 | Algorithm                                     | Type       | Type Cipher                    | Key Length                       | Secure?                    |
@@ -521,6 +528,7 @@
 | -------------- | ---------------------- | ------------ | -------------------- |
 | DER            | .der, .crt, .cer       | PEM          | .pem, .crt           |
 | PFX            | .pfx, .p12             | P7B          | .p7b                 |
+
 
 
 ## References
