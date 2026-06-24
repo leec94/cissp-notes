@@ -372,15 +372,15 @@
 
 OSI Model
 
-| Layers       | Description                      | Protocols | Info type             |
+| Layers       | Description                      | Protocols/Devices | Info type             |
 | ------------ | -------------------------------- | --------- | --------------------- |
-| Application  | User programs                    |           | Data                  |
-| Presentation | Data translation and encryption  |           | Data                  |
-| Session      | Exchanges between systems        |           | Data                  |
-| Transport    | TCP and UDP                      |           | Segments or Datagrams |
-| Network      | Internet Protocol (IP)           |           | Packets               |
-| Data link    | Data transfers between two nodes |           | Frames                |
-| Physical     | Wires, radios, and optics        |           | Bits                  |
+| Application  | User programs                    |   HTTP, FTP, SMTP, DNS         | Data                  |
+| Presentation | Data translation and encryption  |   SSL/TLS, JPEG, ASCII         | Data                  |
+| Session      | Exchanges between systems        |    NetBIOS, RPC, SQL         | Data                  |
+| Transport    | TCP and UDP                      |   TCP, UDP            | Segments or Datagrams |
+| Network      | Internet Protocol (IP)           |   IP, ICMP, IPSec, Routers          | Packets               |
+| Data link    | Data transfers between two nodes |   Ethernet, MAC, Switches, Bridges        | Frames                |
+| Physical     | Wires, radios, and optics        |   Cables, Hubs, NICs            | Bits                  |
 
 TCP Model
 
