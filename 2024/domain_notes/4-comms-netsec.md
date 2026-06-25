@@ -417,15 +417,15 @@
 
 OSI Model
 
-| Layers       | Description                      | Protocols | Info type             |
+| Layers       | Description                      | Protocols/Devices | Info type             |
 | ------------ | -------------------------------- | --------- | --------------------- |
-| Application  | User programs                    |           | Data                  |
-| Presentation | Data translation and encryption  |           | Data                  |
-| Session      | Exchanges between systems        |           | Data                  |
-| Transport    | TCP and UDP                      |           | Segments or Datagrams |
-| Network      | Internet Protocol (IP)           |           | Packets               |
-| Data link    | Data transfers between two nodes |           | Frames                |
-| Physical     | Wires, radios, and optics        |           | Bits                  |
+| Application  | User programs                    |   HTTP, FTP, SMTP, DNS         | Data                  |
+| Presentation | Data translation and encryption  |   SSL/TLS, JPEG, ASCII         | Data                  |
+| Session      | Exchanges between systems        |    NetBIOS, RPC, SQL         | Data                  |
+| Transport    | TCP and UDP                      |   TCP, UDP            | Segments or Datagrams |
+| Network      | Internet Protocol (IP)           |   IP, ICMP, IPSec, Routers          | Packets               |
+| Data link    | Data transfers between two nodes |   Ethernet, MAC, Switches, Bridges        | Frames                |
+| Physical     | Wires, radios, and optics        |   Cables, Hubs, NICs            | Bits                  |
 
 TCP Model
 
@@ -451,7 +451,8 @@ Common ports
 | 143           | IMAP     | Internet Message Access Protocol (IMAP) |
 | 80            | HTTP     | HTTP                                    |
 | 443           | HTTPS    | Secure HTTP                             |
-|               |          |                                         |
+
+
 Wifi 
 
 | Standard | Speed   | Year |
@@ -473,6 +474,7 @@ Wireless encryption standards
 | WPA2     | Secure   |
 | WPA3     | Secure   |
 
+
 IPv4 Network Classes
 
 | Class   | # of Address      |
@@ -483,7 +485,36 @@ IPv4 Network Classes
 | Class D | Multicast address |
 | Class E | Reserved          |
 
+IPv4 vs IPv6
 
+| Feature          | IPv4                    | IPv6                       |
+| ---------------- | ----------------------- | -------------------------- |
+| **Address Size** | 32-bit (4.3B addresses) | 128-bit (340 undecillion)  |
+| **Format**       | Dotted decimal          | Hexadecimal                |
+| **Security**     | Optional (IPSec)        | Built-in (IPSec mandatory) |
+| **NAT**          | Required                | Not needed                 |
+
+Common Attacks
+
+| Attack                | Description              | Defense                         |
+| --------------------- | ------------------------ | ------------------------------- |
+| **DoS/DDoS**          | Resource exhaustion      | Rate limiting, CDN, IPS         |
+| **MITM**              | Intercept communications | Encryption, certificate pinning |
+| **Spoofing**          | Fake source address      | Ingress/egress filtering        |
+| **Sniffing**          | Passive eavesdropping    | Encryption, switched networks   |
+| **Session Hijacking** | Steal active session     | Strong session IDs, timeouts    |
+| **DNS Poisoning**     | Corrupt DNS cache        | DNSSEC, secure resolvers        |
+
+Network Devices
+
+| Device      | Layer | Function                    |
+| ----------- | ----- | --------------------------- |
+| **Hub**     | 1     | Broadcast to all ports      |
+| **Switch**  | 2     | MAC-based forwarding        |
+| **Router**  | 3     | IP routing between networks |
+| **Bridge**  | 2     | Connect network segments    |
+| **Gateway** | 7     | Protocol translation        |
+| **Proxy**   | 7     | Intermediary, caching       |
 
 
 
