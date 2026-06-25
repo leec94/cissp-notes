@@ -403,6 +403,41 @@
   - GSM / CDMA: GSM vuln to MITM attacks. been replaced by 4G + LTE
 - IP address
   - IPv4 vs IPv6 
+- Network Attacks 
+- Virtualization
+  - VLAN
+  - SDN
+- Common Commands 
+  - ipconfig
+  - ping
+  - traceroute
+  - whois
+  - dig
+- network segmentation
+  - DMZ: connected out to the internet
+  - Bastion Host: publicly facing host, to withstand attacks
+  - Proxy: hide devices
+  - NAT / PAT: proxies, remapping IP addresses
+- Firewalls
+  - packet filtering: only inspect headers
+  - stateful packet filtering: has memory
+  - circuit proxy: in session layer
+  - application: deep packet inspection, slowest
+- IDS: raises alarm when finds something suspicious
+- IPS: IDS actions as well as blocking
+- In-line: IDS/IPS goes through network, is point of failure
+- mirror, span, promiscuous: network is copied
+- IDS/IPS detection methods
+  - signature
+  - anomaly
+    - stateful matching
+    - statistical
+    - protocol
+    - traffic
+- honeypot
+- honeynet
+- ingress & egress monitoring
+- endpoint security
 - Firewalls: can exists at multiple layers, Network, Session, and Application 
   - Network: Packet filtering firewalls
   - Application: application firewalls, or application proxy firewalls
@@ -482,6 +517,16 @@ IPv4 Network Classes
 | Class C | 2^8               |
 | Class D | Multicast address |
 | Class E | Reserved          |
+
+IPv4 Private Addresses
+
+| Private Address Ranges         |
+| ------------------------------ |
+| 10.0.0.0    -> 10.255.255.255  |
+| 172.16.0.0  -> 172.31.255.255  |
+| 192.168.0.0 -> 192.168.255.255 |
+
+
 
 IPv4 vs IPv6
 

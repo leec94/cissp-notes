@@ -4,10 +4,13 @@ Notes from my various attempts to take the CISSP exam. Notes in progress 🚧 Pr
 
 Active
 - 2024 Objectives Resources 
+  - Explore all notes in folder [/2024](./2024)
   - [Overview](./2024/OVERVIEW.md)
-  - [Domains](./2024/domain_notes/)
   - [Cheatsheet](./2024/CHEATSHEET.md)
   - [Resources](./2024/RESOURCES.md)
+  - [Domains](./2024/domain_notes/)
+  - [Mindset](./2024/MINDSET.md)
+  - [AI Changes](./2024/AI.md)
 - [ISC2 10th Edition CISSP Study Guide Notes](/isc2-study-guide-10th-edition/README.md)
   - For CISSP 2024 Objectives 
 
