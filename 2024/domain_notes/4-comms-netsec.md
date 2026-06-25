@@ -417,23 +417,23 @@
 
 OSI Model
 
-| Layers       | Description                      | Protocols/Devices | Info type             |
-| ------------ | -------------------------------- | --------- | --------------------- |
-| Application  | User programs                    |   HTTP, FTP, SMTP, DNS         | Data                  |
-| Presentation | Data translation and encryption  |   SSL/TLS, JPEG, ASCII         | Data                  |
-| Session      | Exchanges between systems        |    NetBIOS, RPC, SQL         | Data                  |
-| Transport    | TCP and UDP                      |   TCP, UDP            | Segments or Datagrams |
-| Network      | Internet Protocol (IP)           |   IP, ICMP, IPSec, Routers          | Packets               |
-| Data link    | Data transfers between two nodes |   Ethernet, MAC, Switches, Bridges        | Frames                |
-| Physical     | Wires, radios, and optics        |   Cables, Hubs, NICs            | Bits                  |
+| Layers       | Description                      | Protocols/Devices                | Info type             |
+| ------------ | -------------------------------- | -------------------------------- | --------------------- |
+| Application  | User programs                    | HTTP, FTP, SMTP, DNS             | Data                  |
+| Presentation | Data translation and encryption  | SSL/TLS, JPEG, ASCII             | Data                  |
+| Session      | Exchanges between systems        | NetBIOS, RPC, SQL                | Data                  |
+| Transport    | TCP and UDP                      | TCP, UDP                         | Segments or Datagrams |
+| Network      | Internet Protocol (IP)           | IP, ICMP, IPSec, Routers         | Packets               |
+| Data link    | Data transfers between two nodes | Ethernet, MAC, Switches, Bridges | Frames                |
+| Physical     | Wires, radios, and optics        | Cables, Hubs, NICs               | Bits                  |
 
 TCP Model
 
-| Layers      |
-| ----------- |
-| Application |
-| Transport   |
-| Internet    |
+| Layers            |
+| ----------------- |
+| Application       |
+| Transport         |
+| Internet          |
 | Network Interface |
 
 Common ports 
@@ -451,7 +451,6 @@ Common ports
 | 143           | IMAP     | Internet Message Access Protocol (IMAP) |
 | 80            | HTTP     | HTTP                                    |
 | 443           | HTTPS    | Secure HTTP                             |
-
 
 Wifi 
 
@@ -473,7 +472,6 @@ Wireless encryption standards
 | WPA      | Insecure |
 | WPA2     | Secure   |
 | WPA3     | Secure   |
-
 
 IPv4 Network Classes
 
