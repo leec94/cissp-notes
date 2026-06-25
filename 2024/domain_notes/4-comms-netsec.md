@@ -4,7 +4,7 @@
   - [Table of Contents](#table-of-contents)
   - [Topics](#topics)
   - [Notes](#notes)
-  - [More Notes](#more-notes)
+    - [More Notes](#more-notes)
     - [Tables](#tables)
   - [References](#references)
 
@@ -350,6 +350,7 @@
 
 ### More Notes
 - From Destination CISSP eBook
+- open systems interconnections (OSI) model: conceptual framework 
 - OSI levels: Please Do Not Throw Sausage Pizza Away
   - Please
   - Do
@@ -358,6 +359,50 @@
   - Sausage
   - Pizza
   - Away
+- OSI physical layer
+  - wired: twisted pair, coaxial, fiber optic
+  - wireless: radio frequency, infrared, microwave
+  - bus topology
+  - tree topology
+  - start topology
+  - star topology
+  - mesh topology
+  - ring topology
+  - CSMA/CA collision avoidance
+  - CSMA/CD collision avoidance
+  - hubs
+  - repeators
+  - concentrators
+  - 802.1x
+- OSI data link layer
+  - MAC address
+  - switches
+  - bridges
+  - ARP, PPTP, PPP, PAP, CHAP, EAP
+- OSI network layer
+  - IP address
+  - ICMP (ping), IPSEC, IGMP
+- OSI transport layer
+  - ports and services
+  - TCP/UDP, SSL/TLS, BGP
+- OSI session layer
+  - circuit proxy firewall
+  - NetBIOS, RPC 
+- OSI presentation layer
+- OSI application layer
+  - application firewalls
+  - HTTP, HTTPS, DNS, SSH, SNMP, LDAP, DHCP
+- WAN: wide array network
+  - X.25 
+  - Frame Relay
+  - MPLS
+- Wireless 
+  - Wifi
+    - WEP
+  - WiMMax: for creating wireless metro networks. uses 802.16 
+  - GSM / CDMA: GSM vuln to MITM attacks. been replaced by 4G + LTE
+- IP address
+  - IPv4 vs IPv6 
 - Firewalls: can exists at multiple layers, Network, Session, and Application 
   - Network: Packet filtering firewalls
   - Application: application firewalls, or application proxy firewalls
@@ -397,6 +442,7 @@ Common ports
 | ------------- | -------- | --------------------------------------- |
 | 21            | FTP      | File Transfer Protocol (FTP)            |
 | 22            | SSH      | Secure Shell (SSH)                      |
+| 23            | Telnet   | Telnet                                  |
 | 3389          | RDP      | Remote Desktop Protocol (RDP)           |
 | 137, 138, 139 | NetBIOS  | NetBIOS                                 |
 | 53            | DNS      | Domain Name Service (DNS)               |
@@ -417,15 +463,25 @@ Wifi
 | 802.11ac | 1Gbps+  | 2014 |
 | 802.11ax | 10Gbps  | 2019 |
 
-Wireless encryption stnadards 
+Wireless encryption standards 
 
 | Standard | Status   |
 | -------- | -------- |
 | WEP      | Insecure |
+| TKIP     | Insecure |
 | WPA      | Insecure |
 | WPA2     | Secure   |
 | WPA3     | Secure   |
 
+IPv4 Network Classes
+
+| Class   | # of Address      |
+| ------- | ----------------- |
+| Class A | 2^(24)            |
+| Class B | 2^(16)            |
+| Class C | 2^8               |
+| Class D | Multicast address |
+| Class E | Reserved          |
 
 
 
