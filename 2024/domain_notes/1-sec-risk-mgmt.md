@@ -105,7 +105,7 @@
 - Notes from Mike Chappelle Linkedin Learning
   - Security Fundamentals
     - TODO
-  - Security Governance
+  - Security Governance: seeks to compare the security processes and infrastructure used within the organization with knowledge and insight obtained from external sources
     - security leader vs business leader 
       - questions should consider both perspectives 
     - committees
@@ -126,6 +126,13 @@
     - control and risk frameworks
       - Control Objectives for IT (COBIT): business-focused control framework covering IT and related technologies
         - developed by ISACA, used by auditors
+        - principles
+          - Provide Stakeholder Value
+          - Holistic Approach
+          - Dynamic Governance System
+          - Governance Distinct from Management
+          - Tailored to Enterprise Needs 
+          - End-to-End governance System
       - ISO Standard
         - ISO 27001: cybersecurity control objectives
         - ISO 27002: more detail, cybersecurity control implementation 
@@ -499,6 +506,23 @@
       - SOAR to enhance SIEM
       - machine learning for automated creation of malware signatures
     - threat hunting: organized, systematic approach to seek out indicators of compromise on a network using expertise and analytic techniques
+    - Visual, Agile, and Simple Threat (VAST): threat modeling concept that integrates threat and risk mgmt into and Agile programming env on a scalable basis
+    - Damage, Reproducibility, Exploitability, Affected Users, and Discoverability (DREAD): flexible threat rating system based on the answers to 5 main questions about a threat 
+    - Process for Attack Simulation and Threat Analysis (PASTA): 7 stage threat modeling methodology 
+    - STRIDE: threat categorization scheme by Microsoft
+      - Spoofing
+      - Tampering
+      - Repudiation
+      - Information Disclosure
+      - Denial of Service (DoS)
+      - Elevation of Privilege
+  - Reduction analysis: also known as decomposing the application, system, or environment
+  - 5 key concepts of decomposition
+    - trust bounaries
+    - dataflow paths
+    - input points
+    - privileged operations
+    - details about sec stance and approach
   - Supply Chain Risk Management
     - vendor management life cycle  
       - vendor selection
@@ -554,6 +578,13 @@
   2. Act honorably, honestly, justly, responsibly, and legally
   3. Provide diligent and competent service to principals
   4. Advance and protect the profession
+- accountability vs responsibility
+  - only one person or group or entity can be accountable
+  - accountability cannot be delegated
+  - responsibility can fall on multiple people
+  - responsibility can be delegated
+
+
 
 
 ## References
