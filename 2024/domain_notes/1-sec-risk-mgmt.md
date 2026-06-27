@@ -72,7 +72,12 @@
   - Continuous monitoring and measurement
   - Reporting
   - Continuous improvement
-    - risk maturity model
+    - risk maturity model (RMM)
+      - ad hoc: chaotic starting point
+      - Preliminary: loose attempts to follow risk management processes, but each department may perform risk assessment uniquely
+      - Defined: common or standardized risk framework be adopted organization-wide
+      - Integrated: risk management operations are integrated into business processes, metrics are used to gather effectiveness data, and risk is considered an element in business strategy decisions
+      - Optimized: risk management focuses on achieving objectives rather than just reacting to external threats, increasing strategic planning toward business success rather than just avoiding incidents, and reintegrating lessons learned into the risk management process
   - Risk frameworks (overlaps with security control frameworks above)
     - International Organization for Standardization (ISO)
     - National Institute of Standards and Technology (NIST)
@@ -416,6 +421,8 @@
       - mean time to failure (MTTF): average time a nonrepairable component will last
       - mean time between failures (MTBF): average time gap between failures of a repairable component
       - mean time to repair (MTTR): average time required to return a repairable component to service
+      - exposure: presence of a vulnerability when a related threat exists
+      - risk: a calculation of the probability of occurrence and the level of damage that could be caused if an exposure is realized
       - risk management/treatment: process of systematically analyzing potential responses to each risk and implementing strategies to control those risks appropriately 
       - risk management strategies
         - risk avoidance: changes the org's business practices
@@ -461,6 +468,14 @@
     - availability analysis: provides uptime information
     - continuous tuning: maintains effective controls
     - risk management framework
+      - NIST RMF phases
+        - Prepare: identifying key stakeholders, establishing an organizational risk management strategy, and preparing the necessary resources and infrastructure to support the framework implementation
+        - Categorize: categorize the system and the information processed, stored, and transmitted by the system based on an analysis of the impact of loss
+        - Select: choosing the appropriate security controls and privacy controls based on the system categorization
+        - Implement: focuses both on deploying the selected controls and on documenting how each control is implemented
+        - Assess: assess the controls to determine if the controls are implemented correctly, operating as intended, and producing the desired outcomes with respect to satisfying the security and privacy requirements
+        - Authorize: authorize the system or common controls based on a determination that the risk to organizational operations and assets, individuals, other organizations, and the Nation is acceptable
+        - Monitor: monitor the system and the associated controls on an ongoing basis to include assessing control effectiveness, documenting changes to the system and environment of operation, conducting risk assessments and impact analyses, and reporting the security and privacy posture of the system
       - NIST SP 800-37
         - steps in managing risks:
           1. Categorize - information system
@@ -518,7 +533,7 @@
       - Elevation of Privilege
   - Reduction analysis: also known as decomposing the application, system, or environment
   - 5 key concepts of decomposition
-    - trust bounaries
+    - trust boundaries
     - dataflow paths
     - input points
     - privileged operations
