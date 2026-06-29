@@ -5,6 +5,7 @@
   - [Topics](#topics)
   - [Notes](#notes)
   - [More Notes](#more-notes)
+      - [tables](#tables)
   - [References](#references)
 
 ## Topics
@@ -32,6 +33,8 @@
     - Payment Card Industry (PCI)
     - Federal Risk and Authorization Management Program (FedRAMP)
   - Due care/Due Diligence
+    - due care: responsible protection of assets. aligns what security should be doing with what the org should be doing
+    - due diligence: ability to *prove* due care
 - Legal and compliance
   - Cybercrimes and data breaches
   - Licensing and Intellectual Property (IP)
@@ -154,6 +157,13 @@
         - Federal Risk and Authorization Management Program (FedRAMP): certifies cloud service providers for US federal government use
       - Sherwood Applied Business Security Architecture (SABSA): integrating security into business strategies 
   - Compliance and Ethics
+    - PI
+    - SPI
+    - PHI
+    - IP: intellectual property
+    - SD: sensitive data
+    - direct identifiers: name, address, gov ID, biometric data, other uniquely identifying no
+    - indirect identifiers
     - GDPR
       - went into effect 2018 
       - EU privacy regulation
@@ -173,6 +183,8 @@
         - Standard Contractual Clauses
         - Binding Corporate Rules (for large orgs)
         - Safe Harbor Agreements (Privacy Shield) - Invalid from Schrems II as of 2020
+    - Gramm-Leach-Bliley Act (GLBA): US privacy regulation
+    - Children's Online Privacy Protection Act (COPPA)
     - California Privacy Laws
       - California Financial Information Privacy Act (SB-1)
         - expands upon federal GLBA
@@ -205,10 +217,29 @@
         - right to limit use and disclosure of sensitive personal information 
         - right to information about automated decision-making
         - right to opt-out of automated decision making
+    - OECD: international org for standards and policies like privacy
+      - OECD Privacy Principles: Collection Limitation, Data Quality, Purpose Specification, Use Limitation, Security Safeguards, Openness, Individual Participation, Accountability
+    - PIPEDA: Canada privacy regulation
+    - Personal Information Protection Law: China privacy regulation
+    - Protection of Personal Information Act: South Africa privacy regulation
+    - Personal Data Protection Law #25,326 (PDPL): Argentina privacy regulation
+    - Personal Information Protection Act (PIPA): South Korea privacy regulation
+    - Privacy Act and Australian Privacy Principles (APPs): Australia privacy regulation
     - PCI DSS
     - HIPAA
     - Personally Identifiable Information (PII): any information that can by traced back to an individual
     - Protected Health Information (PHI): Individually identifiable health records governed under HIPAA
+    - Privacy Impact Assessment (PIA): determines if personal data is being protected appropriately 
+      - Steps:
+        1.  Identified the need for a DPIA
+        2.  Describe the data processing
+        3.  Assess necessity and proportionality
+        4.  Consult interested parties
+        5.  Identify and assess risks
+        6.  Identify measures to mitigate risks
+        7.  Sign off and record outcomes
+        8.  Monitor and review
+    - Data Protection Impact Assessments (DPIA)
     - Generally accepted privacy principles (GAPP): outlines 10 components of data privacy to design privacy programs
       - developed by a bunch of accounting and auditing associations, AICPA, CICA, ISACA, IIA
       - GAPP components
@@ -278,17 +309,23 @@
         - secret alternative to patent protection
     - import and export controls 
       - export controls: restrict flow of goods and data
+      - Wassenaar Arrangement: put in place to manage the risk that cryptography poses, while still facilitating trade. allows certain countries to exchange and use cryptography systems of any strength, while also preventing the acquisition of these items by terrorists.
+        - Participating members can exchange cryptography of any strength, but countries that are not a member are excluded from data exchange
       - International Traffic in Arms Regulations (ITAR)
         - covers "defense articles"
+        - controls export of items like missiles, rockets, bombs, or anything else from US Munitions List
       - Export Administration Regulations (EAR)
         - covers "dual use" technologies
+        - focuses on commercial-use related items like computers, lasers, marine items, and more
       - Office of Foreign Assets Control (OFAC)
         - covers sanctioned countries
+    - transborder data flow: restricts transfer of data across country borders, ex: GDPR
+    - privacy: the state or condition of being free from being observed or disturbed by other people
     - data breaches
       - consequences: reputational damage, identity theft, fines, intellectual property theft
       - industry specific regulations
         - HIPAA for healthcare information
-        - SOX for public companies
+        - Sarbanes-Oxley Act (SOX) for public companies
         - PCI DSS for credit card records 
       - jurisdiction specific regulations
         - geo related such as GDPR
@@ -400,12 +437,17 @@
   - Risk Management
     - risk assessment
       - identify scope in advance
-      - threat: external force jeopardizing security
-      - risks: combination of threat and vulnerability
-      - vulnerability: weaknesses in security controls
+      - threat: any potential danger to an asset. external force jeopardizing security
+      - risks: combination of threat and vulnerability to the asset
+      - vulnerability: weaknesses in security controls that could be exploited by an attacker
       - threat vector: specific methods that threats use to exploit a vulnerability
-      - likelihood: probability that a risk will occur
-      - impact: amount of expected damage
+      - likelihood: probability that a risk will occur due to a given threat or vuln being present
+      - impact: amount of expected damage, extent to which an asset would be negatively affected
+      - risk treatments
+        - Avoid: don't do the risky thing
+        - Transfer: purchase an insurance policy 
+        - Mitigate: Implement controls to reduce risk
+        - Accept: owner of an asset accepts a certain level of risk
       - risk analysis types:
         - qualitative: uses subjective ratings to evaluate risk likelihood and impact
           - rankings like low/medium/high
@@ -599,7 +641,42 @@
   - responsibility can fall on multiple people
   - responsibility can be delegated
 
+#### tables
 
+intellectual property
+
+|              | Protects                                                                        | Disclosure Required | Term of Protection   | Protects Against                       |
+| ------------ | ------------------------------------------------------------------------------- | ------------------- | -------------------- | -------------------------------------- |
+| Trade Secret | Business Information                                                            | No                  | Potentially infinite | Misappropriation                       |
+| Patent       | Functional innovations, Novel idea/inventions                                   | Yes                 | Set period of time   | Making, using, or selling an invention |
+| Copyright    | Expression of an idea embodied in a fixed medium (books, movies, songs, etc.)   | Yes                 | Set period of time   | Copying or substantially similar work  |
+| Trademark    | Color, sound, symbol, etc. used to distinguish one product/company from another | Yes                 | Potentially infinite | creating confusion |
+
+Data Roles 
+
+| Role            | Description                                                                                                         |
+| --------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Data owner      | Accountable for protection of data                                                                                  |
+| Data custodian  | needs clearly defined responsibilities for protecting data. needs tools, training, resources, and input from owners |
+| Data processors | needs clearly defined responsibilities, processes personal data on behalf of controller / owner                     |
+| Data subject    | Individual to whom personal data relates |
+
+Policies to Guidelines 
+
+| Policy Type | Description                                        |
+| ----------- | -------------------------------------------------- |
+| Policies    | Corporate laws, goals and objectives of entire org |
+| Standards   | Specific info related to solutions                 |
+| Baselines   | Defined minimal implementation levels              |
+| Procedures  | Step-by-step instructions                          |
+| Guidelines  | Recommendations or suggestions                     |
+
+Risk Formulas 
+
+| Risk Calculations |
+| ----------------- |
+| ALE = SLE X ARO   |
+| SLE = AV*EF       |
 
 
 ## References
