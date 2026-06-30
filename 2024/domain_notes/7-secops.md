@@ -282,7 +282,22 @@
 
 ## More Notes
 - From Destination CISSP eBook
-
+- business continuity management (BCM): overarching, enables BCP and DRP
+- business continuity planning (BCP): focuses on survival of business, strategic
+  - BCP steps
+    1. developing contingency planning policy 
+    2. conduct BIA
+    3. identify controls
+    4. create contingency stategies
+    5. develop contingency plan
+    6. ensure testing, training, and exercises
+    7. maintenance
+- disaster recovery planning (DRP): focuses on recovery, tactical
+- business impact analysis (BIA): helps identify and prioritize info systems and components critical to supporting the org's mission and business processes 
+- BIA steps 
+  1. Determine mission/business processes and recovery criticality
+  2. Identify resource requirements
+  3. Identify recovery priorities for system resources
 
 
 
