@@ -1,2 +1,30 @@
 # Chapter 8: Principles of Security Models, Design, and Capabilities
 ## Notes
+- information flow model: controlling the flow of information, to prevent unauthorized, insecure, or restricted info flow
+- noninterference model: how the actions of a subject at a higher security level affect the system state or actions of a subject at a lower security level
+- Composition theory: models that build on notion of inputs and outputs between multiple systems, explains how outputs from one system relates to inputs to another system
+  - cascading: input for one system comes from the output of another system. can cause issues when a combo of 2 or more secure systems results in a system that's not secure
+  - feedback: one system provides input to another system, which reciprocates by reversing those roles
+  - hookup: one system sends input to another system but also sends input to external entities
+- reference monitor: access control enforcer for the TCB. it's the part of the TCB that validates access to every resource prior to granting access requests 
+- Bell-LaPadula model: for DoD, confidentiality
+  - simple security property: no read-up
+    - simple is about reading
+  - *-property: no write-down
+    - ex: pasting a top-secret memo into an unclassified document file
+    - star is about writing
+  - discretionary security property: system uses access matrix to enforce discretionary access control
+    - need to know
+- Clark-Wilson Model: enforces data integrity
+  - uses access control triplet: three part relationship of subject/program/object
+  - subjects do not have direct access to objects
+  - well-formed transactions 
+  - separation of duties  
+- Biba model: focused on integrity
+  - simple integrity property: no read-down
+    - like pumping air from the smoking section into the clean room environment
+  - * integrity property: no write-up
+  - invocation property: process from below cannot request higher access (neither read nor write), only subjects at an equal or lower level 
+- Brewer and Nash model
+- lattice-based access control
+- discretionary access control

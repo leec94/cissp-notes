@@ -458,7 +458,11 @@
 - cipher locks: require user to enter the correct combination
 - biometic locks: use physical characteristic of a person to permit access 
 - card reader locks: require a user present a magnetic stripe or proximity access card 
-- mantraps: to prevent tailgaiting
+- tailgailing: unauthorized person following an authorized person into a building or other secure location
+- mantraps: a double set of doors to prevent tailgaiting. can have space for 2 people in between. highly secure but expensive and reduce overall throughput
+- turnstile: type of mantrap, allows only one person at a time. 
+- waist-height turnstiles: best for high-throughput, low-threat environments, mostly for crowd control and deterrent
+- optical turnstile: often infrared, typically barrier-free, instead using audible and visual alerting systems, and sometimes retracting glass panels, to alert others
 - video surveillance: act as both a deterrent and detective controls, could use infrared technology. provides important records of physical access to facilities 
 - fences: prevent physical intrusions on foot or by vehicle
 - cages: may be used to separate equipment in data centers

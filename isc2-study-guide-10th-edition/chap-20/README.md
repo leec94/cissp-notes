@@ -1,2 +1,36 @@
 # Chapter 20: Software Development Security
 ## Notes
+- Capability Maturity Model (CMM): or SW-CMM, CMM, SCMM
+  - Level 1: Initial 
+    - little or no defined software dev process
+  - Level 2: Repeatable
+    - basic life cycle mgmt processes are introduced, repeatable results 
+    - key processes from SEI
+      - Requirements Management
+      - Software Project Planning
+      - Software Project Tracking and Oversight
+      - Software Subcontract Management
+      - Software Quality Assurance
+      - Software Configuration Management
+  - Level 3: Defined
+    - formal, documented software development processes
+    - key processes from SEI
+      - Organization Process Focus
+      - Organization Process Definition
+      - Training Program
+      - Integrated Software Management
+      - Software Product Engineering
+      - Intergroup Coordination
+      - Peer Reviews
+  - Level 4: Managed
+    - quantitative measures are used 
+    - key processes from SEI
+      - Quantitative Process Management
+      - Software Quality Management
+  - Level 5: Optimizing
+    - continuous improvement, sophisticated dev practices that ensures feedback from one phase reaches the previous phase to improve future results
+    - key processes from SEI
+      - Defect Prevention
+      - Technology Change Management
+      - Process Change Management
+- CMMI: focuses on integration among processes, where CMM focuses on isolated processes 
