@@ -288,11 +288,14 @@
     1. developing contingency planning policy 
     2. conduct BIA
     3. identify controls
-    4. create contingency stategies
+    4. create contingency strategies
     5. develop contingency plan
     6. ensure testing, training, and exercises
     7. maintenance
 - disaster recovery planning (DRP): focuses on recovery, tactical
+- BCP vs DRP
+  -  business continuity activities are typically strategically focused at a high level and center themselves on business processes and operations
+  -  Disaster recovery plans tend to be more tactical and describe technical activities such as recovery sites, backups, and fault tolerance.
 - business impact analysis (BIA): helps identify and prioritize info systems and components critical to supporting the org's mission and business processes 
 - BIA steps 
   1. Determine mission/business processes and recovery criticality
@@ -303,3 +306,7 @@
 
 
 ## References
+
+BCP vs DRP vs BIA
+
+![bcp-drp-via](image-5.png)
