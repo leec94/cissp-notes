@@ -25,3 +25,11 @@
   - qualitative impact assessment: non-numerical factors like reputation, investor/customer confidence, workforce stability, and other concerns into account. often results in categories of prioritization (high/medium/low)
 - asset value (AV)
 - maximum tolerable downtime (MTD) or maximum tolerable outage (MTO)
+
+#### Quick Ref
+
+- BCP Steps
+  1. Project scope and planning
+  2. Business impact analysis
+  3. Continuity planning
+  4. Plan approval and implementation

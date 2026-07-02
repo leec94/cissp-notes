@@ -14,8 +14,31 @@ Notes I want to add to my cheatsheet on exam day. As of 3/29/2026, this is my ch
 | Where | Data Custodian  | Where data is stored and where it is going                          |
 | How   | Data Steward    | How they will ensure data quality, policies, procedures, guidelines |
 
+
+#### Security Models 
+- take-grant model
+- Bell-LaPadula model
+- Biba model
+- Clark-Wilson model
+- Brewer and Nash model 
+
+| Model                 | Type       | Focus           | Rules                                                                   |
+| --------------------- | ---------- | --------------- | ----------------------------------------------------------------------- |
+| Bell-LaPadula         | Lattice    | Confidentiality | -Simple Security Property <br> -Star Property <br>-Strong Star Property |
+| Biba                  | Lattice    | Integrity       | -Simple Integrity Property <br>-Star Integrity Property                 |
+| Lipner Implementation | Lattice    |                 |                                                                         |
+| Clark-Wilson          | Rule Based | Integrity       | -well-formed transactions <br>-separation of duties                                                                         |
+| Brewer-Nash (Chinese Wall)          | Rule Based |   Confidentiality              |  Prevents conflicts of interest                                                                       |
+| Graham-Denning        | Rule Based |                 |                                                                         |
+| Harrison-Ruzzo-Ullman | Rule Based |  Integrity               |                                                                         |
+
 #### OSI
 Please Do Not Throw Sausage Pizza Away
+
+#### IP 
+Application, Transport, Internet, Network
+
+
 
 #### Ports and protocols 
 HTTP (80), HTTPS (443), SSH (22), Telnet (23), FTP (21), SMTP (25), DNS (53), DHCP (67/68)
@@ -55,6 +78,16 @@ ALE = SLE * ARO
 - **Asymmetric**: RSA, ECC
 - **Wireless** WPA3 (good), WEP,WPA2 (bad)
 
+#### Access Control
+
+| Type                         | Description                                                      | Example                   |
+| ---------------------------- | ---------------------------------------------------------------- | ------------------------- |
+| Rule Based                   | set of rules                                                     | rules in a firewall's ACL |
+| Role Based (RBAC)            | grants access based on a subject's membership in a group or role |                           |
+| Attribute Based              |    grants access based on attributes                                                              |                           |
+| Mandatory Access Model (MAC) | uses labels to identify access |                           |
+
+
 #### Incident response phases
 ##### CISSP
 1. Detection
@@ -64,6 +97,7 @@ ALE = SLE * ARO
 5. Recovery
 6. Remediation
 7. Lessons Learned
+- sounds like "drumroll" 
 
 ##### NIST
 1. Preparation

@@ -190,8 +190,11 @@
     - initial activation of the disaster recovery team
     - regular status updates
     - tactical communications
-- recovery time objective (RTO): max amounto f time it should take to recover a service after a disaster
+- recovery time objective (RTO): max amount of time it should take to recover a service after a disaster
 - recovery point objective (RPO): max time period from which data may be lost in the wake of a disaster
+- work recovery time (WRT): max tolerable time to verify system and data integrity as part of resumption of normal ops for BAU
+- maximum tolerable downtime (MTD): or max allowable downtime (MAD), or acceptable interruption window (AIW), max time critical system, function, or process can be disrupted before unacceptable/irrecoverable consequences to biz
+  - RTO should never exceed MTD
 - recovery service level (RSL): percentage of a service that must be available during a disaster
 - backups: provide a data "safety net" 
 - backup media: examples include tape, disk-to-disk, cloud
@@ -264,6 +267,13 @@ PCI DSS CVSS Scores
 | 4.0 - 6.9  | Medium         | Fail         |
 | 7.0 - 10.0 | High           | Fail |
 
+|     |                          |                                                  |
+| --- | ------------------------ | ------------------------------------------------ |
+| RPO | Recovery Point Objective | Max tolerable data loss                          |
+| RTO | Recovery Time Objective  | Recovery time to be defined service level        |
+| WRT | Wrok Recovery Time       | Max time to verify integrity of systems and data |
+| MTD | Max tolerable downtime   | Max total time that a process can be disrupted |
+
 #### important stuff
 
 the average cybersec professional
@@ -271,4 +281,6 @@ the average cybersec professional
 <img src="image-2.png" width="350" height="300">
 
 ## References
+MTD,RPO,RTO,and WRT relationships
+![MTD,RPO,RTO,and WRT relationships](image-4.png)
 

@@ -25,6 +25,10 @@
     - like pumping air from the smoking section into the clean room environment
   - * integrity property: no write-up
   - invocation property: process from below cannot request higher access (neither read nor write), only subjects at an equal or lower level 
-- Brewer and Nash model
+- Brewer and Nash model: or chinese wall, prevents conflicts of interest. focused on confidentiality. 
+- Lipner Implementation: combines Biba and Bell-LaPadula to separate objects into data and programs and apply sensitivity levels and job categories into subjects
+- Graham-Denning Model: rule based model allowing a subject to access an object
+- Harrison-Ruzzo-Ullman Model: rule based model that focuses on integrity of access rights via finite set of rules available to edit the access rights of a subject
 - lattice-based access control
 - discretionary access control
+- assurance: degree of confidence in the satisfaction of security needs
