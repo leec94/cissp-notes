@@ -67,6 +67,7 @@
   - repeat scans after significant change
   - use approved scanning vendor (ASV)
   - remediate and rescan until you achieve a clean report
+- FISMA: U.S. law requiring federal agencies and their contractors to implement comprehensive cybersecurity programs
 - FISMA requirements
   - conduct vuln scans regularly
   - analyze results of scans

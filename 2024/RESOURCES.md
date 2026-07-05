@@ -42,7 +42,6 @@ Practice Questions
 - [LearnZapp](https://www.learnzapp.com/apps/isc2/)
   - Paid, ~$20 per month, has different plans, similar to Boson
 
-
 Official Resources
 - CISSP Exam Outline: https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline
 - CISSP Glossary: https://www.isc2.org/certifications/cissp/cissp-student-glossary
@@ -50,6 +49,7 @@ Official Resources
 - ISC2 Webinars: https://www.isc2.org/professional-development/webinars 
 
 Notes
+- My flashcards: https://quizlet.com/user/leecaroline42/folders/isc2-cissp-2024 
 - CISSP Sunflower notes (last edited 2019): https://docs.wixstatic.com/ugd/dc6afa_fc8dba86e57a4f3cb9aaf66aff6f9d22.pdf 
 - A french dude's notes: http://luc.desfosses.fr/CISSP/ 
   - Mentioned 2018, may be dated

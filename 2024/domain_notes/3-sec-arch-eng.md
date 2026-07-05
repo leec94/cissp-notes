@@ -211,6 +211,10 @@
 - AES Crypt: open source software for encryption 
 - hardware security module (HSM): manages encryption keys
 - trusted platform module (TPM): hardware encryption to typical computers
+  - binding: data is encrypted in such a way that it's bound to a specific TPM's hardware and software config
+    - TPM creating keys called endorsement keys and encrypting them so only TPM can be used for decryption
+  - sealing: crypto operation that involves encrypting data, but not tied to TPM's state or config. only allows data to be decrypted in certain conditions such as after user authentication or in the presence of certain software 
+    - creating a bound key that is also associated with certain computer config settings and parameters
 - self-encrypting drive (SED): performs encryption automatically
 - basic input/output system (BIOS): lightweight operating system stored in firmware that provides the basic functionality necessary to load the full operating system from disk 
 - unified extensible firmware interface (UEFI): replaces bios with a flexible alternative

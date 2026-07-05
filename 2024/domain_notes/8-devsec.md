@@ -97,6 +97,12 @@
     - adds additional guidance for business agility
     - supports enterprises that build solutions requiring hundreds of developers
 - maturity models: provides standard benchmarks 
+- CMM Steps
+  - Level 1: Initial
+  - Level 2: Repeatable
+  - Level 3: Defined
+  - Level 4: Managed
+  - Level 5: Optimizing
 - Capability Maturity Model Integration (CMMI): assesses an org's process maturity
   - level 1: Initial
     - work gets done but is subject to delays and budget overruns

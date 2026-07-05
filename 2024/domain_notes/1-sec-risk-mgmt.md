@@ -164,7 +164,7 @@
     - SD: sensitive data
     - direct identifiers: name, address, gov ID, biometric data, other uniquely identifying no
     - indirect identifiers
-    - GDPR
+    - GDPR: the goat of privacy laws
       - went into effect 2018 
       - EU privacy regulation
       - applies to data controllers and data processors
@@ -620,7 +620,7 @@
       - include in security training
       - GLBA: financial institution law
       - HIPAA: healthcare regulation
-      - PCIDSS: payment standards 
+      - PCI DSS: payment standards 
     - measuring effectiveness
       - security awareness surveys
       - phishing simulations
@@ -640,6 +640,26 @@
   - accountability cannot be delegated
   - responsibility can fall on multiple people
   - responsibility can be delegated
+- GDPR principles
+  - lawfulness, fairness, transparency
+  - purpose limitation
+  - data minimization 
+  - accuracy 
+  - storage limitation 
+  - integrity and confidentiality 
+  - accountability 
+- OECD: org that made guidelines for privacy 
+- Plan-Do-Check-Act (PDCA) cycle: for security improvement, also deming cycle
+  - Plan: assess and create policies
+  - Do: implement policies 
+  - Check: monitor performance
+  - Act: corrective and preventive measures 
+- risk treatments
+  - avoid
+  - transfer
+  - mitigate
+  - accept
+
 
 #### tables
 
@@ -678,5 +698,16 @@ Risk Formulas
 | ALE = SLE X ARO   |
 | SLE = AV*EF       |
 
+Control Types 
+
+| Control      | When   | Description               |
+| ------------ | ------ | ------------------------- |
+| Directive    | Before | ex. policies              |
+| Deterrent    | Before | ex. security camera signs |
+| Preventive   | Before | ex. fences                |
+| Detective    | After  | ex.smoke alarm            |
+| Corrective   | After  | ex. sprinklers going off  |
+| Recovery     | After  | ex. using data backups    |
+| Compensating | Before | ex. using HIPS when NIPS are used |
 
 ## References
