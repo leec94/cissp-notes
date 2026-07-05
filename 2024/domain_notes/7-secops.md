@@ -117,13 +117,15 @@
 - Notes from Mike Chappelle Linkedin Learning
 - investigation types
   - operational, or administrative: look into technology issues, restore normal operations as quickly as possible, uses very low standards of evidence, and involves root cause analysis
-  - criminal: look into possible crimes
+  - criminal: look into possible crimes, where law is broken
     - involves possibility of fines and jail time
     - uses **beyond a reasonable doubt** standard of evidence
-  - civil: resolves disputes between parties
+  - civil: resolves disputes between parties and one party decides to settle that disagreement by suing the other party in court
     - does not involve possibility of fines and jail time
     - uses **preponderance of the evidence** standard
-  - regulatory investigation: conducted by the government or industry regulators
+    - can involve companies
+  - regulatory investigation: conducted by the government or industry regulators when it believes an individual org has violated an administrative law, typically a regulation or statue
+  - administrative investigation: within an org, from violation of internal org policy
 - evidence types
   - real: consists of tangible objects
   - documentary: written information
@@ -279,6 +281,10 @@
 - emergency management plans: should be based on a risk assessment
   - examples: weather emergency plans like tornado sheltering instructions, and lockdown plan in the event of workplace violence
 - fire plan: should include instructions for building evacuation, fire department notification, and accounting for personnel
+- cyclic redundancy check (CRC): or backup checksum, checksum used to ensure integrity in hard drives, across network, RAM and other places.
+- archive bit: indicates if the file needs to be backed up or not
+- incremental backups: all new or modified bits are set to 1, and only those files are backed up. each day the archive bit is set to 0
+- differential backups: similar to incremental, but archive bit is not reset to 0, so all changes since last full backup are backed up 
 
 ## More Notes
 - From Destination CISSP eBook

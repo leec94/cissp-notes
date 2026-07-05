@@ -211,7 +211,9 @@
 
 ## More Notes
 - From Destination CISSP eBook
-
+- identification: process of *presenting* proof of identity and asserting that it belongs to the specific entity presenting it. ex: submitting username + password, smartcard + pin, or other identification
+- authentication: *validating* credentials presented by an entity as authentic and belonging to that entity
+- authorization: process of granting rights, permissions, and privileges to an entity
 
 
 

@@ -255,7 +255,10 @@
 
 ## More Notes
 - From Destination CISSP eBook
-
+- exception handling: refers to how vulns are handled when they can't be immediately remediated. such as notifying senior mgmt, documenting the exception and the reason for it, and determining compensating controls 
+- vuln assessment: identifies vulns and weaknesses in systems and applications
+- configuration mgmt: deals with change to config items as part of the chagne mgmt process 
+- patch mgmt: process of applying updates to systems and apps in a timely manner 
 
 
 #### quick ref tables

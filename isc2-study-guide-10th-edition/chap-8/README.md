@@ -31,4 +31,7 @@
 - Harrison-Ruzzo-Ullman Model: rule based model that focuses on integrity of access rights via finite set of rules available to edit the access rights of a subject
 - lattice-based access control
 - discretionary access control
+- noninterference model: for confidentiality, ensure actions at a higher security level do not affect or interfere with lower security levels within a system. based on info flow model
+- information flow model: type of state machine model to restrict info flow between subjects+objects and classification levels. ex. biba and bell-lapadula models
+- state machine model: a system always in a secure model regardless of the operational state it's in 
 - assurance: degree of confidence in the satisfaction of security needs

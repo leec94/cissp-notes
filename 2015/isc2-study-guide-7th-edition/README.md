@@ -863,7 +863,10 @@ device authentication
 - capability tables
 - constrained interface
 - content-dependent control
+- content dependent access: users are restricted based on the type of info the object holds, like healthcare or financial info 
 - context-dependent control
+- context-dependent access: users must be in the correct environment and context in order to perform specific actions 
+- just in time access: provides temporary authorization and escalation of privileges for a user to be able to perform additional actiosn  
 - need to know
 - least privilege
 - separation of duties and responsibilities 

@@ -168,6 +168,7 @@
       - went into effect 2018 
       - EU privacy regulation
       - applies to data controllers and data processors
+      - Data Protection Officer (DPO): role specifically for GDPR, responsible for ensuring the org applies the laws to protect individuals' data
       - data controllers: organizations that determine the purposes and meaning of personal data processing
       - data processor: organizations that process information on behalf of data controllers
       - requires "right to notice" of data collection and processing 
@@ -627,6 +628,11 @@
 
 ## More Notes
 - From Destination CISSP eBook
+- auditing: critical for establishing accountability, records activities that users perform and events that occur in the system
+- nonrepudiation: individuals cannot deny that they took an action
+- authorization: granting rights, permissions, and privileges to perform tasks or activities with a resource
+- authentication: validation of an identity that has been asserted to the system
+- authentication
 - ISC2 Code of Ethics Preamble
   - The safety and welfare of society and the common good, duty to our principals, and to each other, requires that we adhere, and be seen to adhere, to the highest ethical standards of behavior
   - Therefore, strict adherence to this Code is a condition of certification
@@ -659,7 +665,15 @@
   - transfer
   - mitigate
   - accept
-
+- security policy development steps
+  - initial and evaluation
+  - development
+  - approval
+  - publication
+  - implementation
+  - maintenance
+- vertical enactment: industry-specific legal and regulatory compliance. like hipaa for healthcare, pci dss and glba for financial, and fisma for government
+- horizontal enactment: Applies broadly across multiple industry boundaries—or all industries in a given jurisdiction—regardless of what the company does. Ex:GDPR and CCPA
 
 #### tables
 

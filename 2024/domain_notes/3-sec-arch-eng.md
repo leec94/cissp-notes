@@ -121,10 +121,12 @@
     - Rules
       1. Simple Security Rule: No "read up" 
       2. *-Property: No "write-down"
+      3. Strong star * property: any subject that has both read and write capabilities for a given security level can only perform both those functions at the same security level, nothing higher or lower
   - Biba Model: enforces integrity
     - Rules
       1. Simple integrity property: No "read down"
       2. *-Integrity property: No "write up" 
+      3. Invocation rule: subject at one integrity level cannot request or invoke the service from a higher integrity level
 - Trusted Computer System Evaluation Criteria (TCSEC) or orange book: contained DoD computer security requirements. replaced in 2005 with common criteria
 - Common Criteria: unified evaluation processes across NATO countries 
 - Certification: determines that a system meets security criteria. not the same as accreditation  
@@ -213,7 +215,9 @@
 - trusted platform module (TPM): hardware encryption to typical computers
   - binding: data is encrypted in such a way that it's bound to a specific TPM's hardware and software config
     - TPM creating keys called endorsement keys and encrypting them so only TPM can be used for decryption
-  - sealing: crypto operation that involves encrypting data, but not tied to TPM's state or config. only allows data to be decrypted in certain conditions such as after user authentication or in the presence of certain software 
+  - sealing: encrypting data for a system's specific hardware and software config and storing it on TPM. one step beyond binding
+    - creating a bound key associated with certain computer configs. This key can only be unbound when the configs match the values at the time the key was created
+    - crypto operation that involves encrypting data, but not tied to TPM's state or config. only allows data to be decrypted in certain conditions such as after user authentication or in the presence of certain software 
     - creating a bound key that is also associated with certain computer config settings and parameters
 - self-encrypting drive (SED): performs encryption automatically
 - basic input/output system (BIOS): lightweight operating system stored in firmware that provides the basic functionality necessary to load the full operating system from disk 
@@ -409,6 +413,7 @@
 - chosen plaintext attack: attacker can create an encrypted message of their choice
 - birthday attack: attacker finds two inputs with the same hash values
 - eavesdropping attacks: rely on a compromised communications path. examples include network device tapping, DNS poisoning, and ARP poisoning
+- ARP poisoning: local host's ARP cache can be polluted with incorrect entries. can happen from unsolicitous ARP requests and false replies that a malicious entity may send out, so victim host communicates with malicious host instead of one intended
 - man-in-the-middle attack
 - replay attack: to prevent, use unique characteristics like token and timestamp
 - SSL stripping: tricks browsers into using unencrypted communications 

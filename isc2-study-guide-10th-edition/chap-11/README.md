@@ -5,3 +5,11 @@
     - WPA3-ENT
     - WPA3-PER
 - simultaneous authentication of equals (SAE): used by WPA3-PER
+- storage area network (SAN): solutions 
+- internet small computer systems interfae (iSCSI): storage technology that works at layer 3, sending block level access commands to network based storage devices 
+- Fiber Channel over IP (FCIP): encapsulated within IP, at layer 3 (network) 
+- virtual extensible local area network (VxLAN): encapsulates VLAN mgmt traffic sends across subnets to geographically separated locations 
+- Fiber Channel over Ethernet (FCoE): can be used by SAN to function over ethernet, using switches, host based adapters, NICs and cabling
+- Fiber Channel
+- address resolution protocol (ARP): used to resolve IP addresses into MAC addresses, layer 2 protocol
+- ARP cache: used to cache IP address and MAC address translations (layer 2 and 3)
