@@ -73,6 +73,7 @@
   - analyze results of scans
   - remediate legitimate vulns
   - share info with other agencies
+- Government Information Security Reform Act (GISRA): precursor to FISMA, expired in Nov 2002
 - asset inventory: provides starting point for vuln scanning
   - lightweight scans can be done with scanners like Nessus
 - determine risk
@@ -259,7 +260,12 @@
 - vuln assessment: identifies vulns and weaknesses in systems and applications
 - configuration mgmt: deals with change to config items as part of the chagne mgmt process 
 - patch mgmt: process of applying updates to systems and apps in a timely manner 
-
+- validation: develop a level of confidence that business requirements are clearly understood and validated with business owner 
+- verification: after validation, process that confirms that an application or product is being built correctly
+- completeness: ensuring all the use cases of an application, based on all defined requirements related to functionality, have been covered
+- correctness: each "use" case representing what's supposed to be built
+- consistency: functionality being specified consistently in all areas 
+- assurance: degree of confidence that an org has that its security controls are correctly implemented, provided by validation and verification
 
 #### quick ref tables
 

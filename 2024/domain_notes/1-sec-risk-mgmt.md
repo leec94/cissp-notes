@@ -348,7 +348,8 @@
           - Act honorably, honestly, justly, responsibly, and legally
           - Provide diligent and competent service to principals
           - Advance and protect the profession
-        - ISC2 members are required to report breaches of the code of ethics to ISC2 for investigation
+        - ISC2 members are required to report breaches of the code of ethics to ISC2 for investigation  
+        - charges of violations of canons 1 or 2 can be brought by anyone, changes of violation 3 may only be brought by a principal with an employer/contractor relationship with the accused, charges of canon 4 permits any certified or licensed professional to subscribes to a code of ethics to bring charges
   - Security Policy
     - policies 
       - provide the foundation for a security program
@@ -622,6 +623,9 @@
       - GLBA: financial institution law
       - HIPAA: healthcare regulation
       - PCI DSS: payment standards 
+      - Lanham Act: regulates issuance of trademarks to protect intellectual property
+      - Copyright act: creates mechanics for issuing and enforcing copyrights 
+      - Digital Millennium Copyright Act (DMCA): requirements for online service providers when handling copyright complaints received from third parties
     - measuring effectiveness
       - security awareness surveys
       - phishing simulations

@@ -138,6 +138,7 @@
     - denial of authorization to operate (DATO)
 - segregation of duties: no individual should possess two permissions that, in combination, allow them to perform a highly sensitive action 
 - two-person control (or dual control): requires the authorization of two separate individuals to carry out a sensitive action
+- m of n control: at least m of n possible escrow agents must collaborate to retrieve an encryption key from the escrow database
 - privacy design principles: by IAPP
 - privacy by design principles
   1. proactive, not reactive; preventive, not remedial 
@@ -346,6 +347,7 @@
   - recipient decrypts messages using their own private key
 - pretty good privacy (PGP): asymmetric algorithm by phil zimmerman. OpenPGP and GnuPG (GPG) open source version. uses public and private keys, and combines both symmetric and asymmetric crypto
 - elliptic curve cryptography: does not depend on prime factorization problem. cannot protect against quantum attacks 
+- Digital Security Standard (FIPS 186-4): security standards, approved includes DSA, RSA, and ECDSA
 - quantum computing: using quantum mechanics principles 
 - quantum cryptography: not practical currently, but may be stronger than any modern approach
   - quantum key distribution is same
@@ -440,7 +442,12 @@
   - class C: electrical fires (data centers)
   - class D: heavy metal fires (industrial equipment)
   - class K: kitchen fires (fats and oils)
-  
+  - stages of fires
+    - incipient: air ionization takes place, and specialized incipient fire detection systems can identify these change sto provide early warning of a fire
+    - smoke
+    - flame
+    - heat  
+
 ![alt text](image.png)
 
 - other fire suppression methods

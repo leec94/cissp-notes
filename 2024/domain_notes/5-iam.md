@@ -106,14 +106,14 @@
   - radius client
   - radius server
   - disadvantages: uses UDP, does not encrypt the whole sequence
-- Kerberos: ticket based authentication system that allows users to authenticate to a centralized service, then use tickets to gain access to distributed services
+- Kerberos: ticket based authentication system that allows users to authenticate to a centralized service, then use tickets to gain access to distributed services. supports sso in a single org
   - ticket granting ticket
   - authentication server
   - ticket granting server (TGS)
 - lightweight directory access protocol (LDAP): provides the means to query a centralized directory service such as Microsoft AD
 - NTLM: NT LAN manager, was used before kerberos. depends on hash-based challenge-response protocol. has weak encryption and pass the hash
   - pass the hash: allows the use of credentials from one system to gain access to another
-- security assertion markup language (SAML): allows SSO within a web browser across a variety of systems
+- security assertion markup language (SAML): allows SSO within a web browser across a variety of systems, exchanges user info for SSO between federated orgs within a federated id mgmt system 
   - benefits: true SSO experience for end users, no credential access for service providers
   - identity provider: provides the proof of identity, usually the end user's employer, school, or other account provider
 - identity-as-a-service (IDaaS) providers: allows organizations to move IAM to the cloud
