@@ -512,7 +512,27 @@
 
 ## More Notes
 - From Destination CISSP eBook
-
+- privacy by design
+  - proactive: proactive not reactive
+  - default: privacy as the default seting
+  - design: embed privacy into design
+  - full: full functionality
+  - end-to-end: end-to-end security
+  - transparent: visibility and transparency
+  - respect users privacy: respect for user privacy
+- cyber kill chain
+  - reconnaissance
+  - weaponization
+  - delivery
+  - exploitation
+  - installation
+  - command and control
+  - actions
+- enterprise security architectures
+  - Zachman: focuses on answering basic questions and acquiring feedback from various teams. older from 70s
+  - Sherwood Applied Business Security Architecture (SABSA): allows security to be embedded in IT functions 
+  - Open Group Architecture Framework (TOGAF): efficient resource utilization and cost minimization, modular structure, content framework
+- lipner implementation: implementation of both Biba and Bell PaPadula
 
 
 
