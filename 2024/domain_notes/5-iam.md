@@ -208,6 +208,9 @@
 - shoulder surfing
 - dumpster diving
 - tailgaiting
+- access aggregation: someone combines multiple pieces of info at a lower classification level and infers info at a higher classification 
+- footprinting: gaining info to be able to state what systems exist and what their OS patch level is
+- access creep: users keep gaining more access to systems and data the longer they work for a company
 
 ## More Notes
 - From Destination CISSP eBook

@@ -13,3 +13,6 @@
 - Fiber Channel
 - address resolution protocol (ARP): used to resolve IP addresses into MAC addresses, layer 2 protocol
 - ARP cache: used to cache IP address and MAC address translations (layer 2 and 3)
+- store-and-forward switching: receives and stores the entire frame in a buffer before forwarding, for better error checking and data integrity
+- cut-through switching: forwards a frame as soon as it reads the destination address. for low latency 
+- 

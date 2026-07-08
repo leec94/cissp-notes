@@ -128,7 +128,12 @@
       2. *-Integrity property: No "write up" 
       3. Invocation rule: subject at one integrity level cannot request or invoke the service from a higher integrity level
 - Trusted Computer System Evaluation Criteria (TCSEC) or orange book: contained DoD computer security requirements. replaced in 2005 with common criteria
-- Common Criteria: unified evaluation processes across NATO countries 
+- Common Criteria (CC): unified evaluation or certification processes across NATO countries. combo of CC and CCRA 
+  - protection profiles (PPs): sec requirements and protections for a product that is to be evaluated. the "i want" of a customer
+  - security targets (STs): the claims of security from the vendor that are built into a TOE. "i will provide" from the vendor 
+  - package: intermediate grouping of sec requirement components that can be added to or removed from a TOR
+  - target of evaluation (TOE): the evaluation of a functionality and assurance of the target of evaluation  
+  - evaluation assurance levels (EALs): the various levels of testing and confirmation of systems’ security capabilities, and the number of the level indicates what kind of testing and confirmation has been performed
 - Certification: determines that a system meets security criteria. not the same as accreditation  
 - Accreditation: approves use of a system in a specific environment. same as authorization 
   - accreditation decisions:

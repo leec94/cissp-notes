@@ -266,6 +266,8 @@
 - correctness: each "use" case representing what's supposed to be built
 - consistency: functionality being specified consistently in all areas 
 - assurance: degree of confidence that an org has that its security controls are correctly implemented, provided by validation and verification
+- regression testing: the process of verifying that previously tested and functional software still works after updates have been made
+- security content automation protocol (SCAP): common language for describing and evaluating vulnerabilities. contains components for CVE, CVSS, CCE, CPE, XCCDF, OVAL 
 
 #### quick ref tables
 

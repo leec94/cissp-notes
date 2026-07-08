@@ -6,6 +6,7 @@
   - cascading: input for one system comes from the output of another system. can cause issues when a combo of 2 or more secure systems results in a system that's not secure
   - feedback: one system provides input to another system, which reciprocates by reversing those roles
   - hookup: one system sends input to another system but also sends input to external entities
+- trusted computing base (TCB): combination of hardware, software, and controls that form a trusted base that enforces your security policy
 - reference monitor: access control enforcer for the TCB. it's the part of the TCB that validates access to every resource prior to granting access requests 
 - Bell-LaPadula model: for DoD, confidentiality
   - simple security property: no read-up
@@ -35,3 +36,11 @@
 - information flow model: type of state machine model to restrict info flow between subjects+objects and classification levels. ex. biba and bell-lapadula models
 - state machine model: a system always in a secure model regardless of the operational state it's in 
 - assurance: degree of confidence in the satisfaction of security needs
+- closed system: system designed to work well with a narrow range of other systems, often proprietary and not normally disclosed
+- open system: system designed used agreed-upon industry standards. easier to integrate with systems from different manufacturers that support the same standards 
+- authorizing official (AO): authorized entity who can evaluate an IT/IS system, its operations, and its risks, and potentially issue an ATO. 
+  - authorization decision types
+    - authorization of operate (ATO): risk is managed to acceptable level
+    - common control authorization: security control is inherited from another provider and when the risk associated with the common control is at an acceptable level and already has an ATO from the same AO 
+    - authorization to use: third-party provider provides IT/IS servers deemed to have risk at an acceptable level
+    - denial of authorization: risk is unacceptable
