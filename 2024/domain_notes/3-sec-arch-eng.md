@@ -10,6 +10,7 @@
     - [physical security](#physical-security)
     - [SOAP and REST](#soap-and-rest)
   - [More Notes](#more-notes)
+      - [crypto terms](#crypto-terms)
       - [Encryption Algorithms](#encryption-algorithms)
       - [Hash Algorithms](#hash-algorithms)
       - [Certificate Formats](#certificate-formats)
@@ -539,6 +540,19 @@
   - Open Group Architecture Framework (TOGAF): efficient resource utilization and cost minimization, modular structure, content framework
 - lipner implementation: implementation of both Biba and Bell PaPadula
 
+#### crypto terms 
+- work factor: estimated amount of time to break an encryption
+- IV
+- nonce
+- confusion
+- diffusion
+- avalanche
+- substitution
+- transposition
+- one time pad
+- rail fence
+- stream cipher
+- block cipher
 
 
 
