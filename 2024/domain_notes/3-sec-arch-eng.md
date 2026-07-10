@@ -539,6 +539,18 @@
   - Sherwood Applied Business Security Architecture (SABSA): allows security to be embedded in IT functions 
   - Open Group Architecture Framework (TOGAF): efficient resource utilization and cost minimization, modular structure, content framework
 - lipner implementation: implementation of both Biba and Bell PaPadula
+- SAML: utilizes security tokens that contain assertions about a user. facilitates services requests made by users to service providers in the form of requests to identity providers
+- OASIS
+- SPML: deprecated, one of first federated standards to support and manage user access to many cloud based services 
+- OAuth: authorization, FIM open standard protocol that works with openID typically. provides users and apps with "secure delegated access" via access tokens vs credentials. enables disparate resources to securely interact in a manner that allows a client to access data owned by a resource owner. 
+- OpenID 
+- Kerberos 
+- AD: on prem IAM solution, directory service
+- LDAP: open and cross platform protocol to authenticate to directory services
+- IDaaS: centralized cloud based system, extends traditional IAM services to the Cloud or can manage IAM processes outright
+- federated identity management (FIM): supports identity portability and trust relationship among disparate resources and orgs 
+
+
 
 #### crypto terms 
 - work factor: estimated amount of time to break an encryption
