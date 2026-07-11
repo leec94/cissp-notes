@@ -456,8 +456,32 @@
 - DHCP: assigns IP addresses to network devices on a LAN.  protocol used to assign TCP/IP config settings to systems upon bootup. uses UDP port 67 and 68
 - Stateless Address Autoconfiguration (SLAAC): 
 - TLS
+- POODLE: attack that exploits flaw in SSL 3.0
+- IPSec 
+- authentication header (AH): subprotocols of IPSec, performs the functions of authentication and link establishment
+- encapsulating security payload (ESP): provides integrity, data origin authentication, replay protection, and confidentiality through encryption of payload
+- transport mode: uses header of original packet, followed by AH or ESP header, then payload
+- tunnel mode: new header encapsulates the AH or ESP header and the original IP header and payload 
+- internet key exchange (IKE): a version of diffie-hellman and used by IPSec to generate the same session key at each end of a VPN
+- security association (SA): how IPSec tunnels are established. a one-way edtablishment of attributes at the start of communication between two entities 
+  - if IPSec AH And ESP components are needed, SAs are needed in each direction for each component, so 4 SAs total (2 in each direction). 
+- EAP: authentication framework that allows for the use of different authentication methods for secure network access technologies. used by 802.1x, PPP, VPN
+- EAP-FAST: tunneled, by Cisco, uses a PAC instead of certificates to achieve secure auth inside a TLS tunnel 
+- protected access credential (PAC)
+- EAP-IKEv2
 
-
+- EAP-MSCHAP v2: 
+- EAP-NOOB
+- EAP-POTP
+- EAP-SIM 
+- EAP-TLS: certificate, most secure, requires digital certificates on both client and authentication server
+- EAP-TTLS: tunneled, similar to PEAP but does not require a cert on the client side. allows you to use older, non-cert based auth methods inside a secure TLS tunnel 
+- protected EAP (PEAP): tunneled, most common enterprise method. encapsulates EAP within TLS tunnel, uses only a server side certificate. uses inner authentication protocols for the client  
+- LEAP: legacy 
+- EAP-MD5: legacy
+- PAP: sends password in plain text
+- CHAP: initiates with challenge and handshake process to prevent replay attacks
+- 
 
 
 
