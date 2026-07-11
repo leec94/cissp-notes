@@ -441,8 +441,21 @@
 - Firewalls: can exists at multiple layers, Network, Session, and Application 
   - Network: Packet filtering firewalls
   - Application: application firewalls, or application proxy firewalls
-
-
+- IPv6: c
+  - can exist with IPv4 though dual stack, tunneling, and NAT-PT
+  - issues
+    - with larger address space, many more addresses that attackers can use as source addresses
+    - deployment still requires all security filtering and monitoring products must be upgraded to fully support IPv6 prior to enabling the protocol on the production network
+- dual stack: systems operating both IPv4 and IPv6 and uses appropriate protocol for each conversation 
+- tunneling: allows most systems to operate a single stack of with IPv4 of IPv6 and use encapsulation tunnel to access systems of other protocols 
+- NAT protocol translation (NAT-PT): can be used to convert between IPv4 and IPv6 network segments similar to how NAT converts between internal and external addresses
+- NAT: translates source address into public IP address owned by the NATing device, and allows private IP addresses to be used in a private network so no public IP addresses are needed
+- DHCPv6: 
+  - stateful mode
+  - stateless mode
+- DHCP: assigns IP addresses to network devices on a LAN.  protocol used to assign TCP/IP config settings to systems upon bootup. uses UDP port 67 and 68
+- Stateless Address Autoconfiguration (SLAAC): 
+- TLS
 
 
 
