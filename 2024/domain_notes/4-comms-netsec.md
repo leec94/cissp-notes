@@ -469,7 +469,6 @@
 - EAP-FAST: tunneled, by Cisco, uses a PAC instead of certificates to achieve secure auth inside a TLS tunnel 
 - protected access credential (PAC)
 - EAP-IKEv2
-
 - EAP-MSCHAP v2: 
 - EAP-NOOB
 - EAP-POTP
@@ -481,8 +480,8 @@
 - EAP-MD5: legacy
 - PAP: sends password in plain text
 - CHAP: initiates with challenge and handshake process to prevent replay attacks
-- 
-
+- SSL/TLS
+- DROWN: major threat to SSLv2
 
 
 ### Tables

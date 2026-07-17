@@ -146,9 +146,17 @@
         - ISO 27002: more detail, cybersecurity control implementation 
         - ISO 27701: privacy controls
         - ISO 31000: risk management programs
+      - ISACA Risk IT Framework
+      - COSO: definition to essential enterprise risk management components
+      - SOC 1: focuses on financial reporting risks
+      - SOC 2: focuses on controls related to five trust principles: security, availability, confidentiality, processing integrity, and privacy
+      - Type 1: focused on a point in time
+      - Type 2: focuses on a period of time, covers design and operating effectiveness
+      - SOC 3: for marketing, stripped down versions of SOC 2 reports
       - NIST 
         - NIST 800-53: building a security program
           - for federal agencies
+        - NIST 800-53a: 
         - NIST Cybersecurity Framework (CSF)
           - common language for cybersecurity risk
         - NIST Risk Management Framework (RMF)

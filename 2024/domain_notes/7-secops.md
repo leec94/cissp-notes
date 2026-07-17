@@ -307,7 +307,7 @@
   1. Determine mission/business processes and recovery criticality
   2. Identify resource requirements
   3. Identify recovery priorities for system resources
-
+- forensic drive controller: also known as write blocker, prevents any command sent to a device from modifying data stored on the device
 
 
 

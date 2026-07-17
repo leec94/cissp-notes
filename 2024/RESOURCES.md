@@ -50,6 +50,7 @@ Official Resources
 
 Notes
 - My flashcards: https://quizlet.com/user/leecaroline42/folders/isc2-cissp-2024 
+- Jeffrey Moore BalancedSec Academy: https://github.com/jefferywmoore/CISSP-Study-Resources/
 - CISSP Sunflower notes (last edited 2019): https://docs.wixstatic.com/ugd/dc6afa_fc8dba86e57a4f3cb9aaf66aff6f9d22.pdf 
 - A french dude's notes: http://luc.desfosses.fr/CISSP/ 
   - Mentioned 2018, may be dated
