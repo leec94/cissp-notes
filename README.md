@@ -1,6 +1,6 @@
 
 # cissp-notes
-Notes from my various attempts to take the CISSP exam. Notes in progress 🚧 Proceed with caution! 
+Notes from my various attempts to take the CISSP exam. Passed July 2026!
 
 Active
 - 2024 Objectives Resources 
