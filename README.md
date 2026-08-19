@@ -1,6 +1,7 @@
 
 # cissp-notes
-Notes from my various attempts to take the CISSP exam. Passed July 2026!
+Notes from my various attempts to take the CISSP exam. \
+Passed July 2026! Exam recap here: [exam-recap.md](./exam-recap.md)
 
 Active
 - 2024 Objectives Resources 
